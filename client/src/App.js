@@ -8,8 +8,10 @@ function App() {
     <div className="App">
       {!loggedIn ? (
         <div className="logIn">
-          <input type="text" placeholder="Name..." />
-          <input type="text" placeholder="Room..." />
+          <div className="inputs">
+            <input type="text" placeholder="Name..." />
+            <input type="text" placeholder="Room..." />
+          </div>
           <button>Enter Game</button>
         </div>
       ): (
