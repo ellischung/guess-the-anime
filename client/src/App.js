@@ -1,8 +1,21 @@
+import React, { useState } from "react";
 import './App.css';
 
 function App() {
+  const [loggedIn, setLoggedIn] = useState(false);
+
   return (
-    <div className="App">Test</div>
+    <div className="App">
+      {!loggedIn ? (
+        <div className="logIn">
+          <input type="text" placeholder="Name..." />
+          <input type="text" placeholder="Room..." />
+          <button>Enter Game</button>
+        </div>
+      ): (
+        <h1>Game Starts Here</h1>
+      )}
+    </div>
   );
 }
 
