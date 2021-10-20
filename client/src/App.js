@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import './App.css';
 
 let socket;
-const CONNECTION_PORT = 'localhost:3000';
+const CONNECTION_PORT = 'localhost:3002/';
 
 function App() {
   // Before login

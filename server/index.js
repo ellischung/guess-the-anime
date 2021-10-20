@@ -6,21 +6,21 @@ const cors = require("cors");
 app.use(cors());
 app.use(express.json());
 
-const server = app.listen('3000', () => {
-    console.log('Server running on Port 3000...');
+const server = app.listen("3002", () => {
+    console.log("Server running on Port 3002...");
 });
 
 io = socket(server);
 
-io.on('connection', (socket)=> {
+io.on("connection", (socket) => {
     console.log(socket.id);
 
-    socket.on('join_room', (data) => {
+    socket.on("join_room", (data) => {
         socket.join(data);
-        console.log('USER JOINED ROOM: ' + data);
+        console.log("USER JOINED ROOM: " + data);
     });
 
-    socket.on('disconnect', ()=> {
-        console.log('USER DISCONNECTED');
+    socket.on("disconnect", () => {
+        console.log("USER DISCONNECTED");
     });
 });
