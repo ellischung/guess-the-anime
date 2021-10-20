@@ -6,15 +6,19 @@ let socket;
 const CONNECTION_PORT = 'localhost:3000';
 
 function App() {
+  // Before login
   const [loggedIn, setLoggedIn] = useState(false);
   const [room, setRoom] = useState('');
   const [userName, setUserName] = useState('');
+
+  // After login
 
   useEffect(() => {
     socket = io(CONNECTION_PORT);
   }, [CONNECTION_PORT]);
 
   const connectToRoom = () => {
+    setLoggedIn(true);
     socket.emit('join_room', room);
   };
 
