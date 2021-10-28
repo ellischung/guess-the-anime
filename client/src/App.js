@@ -1,40 +1,25 @@
-import React, { useEffect, useState } from 'react';
-import io from 'socket.io-client';
+import React, { useState } from 'react';
 import './App.css';
+import io from 'socket.io-client';
 
-let socket;
-const CONNECTION_PORT = 'localhost:3002/';
+const socket = io.connect("http://localhost:3001");
 
 function App() {
-  // Before login
-  const [loggedIn, setLoggedIn] = useState(false);
-  const [room, setRoom] = useState('');
-  const [userName, setUserName] = useState('');
+  const [userName, setUserName] = useState("");
+  const [room, setRoom] = useState("");
 
-  // After login
-
-  useEffect(() => {
-    socket = io(CONNECTION_PORT);
-  }, [CONNECTION_PORT]);
-
-  const connectToRoom = () => {
-    setLoggedIn(true);
-    socket.emit('join_room', room);
+  const joinRoom = () => {
+    if (userName !== "" && room !== "") {
+      socket.emit("join_room", room);
+    }
   };
 
   return (
     <div className="App">
-      {!loggedIn ? (
-        <div className="logIn">
-          <div className="inputs">
-            <input type="text" placeholder="Name..." onChange={(e) => {setUserName(e.target.value)}}/>
-            <input type="text" placeholder="Room..." onChange={(e) => {setRoom(e.target.value)}}/>
-          </div>
-          <button onClick={connectToRoom}>Enter Game</button>
-        </div>
-      ): (
-        <h1>Game Starts Here</h1>
-      )}
+      <h3>Guess The Anime</h3>
+      <input type="text" placeholder="Name..." onChange={(event) => {setUserName(event.target.value)}} />
+      <input type="text" placeholder="Room ID..." onChange={(event) => {setRoom(event.target.value)}} />
+      <button onClick={joinRoom}>Join Game</button>
     </div>
   );
 }
