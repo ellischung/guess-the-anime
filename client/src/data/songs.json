@@ -6,105 +6,180 @@
             "jap-name": "shingeki no kyojin"
         },
         {
-            "url": "",
-            "eng-name": "",
-            "jap-name": ""
+            "url": "https://www.youtube.com/watch?v=4t__wczfpRI",
+            "eng-name": "naruto",
+            "jap-name": "naruto"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=G8CFuZ9MseQ",
+            "eng-name": "code geass",
+            "jap-name": "code geass"
         }
     ],
     "medium-openings": [
         {
-            "url": "",
-            "eng-name": "",
-            "jap-name": ""
+            "url": "https://www.youtube.com/watch?v=3DSQmBQ9EJk",
+            "eng-name": "psycho-pass",
+            "jap-name": "psycho-pass"
         },
         {
-            "url": "",
-            "eng-name": "",
-            "jap-name": ""
-        }
+            "url": "https://www.youtube.com/watch?v=AgWI4EQ78ik",
+            "eng-name": "code geass",
+            "jap-name": "code geass"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=v1YojYU5nPQ",
+            "eng-name": "my hero academia",
+            "jap-name": "boku no hero academia"
+        }  
     ],
     "hard-openings": [
         {
-            "url": "",
-            "eng-name": "",
-            "jap-name": ""
+            "url": "https://www.youtube.com/watch?v=D7_OCJBgqYc",
+            "eng-name": "kokoro connect",
+            "jap-name": "kokoro connect"
         },
         {
-            "url": "",
-            "eng-name": "",
-            "jap-name": ""
+            "url": "https://www.youtube.com/watch?v=53-Y7Xqelhg",
+            "eng-name": "tanaka-kun is always listless",
+            "jap-name": "tanaka-kun wa itsumo kedaruge"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=zL6lJ3cP6kw",
+            "eng-name": "the pet girl of sakurasou",
+            "jap-name": "sakurasou no pet na kanojo"
         }
     ],
     "easy-endings": [
         {
-            "url": "",
-            "eng-name": "",
-            "jap-name": ""
+            "url": "https://www.youtube.com/watch?v=QBlYYOsdG-U",
+            "eng-name": "attack on titan",
+            "jap-name": "shingeki no kyojin"
         },
         {
-            "url": "",
-            "eng-name": "",
-            "jap-name": ""
+            "url": "https://www.youtube.com/watch?v=wzoIZO8WbI8",
+            "eng-name": "naruto",
+            "jap-name": "naruto"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=gIGEbitYqL0",
+            "eng-name": "re:zero",
+            "jap-name": "re:zero"
         }
     ],
     "medium-endings": [
         {
-            "url": "",
-            "eng-name": "",
-            "jap-name": ""
+            "url": "https://www.youtube.com/watch?v=SdCXy3sw0uE",
+            "eng-name": "code geass",
+            "jap-name": "code geass"
         },
         {
-            "url": "",
-            "eng-name": "",
-            "jap-name": ""
+            "url": "https://www.youtube.com/watch?v=vjbApBuLlT0",
+            "eng-name": "toradora",
+            "jap-name": "toradora"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=mWCWLYM7ieM",
+            "eng-name": "psycho-pass",
+            "jap-name": "psycho-pass"
         }
     ],
     "hard-endings": [
         {
-            "url": "",
-            "eng-name": "",
-            "jap-name": ""
+            "url": "https://www.youtube.com/watch?v=LxDoeTv4XOM",
+            "eng-name": "a lull in the sea",
+            "jap-name": "nagi no asukara"
         },
         {
-            "url": "",
-            "eng-name": "",
-            "jap-name": ""
+            "url": "https://www.youtube.com/watch?v=D_ATzqJOfnE",
+            "eng-name": "tanaka-kun is always listless",
+            "jap-name": "tanaka-kun wa itsumo kedaruge"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=ZhMTT8VLylk",
+            "eng-name": "maid sama",
+            "jap-name": "kaichou wa maid-sama"
         }
     ],
     "easy-osts": [
         {
-            "url": "",
-            "eng-name": "",
-            "jap-name": ""
+            "url": "https://www.youtube.com/watch?v=zroFzv7sFis",
+            "eng-name": "attack on titan",
+            "jap-name": "shingeki no kyojin"
         },
         {
-            "url": "",
-            "eng-name": "",
-            "jap-name": ""
+            "url": "https://www.youtube.com/watch?v=4PuP7IkpRLU",
+            "eng-name": "attack on titan",
+            "jap-name": "shingeki no kyojin"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=GAgIg2qUfLY",
+            "eng-name": "naruto",
+            "jap-name": "naruto"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=kIwmrk7LoDk",
+            "eng-name": "fairy tail",
+            "jap-name": "fairy tail"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=xc74Bm__cP8",
+            "eng-name": "erased",
+            "jap-name": "boku dake ga inai machi"
         }
     ],
     "medium-osts": [
         {
-            "url": "",
-            "eng-name": "",
-            "jap-name": ""
+            "url": "https://www.youtube.com/watch?v=S7DgZ5MRO9E",
+            "eng-name": "kaguya-sama: love is war",
+            "jap-name": "kaguya-sama"
         },
         {
-            "url": "",
-            "eng-name": "",
-            "jap-name": ""
+            "url": "https://www.youtube.com/watch?v=o5lS_BfFq20",
+            "eng-name": "love, chunibyo & other delusions",
+            "jap-name": "chuunibyou"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=SF_tj5g9SIo",
+            "eng-name": "made in abyss",
+            "jap-name": "made in abyss"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=IBSz5Npj4Bs&t=7s",
+            "eng-name": "hyouka",
+            "jap-name": "hyouka"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=T9MOaxcdmYg",
+            "eng-name": "durarara",
+            "jap-name": "durarara"
         }
     ],
     "hard-osts": [
         {
-            "url": "",
-            "eng-name": "",
-            "jap-name": ""
+            "url": "https://www.youtube.com/watch?v=SDAM1-twIFY",
+            "eng-name": "owarimonogatari",
+            "jap-name": "owarimonogatari"
         },
         {
-            "url": "",
-            "eng-name": "",
-            "jap-name": ""
+            "url": "https://www.youtube.com/watch?v=52WjP04s-IA",
+            "eng-name": "march comes in like a lion",
+            "jap-name": "sangatsu no lion"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=-SfXbxjMV_8",
+            "eng-name": "tanaka-kun is always listless",
+            "jap-name": "tanaka-kun wa itsumo kedaruge"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=AQ0Ylx68INQ",
+            "eng-name": "fate/zero",
+            "jap-name": "fate/zero"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=xgd2echy27E",
+            "eng-name": "k-on",
+            "jap-name": "k-on"
         }
     ]
 }
