@@ -14,6 +14,16 @@
             "url": "https://www.youtube.com/watch?v=G8CFuZ9MseQ",
             "eng-name": "code geass",
             "jap-name": "code geass"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=vI8W_XYT29Q",
+            "eng-name": "sword art online",
+            "jap-name": "sword art online"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=jiJu4K2jems",
+            "eng-name": "demon slayer",
+            "jap-name": "kimetsu no yaiba"
         }
     ],
     "medium-openings": [
@@ -31,7 +41,17 @@
             "url": "https://www.youtube.com/watch?v=v1YojYU5nPQ",
             "eng-name": "my hero academia",
             "jap-name": "boku no hero academia"
-        }  
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=PGoHzoZ2OI0",
+            "eng-name": "durarara",
+            "jap-name": "durarara"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Ua5UARWRYLA",
+            "eng-name": "domestic girlfriend",
+            "jap-name": "domestic na kanojo"
+        }
     ],
     "hard-openings": [
         {
@@ -48,6 +68,16 @@
             "url": "https://www.youtube.com/watch?v=zL6lJ3cP6kw",
             "eng-name": "the pet girl of sakurasou",
             "jap-name": "sakurasou no pet na kanojo"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=hhxmwHErUhU",
+            "eng-name": "owarimonogatari",
+            "jap-name": "owarimonogatari"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=_zoAvc2Gkqw",
+            "eng-name": "march comes in like a lion",
+            "jap-name": "sangatsu no lion"
         }
     ],
     "easy-endings": [
@@ -65,6 +95,16 @@
             "url": "https://www.youtube.com/watch?v=gIGEbitYqL0",
             "eng-name": "re:zero",
             "jap-name": "re:zero"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=pVcoWgTHt0U",
+            "eng-name": "no game no life",
+            "jap-name": "no game no life"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=SKWU3tyWnwA",
+            "eng-name": "death note",
+            "jap-name": "death note"
         }
     ],
     "medium-endings": [
@@ -82,6 +122,16 @@
             "url": "https://www.youtube.com/watch?v=mWCWLYM7ieM",
             "eng-name": "psycho-pass",
             "jap-name": "psycho-pass"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=nFou81Ckke8",
+            "eng-name": "love, chunibyo & other delusions",
+            "jap-name": "chuunibyou"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=86sLUOnyCPs",
+            "eng-name": "durarara",
+            "jap-name": "durarara"
         }
     ],
     "hard-endings": [
@@ -99,6 +149,16 @@
             "url": "https://www.youtube.com/watch?v=ZhMTT8VLylk",
             "eng-name": "maid sama",
             "jap-name": "kaichou wa maid-sama"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=qm7Os0jVf-k",
+            "eng-name": "k-on",
+            "jap-name": "k-on"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=6W1ajuerl6o",
+            "eng-name": "soul eater",
+            "jap-name": "soul eater"
         }
     ],
     "easy-osts": [
