@@ -11,8 +11,18 @@ function Game({ socket, username, room }) {
     const [selected, setSelected] = useState("");
 
     return (
-        <div>
+        <div className="gameContainer">
+            <div className="playersContainer">
+
+            </div>
             
+            {(selectType && !selectDifficulty && !game) ? (
+                <div>test</div>
+            ) : (selectType && selectDifficulty && !game) ? (
+                <div>test2</div>
+            ) : (
+                <div>test3</div>
+            )}
         </div>
     );
 };
