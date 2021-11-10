@@ -21,8 +21,12 @@ io.on("connection", (socket) => {
     socket.on("join_room", (data) => {
         socket.join(data);
         console.log(`User with ID: ${socket.id} joined room: ${data}`);
-    })
+    });
 
+    socket.on("refresh_players", (data) => {
+        socket.to(data.room).emit("receive_players", data.name);
+        console.log(`User: ${data.name} added to player list`);
+    })
     socket.on("disconnect", () => {
         console.log("User disconnected", socket.id);
     });
@@ -31,25 +35,3 @@ io.on("connection", (socket) => {
 server.listen(3001, () => {
     console.log("Server running on port 3001");
 });
-
-
-// app.use(express.json());
-
-// const server = app.listen("3002", () => {
-//     console.log("Server running on Port 3002...");
-// });
-
-// io = socket(server);
-
-// io.on("connection", (socket) => {
-//     console.log(socket.id);
-
-//     socket.on("join_room", (data) => {
-//         socket.join(data);
-//         console.log("USER JOINED ROOM: " + data);
-//     });
-
-//     socket.on("disconnect", () => {
-//         console.log("USER DISCONNECTED");
-//     });
-// });
