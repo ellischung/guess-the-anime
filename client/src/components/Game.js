@@ -23,6 +23,8 @@ function Game({ socket, username, room }) {
     };
 
     useEffect(() => {
+        refreshPlayers();
+
         socket.on("receive_players", (data) => {
             setPlayers((list) => [...list, data]);
         });
@@ -31,7 +33,6 @@ function Game({ socket, username, room }) {
     return (
         <div className="gameContainer">
             <div className="playersContainer">
-                <button onClick={refreshPlayers}>REFRESH ME</button>
                 {players.map((name) => {
                     return <h1>{name}</h1>;
                 })}
