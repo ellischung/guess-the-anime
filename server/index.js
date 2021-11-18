@@ -15,6 +15,8 @@ const io = new Server(server, {
     }
 });
 
+const users = [];
+
 io.on("connection", (socket) => {
     console.log(`User connected: ${socket.id}`);
 
@@ -24,9 +26,11 @@ io.on("connection", (socket) => {
     });
 
     socket.on("refresh_players", (data) => {
-        socket.to(data.room).emit("receive_players", data.name);
-        console.log(`User: ${data.name} added to player list`);
-    })
+        users.push(data);
+        socket.to(data.room).emit("receive_players", users);
+        console.log(`Updated player list: ${users}`);
+    });
+
     socket.on("disconnect", () => {
         console.log("User disconnected", socket.id);
     });

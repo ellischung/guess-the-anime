@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import songs from '../data/songs.json';
 
-function Game({ socket, username, room }) {
+function Game({ socket, username, room, score, setScore }) {
     // display states
     const [selectType, setSelectType] = useState(true);
     const [selectDifficulty, setSelectDifficulty] = useState(false);
@@ -16,26 +16,30 @@ function Game({ socket, username, room }) {
     const refreshPlayers = async () => {
         const playerData = {
             name: username,
-            room: room
-        };
+            room: room,
+            score: score
+        }
         await socket.emit("refresh_players", playerData);
-        setPlayers((list) => [...list, playerData.name]);
+        //setPlayers((list) => [...list, playerData]);
     };
 
     useEffect(() => {
         refreshPlayers();
 
         socket.on("receive_players", (data) => {
-            setPlayers((list) => [...list, data]);
+            setPlayers(data);
         });
+
+        refreshPlayers();
     }, [socket]);
 
     return (
         <div className="gameContainer">
             <div className="playersContainer">
-                {players.map((name) => {
-                    return <h1>{name}</h1>;
+                {players.map((player) => {
+                    return player.name;
                 })}
+                {console.log(players)}
             </div>
 
             {(selectType && !selectDifficulty && !game) ? (

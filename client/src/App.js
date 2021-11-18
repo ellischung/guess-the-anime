@@ -9,6 +9,7 @@ function App() {
   const [userName, setUserName] = useState("");
   const [room, setRoom] = useState("");
   const [showGame, setShowGame] = useState(false);
+  const [score, setScore] = useState(0);
 
   const joinRoom = () => {
     if(userName !== "" && room !== "") {
@@ -39,7 +40,7 @@ function App() {
           <button onClick={joinRoom}>Join Game</button>
         </div>
       ) : (
-        <Game socket={socket} username={userName} room={room} />
+        <Game socket={socket} username={userName} room={room} score={score} setScore={setScore} />
       )}
     </div>
   );
