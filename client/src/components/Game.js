@@ -29,8 +29,6 @@ function Game({ socket, username, room, score, setScore }) {
         socket.on("receive_players", (data) => {
             setPlayers(data);
         });
-
-        refreshPlayers();
     }, [socket]);
 
     return (
