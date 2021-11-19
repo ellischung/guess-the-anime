@@ -13,19 +13,10 @@ function Game({ socket, username, room, score, setScore }) {
     // game states
     const [players, setPlayers] = useState([]);
 
-    const refreshPlayers = async () => {
-        const playerData = {
-            name: username,
-            room: room,
-            score: score
-        }
-        await socket.emit("refresh_players", playerData);
-        //setPlayers((list) => [...list, playerData]);
-    };
+    // get users
+    socket.emit("track_players", room);
 
     useEffect(() => {
-        refreshPlayers();
-
         socket.on("receive_players", (data) => {
             setPlayers(data);
         });
@@ -34,8 +25,11 @@ function Game({ socket, username, room, score, setScore }) {
     return (
         <div className="gameContainer">
             <div className="playersContainer">
-                {players.map((player) => {
-                    return player.name;
+                {players.map((player, index) => {
+                    return <div key={index}>
+                        <p>{player.name}:</p>
+                        <p>{player.score}</p>
+                    </div>
                 })}
                 {console.log(players)}
             </div>

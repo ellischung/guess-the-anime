@@ -13,7 +13,12 @@ function App() {
 
   const joinRoom = () => {
     if(userName !== "" && room !== "") {
-      socket.emit("join_room", room);
+      const playerData = {
+        name: userName,
+        room: room,
+        score: score
+      }
+      socket.emit("join_room", playerData);
       setShowGame(true);
     }
   };

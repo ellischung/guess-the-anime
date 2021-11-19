@@ -21,14 +21,14 @@ io.on("connection", (socket) => {
     console.log(`User connected: ${socket.id}`);
 
     socket.on("join_room", (data) => {
-        socket.join(data);
-        console.log(`User with ID: ${socket.id} joined room: ${data}`);
+        socket.join(data.room);
+        console.log(`User with ID: ${socket.id} joined room: ${data.room}`);
+        users.push(data);
+        console.log(`Updated player list: ${users}`);
     });
 
-    socket.on("refresh_players", (data) => {
-        users.push(data);
-        socket.to(data.room).emit("receive_players", users);
-        console.log(`Updated player list: ${users}`);
+    socket.on("track_players", (data) => {
+        socket.to(data).emit("receive_players", users);
     });
 
     socket.on("disconnect", () => {
