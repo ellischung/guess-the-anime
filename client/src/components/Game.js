@@ -31,7 +31,6 @@ function Game({ socket, username, room, score, setScore }) {
                         <p>{player.score}</p>
                     </div>
                 })}
-                {console.log(players)}
             </div>
 
             {(selectType && !selectDifficulty && !game) ? (
