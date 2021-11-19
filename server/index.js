@@ -23,6 +23,7 @@ io.on("connection", (socket) => {
     socket.on("join_room", (data) => {
         socket.join(data.room);
         console.log(`User with ID: ${socket.id} joined room: ${data.room}`);
+        data.id = socket.id;
         users.push(data);
         console.log(`Updated player list: ${users}`);
     });
@@ -32,6 +33,8 @@ io.on("connection", (socket) => {
     });
 
     socket.on("disconnect", () => {
+        // pop off user from array
+        
         console.log("User disconnected", socket.id);
     });
 });

@@ -34,7 +34,7 @@ function Game({ socket, username, room, score, setScore }) {
             </div>
 
             {(selectType && !selectDifficulty && !game) ? (
-                <div>test</div>
+                <button>INCREASE SCORE</button>
             ) : (selectType && selectDifficulty && !game) ? (
                 <div>test2</div>
             ) : (
