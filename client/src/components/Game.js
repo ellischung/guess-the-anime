@@ -3,12 +3,10 @@ import songs from '../data/songs.json';
 
 function Game({ socket, username, room, score, setScore }) {
     // display states
-    const [selectType, setSelectType] = useState(true);
-    const [selectDifficulty, setSelectDifficulty] = useState(false);
     const [game, setGame] = useState(false);
 
-    // state for mode selection
-    const [selected, setSelected] = useState("");
+    // state for selected mode
+    const [mode, setMode] = useState("");
 
     // game states
     const [players, setPlayers] = useState([]);
@@ -38,12 +36,25 @@ function Game({ socket, username, room, score, setScore }) {
                 })}
             </div>
 
-            {(selectType && !selectDifficulty && !game) ? (
-                <button onClick={increaseScore}>INCREASE SCORE</button>
-            ) : (selectType && selectDifficulty && !game) ? (
-                <div>test2</div>
+            {!game ? (
+                <div className="selectionContainer">
+                    <button onClick={() => {setMode("easy-openings"); setGame(true);}}>Easy</button>
+                    <button onClick={() => {setMode("medium-openings"); setGame(true);}}>Medium</button>
+                    <button onClick={() => {setMode("hard-openings"); setGame(true);}}>Hard</button>
+
+                    <button onClick={() => {setMode("easy-endings"); setGame(true);}}>Easy</button>
+                    <button onClick={() => {setMode("medium-endings"); setGame(true);}}>Medium</button>
+                    <button onClick={() => {setMode("hard-openings"); setGame(true);}}>Hard</button>
+
+                    <button onClick={() => {setMode("easy-osts"); setGame(true);}}>Easy</button>
+                    <button onClick={() => {setMode("medium-osts"); setGame(true);}}>Medium</button>
+                    <button onClick={() => {setMode("hard-osts"); setGame(true);}}>Hard</button>
+                </div>
             ) : (
-                <div>test3</div>
+                // GAME STARTS HERE
+                <div className="playerContainer">
+                    <button onClick={increaseScore}>INCREASE SCORE</button>
+                </div>
             )}
         </div>
     );
