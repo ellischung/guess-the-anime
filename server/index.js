@@ -32,9 +32,17 @@ io.on("connection", (socket) => {
         socket.to(data).emit("receive_players", users);
     });
 
+    socket.on("increase_score", (data) => {
+        users.map((user) => {
+            if(user.name === data) {
+                user.score = user.score + 1;
+            }
+        });
+    });
+
     socket.on("disconnect", () => {
         // pop off user from array
-        
+
         console.log("User disconnected", socket.id);
     });
 });

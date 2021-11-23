@@ -13,6 +13,8 @@ function Game({ socket, username, room, score, setScore }) {
     // game states
     const [players, setPlayers] = useState([]);
 
+    const [tempScore, setTempScore] = useState(0);
+
     // get users
     socket.emit("track_players", room);
 
@@ -21,6 +23,11 @@ function Game({ socket, username, room, score, setScore }) {
             setPlayers(data);
         });
     }, [socket]);
+
+    // temporary increase score functionality
+    const increaseScore = () => {
+        socket.emit("increase_score", username);
+    };
 
     return (
         <div className="gameContainer">
@@ -34,7 +41,7 @@ function Game({ socket, username, room, score, setScore }) {
             </div>
 
             {(selectType && !selectDifficulty && !game) ? (
-                <button>INCREASE SCORE</button>
+                <button onClick={increaseScore}>INCREASE SCORE</button>
             ) : (selectType && selectDifficulty && !game) ? (
                 <div>test2</div>
             ) : (
