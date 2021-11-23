@@ -13,8 +13,6 @@ function Game({ socket, username, room, score, setScore }) {
     // game states
     const [players, setPlayers] = useState([]);
 
-    const [tempScore, setTempScore] = useState(0);
-
     // get users
     socket.emit("track_players", room);
 
