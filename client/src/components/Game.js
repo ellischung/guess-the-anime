@@ -3,10 +3,10 @@ import songs from '../data/songs.json';
 
 function Game({ socket, username, room, score, setScore }) {
     // display states
-    const [game, setGame] = useState(false);
+    const [game, setGame] = useState(true);
 
     // state for selected mode
-    const [mode, setMode] = useState("");
+    //const [mode, setMode] = useState("");
 
     // game states
     const [players, setPlayers] = useState([]);
@@ -38,17 +38,7 @@ function Game({ socket, username, room, score, setScore }) {
 
             {!game ? (
                 <div className="selectionContainer">
-                    <button onClick={() => {setMode("easy-openings"); setGame(true);}}>Easy</button>
-                    <button onClick={() => {setMode("medium-openings"); setGame(true);}}>Medium</button>
-                    <button onClick={() => {setMode("hard-openings"); setGame(true);}}>Hard</button>
-
-                    <button onClick={() => {setMode("easy-endings"); setGame(true);}}>Easy</button>
-                    <button onClick={() => {setMode("medium-endings"); setGame(true);}}>Medium</button>
-                    <button onClick={() => {setMode("hard-openings"); setGame(true);}}>Hard</button>
-
-                    <button onClick={() => {setMode("easy-osts"); setGame(true);}}>Easy</button>
-                    <button onClick={() => {setMode("medium-osts"); setGame(true);}}>Medium</button>
-                    <button onClick={() => {setMode("hard-osts"); setGame(true);}}>Hard</button>
+                    SHOULD NOT REACH HERE
                 </div>
             ) : (
                 // GAME STARTS HERE
