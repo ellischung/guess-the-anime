@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import ReactPlayer from 'react-player';
 import songs from '../data/songs.json';
 
 function Game({ socket, username, room, score, setScore }) {
@@ -40,7 +41,7 @@ function Game({ socket, username, room, score, setScore }) {
                 // GAME STARTS HERE
                 <>
                     <div className="songsContainer">
-                        <div>React player goes here</div>
+                        <ReactPlayer url='https://www.youtube.com/watch?v=G8CFuZ9MseQ' />
                     </div>
                     <div className="answerContainer">
                         <input
