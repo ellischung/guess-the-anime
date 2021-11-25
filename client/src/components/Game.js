@@ -5,11 +5,9 @@ function Game({ socket, username, room, score, setScore }) {
     // display states
     const [game, setGame] = useState(true);
 
-    // state for selected mode
-    //const [mode, setMode] = useState("");
-
     // game states
     const [players, setPlayers] = useState([]);
+    const [answer, setAnswer] = useState("");
 
     // get users
     socket.emit("track_players", room);
@@ -37,14 +35,28 @@ function Game({ socket, username, room, score, setScore }) {
             </div>
 
             {!game ? (
-                <div className="selectionContainer">
-                    SHOULD NOT REACH HERE
-                </div>
+                <div>SHOULD NOT REACH HERE</div>
             ) : (
                 // GAME STARTS HERE
-                <div className="playerContainer">
-                    <button onClick={increaseScore}>INCREASE SCORE</button>
-                </div>
+                <>
+                    <div className="songsContainer">
+                        <div>React player goes here</div>
+                    </div>
+                    <div className="answerContainer">
+                        <input
+                            type="text"
+                            value={answer}
+                            placeholder="What's this anime?..."
+                            onChange={(event) => {
+                                setAnswer(event.target.value);
+                            }}
+                            onKeyPress={(event) => {
+                                event.key === "Enter" && increaseScore();
+                            }}
+                        />
+                        <button onClick={increaseScore}>&#9658;</button>
+                    </div>
+                </>
             )}
         </div>
     );
