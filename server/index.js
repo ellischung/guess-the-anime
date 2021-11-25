@@ -29,6 +29,7 @@ io.on("connection", (socket) => {
     });
 
     socket.on("track_players", (data) => {
+        // update users array
         socket.to(data).emit("receive_players", users);
     });
 
@@ -41,8 +42,12 @@ io.on("connection", (socket) => {
     });
 
     socket.on("disconnect", () => {
-        // pop off user from array
-
+        // remove the user from the array
+        users.map((user, index) => {
+            if(user.id === socket.id) {
+                users.splice(index, 1);
+            }
+        });
         console.log("User disconnected", socket.id);
     });
 });

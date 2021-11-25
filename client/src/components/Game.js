@@ -41,7 +41,12 @@ function Game({ socket, username, room, score, setScore }) {
                 // GAME STARTS HERE
                 <>
                     <div className="songsContainer">
-                        <ReactPlayer url='https://www.youtube.com/watch?v=G8CFuZ9MseQ' />
+                        <ReactPlayer 
+                            width='0px'
+                            height='0px'
+                            playing='true'
+                            url='https://www.youtube.com/watch?v=G8CFuZ9MseQ'
+                        />
                     </div>
                     <div className="answerContainer">
                         <input
