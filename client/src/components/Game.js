@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import ReactPlayer from 'react-player';
-import songs from '../data/songs.json';
 
 function Game({ socket, username, room, score, setScore }) {
     // display states
@@ -36,7 +35,7 @@ function Game({ socket, username, room, score, setScore }) {
             </div>
 
             {!game ? (
-                <div>SHOULD NOT REACH HERE</div>
+                <div>Winner is displayed here</div>
             ) : (
                 // GAME STARTS HERE
                 <>
@@ -52,7 +51,7 @@ function Game({ socket, username, room, score, setScore }) {
                         <input
                             type="text"
                             value={answer}
-                            placeholder="What's this anime?..."
+                            placeholder="Guess the anime..."
                             onChange={(event) => {
                                 setAnswer(event.target.value);
                             }}
