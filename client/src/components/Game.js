@@ -20,7 +20,14 @@ function Game({ socket, username, room, score, setScore }) {
 
     // temporary increase score functionality
     const increaseScore = () => {
-        socket.emit("increase_score", username);
+        const newAnswer = answer.replace(/:|-|\s+/g, "").toLowerCase();
+        const engAnswer = players[1].eng_answer.replace(/:|-|\s+/g, "");
+        const japAnswer = players[1].jap_answer.replace(/:|-|\s+/g, "");
+        if((newAnswer === engAnswer) || (newAnswer === japAnswer)) {
+            socket.emit("increase_score", username);
+        } else {
+            alert("wrong answer!");
+        }
     };
 
     return (
@@ -61,8 +68,7 @@ function Game({ socket, username, room, score, setScore }) {
                         />
                         <button onClick={increaseScore}>&#9658;</button>
                     </div>
-                    <div>URL: {players[1] !== undefined ? players[1].url : "Waiting for Player 2..."}</div>
-                    <div>Answer: {players[1] !== undefined ? players[1].eng_answer : "Standby..."}</div>
+                    <div>{players[1] !== undefined ? "Game ready" : "Waiting for Player 2..."}</div>
                 </>
             )}
         </div>
