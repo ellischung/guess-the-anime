@@ -26,14 +26,21 @@ io.on("connection", (socket) => {
         console.log(`User with ID: ${socket.id} joined room: ${data.room}`);
         data.id = socket.id;
         let song = "";
+        let eng = "";
+        let jap = "";
         if(users[0] !== undefined) {
             JSON.stringify(users[0]);
             const songList = songs[users[0].mode];
             if(songList !== undefined) {
-                song = songList[Math.floor(Math.random() * songList.length)].url;
+                const index = Math.floor(Math.random() * songList.length);
+                song = songList[index].url;
+                eng = songList[index].eng_name;
+                jap = songList[index].jap_name;
             }
         }
         data.url = song;
+        data.eng_answer = eng;
+        data.jap_answer = jap;
         users.push(data);
         console.log(`Updated player list: ${users}`);
     });

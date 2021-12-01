@@ -62,6 +62,7 @@ function Game({ socket, username, room, score, setScore }) {
                         <button onClick={increaseScore}>&#9658;</button>
                     </div>
                     <div>URL: {players[1] !== undefined ? players[1].url : "Waiting for Player 2..."}</div>
+                    <div>Answer: {players[1] !== undefined ? players[1].eng_answer : "Standby..."}</div>
                 </>
             )}
         </div>

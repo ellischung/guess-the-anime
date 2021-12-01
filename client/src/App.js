@@ -19,7 +19,9 @@ function App() {
         room: room,
         mode: mode,
         score: score,
-        url: ""
+        url: "",
+        eng_answer: "",
+        jap_answer: ""
       }
       socket.emit("join_room", playerData);
       setShowGame(true);
