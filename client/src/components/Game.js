@@ -43,8 +43,8 @@ function Game({ socket, username, room, score, setScore }) {
                         <ReactPlayer 
                             width='0px'
                             height='0px'
-                            playing='true'
-                            url='https://www.youtube.com/watch?v=G8CFuZ9MseQ'
+                            playing={true}
+                            url={players[1] !== undefined ? players[1].url : ""}
                         />
                     </div>
                     <div className="answerContainer">
@@ -61,6 +61,7 @@ function Game({ socket, username, room, score, setScore }) {
                         />
                         <button onClick={increaseScore}>&#9658;</button>
                     </div>
+                    <div>URL: {players[1] !== undefined ? players[1].url : "Waiting for Player 2..."}</div>
                 </>
             )}
         </div>

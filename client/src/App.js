@@ -18,7 +18,8 @@ function App() {
         name: userName,
         room: room,
         mode: mode,
-        score: score
+        score: score,
+        url: ""
       }
       socket.emit("join_room", playerData);
       setShowGame(true);

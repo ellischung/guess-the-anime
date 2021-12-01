@@ -25,6 +25,15 @@ io.on("connection", (socket) => {
         socket.join(data.room);
         console.log(`User with ID: ${socket.id} joined room: ${data.room}`);
         data.id = socket.id;
+        let song = "";
+        if(users[0] !== undefined) {
+            JSON.stringify(users[0]);
+            const songList = songs[users[0].mode];
+            if(songList !== undefined) {
+                song = songList[Math.floor(Math.random() * songList.length)].url;
+            }
+        }
+        data.url = song;
         users.push(data);
         console.log(`Updated player list: ${users}`);
     });
