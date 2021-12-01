@@ -51,7 +51,7 @@ function App() {
               setMode(event.target.value);
             }} 
           >
-            <option value="easy-openings">Easy Openings</option>
+            <option value="easy-openings" selected="selected">Easy Openings</option>
             <option value="medium-openings">Medium Openings</option>
             <option value="hard-openings">Hard Openings</option>
             <option value="easy-endings">Easy Endings</option>
