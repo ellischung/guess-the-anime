@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ReactPlayer from 'react-player';
 
-function Game({ socket, username, room, score, setScore }) {
+function Game({ socket, username, room }) {
     // display states
     const [game, setGame] = useState(true);
 
@@ -14,9 +14,15 @@ function Game({ socket, username, room, score, setScore }) {
 
     // refresh user data for every change
     useEffect(() => {
+        // update user data through server socket
         socket.on("receive_players", (data) => {
             setPlayers(data);
         });
+
+        // end the game through server socket
+        socket.on("set_game", () => {
+            setGame(false);
+        })
     }, [socket]);
 
     // increase user's score upon correct answer
@@ -31,6 +37,14 @@ function Game({ socket, username, room, score, setScore }) {
         }
     };
 
+    // check for winner
+    const checkScore = (name, score) => {
+        if(score === 10) {
+            alert(name + " wins!!");
+            socket.emit("end_game", room);
+        }
+    }
+
     return (
         <div className="gameContainer">
             <div className="playersContainer">
@@ -38,14 +52,15 @@ function Game({ socket, username, room, score, setScore }) {
                     return <div key={index}>
                         <p>{player.name}:</p>
                         <p>{player.score}</p>
+                        {checkScore(player.name, player.score)}
                     </div>
                 })}
             </div>
 
             {!game ? (
-                <div>Winner is displayed here</div>
+                <div>Play again?</div>
             ) : (
-                // GAME STARTS HERE
+                // game starts here
                 <>
                     <div className="songsContainer">
                         <ReactPlayer 

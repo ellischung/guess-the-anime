@@ -9,7 +9,6 @@ function App() {
   const [userName, setUserName] = useState("");
   const [room, setRoom] = useState("");
   const [mode, setMode] = useState("");
-  const [score, setScore] = useState(0);
   const [showGame, setShowGame] = useState(false);
 
   const joinRoom = () => {
@@ -18,7 +17,7 @@ function App() {
         name: userName,
         room: room,
         mode: mode,
-        score: score,
+        score: 0,
         url: "",
         eng_answer: "",
         jap_answer: ""
@@ -66,7 +65,7 @@ function App() {
           <button onClick={joinRoom}>Join Game</button>
         </div>
       ) : (
-        <Game socket={socket} username={userName} room={room} score={score} setScore={setScore} />
+        <Game socket={socket} username={userName} room={room} />
       )}
     </div>
   );

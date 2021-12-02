@@ -66,6 +66,10 @@ io.on("connection", (socket) => {
         users[1].jap_answer = songList[index].jap_name;
     });
 
+    socket.on("end_game", (data) => {
+        socket.to(data).emit("set_game");
+    });
+
     socket.on("disconnect", () => {
         // remove the user from the array
         users.map((user, index) => {
