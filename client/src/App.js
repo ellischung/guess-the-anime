@@ -12,6 +12,11 @@ function App() {
   const [showGame, setShowGame] = useState(false);
 
   const joinRoom = () => {
+    if(mode === "") {
+      alert("Please select a game mode below!");
+      return;
+    }
+
     if(userName !== "" && room !== "") {
       const playerData = {
         name: userName,
@@ -50,9 +55,11 @@ function App() {
             id="mode" 
             onChange={(event) => {
               setMode(event.target.value);
-            }} 
+            }}
+            defaultValue={'DEFAULT'}
           >
-            <option value="easy-openings" selected="selected">Easy Openings</option>
+            <option value="DEFAULT" disabled>Select mode:</option>
+            <option value="easy-openings">Easy Openings</option>
             <option value="medium-openings">Medium Openings</option>
             <option value="hard-openings">Hard Openings</option>
             <option value="easy-endings">Easy Endings</option>
