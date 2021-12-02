@@ -12,13 +12,14 @@ function Game({ socket, username, room, score, setScore }) {
     // get users
     socket.emit("track_players", room);
 
+    // refresh user data for every change
     useEffect(() => {
         socket.on("receive_players", (data) => {
             setPlayers(data);
         });
     }, [socket]);
 
-    // temporary increase score functionality
+    // increase user's score upon correct answer
     const increaseScore = () => {
         const newAnswer = answer.replace(/:|-|\s+/g, "").toLowerCase();
         const engAnswer = players[1].eng_answer.replace(/:|-|\s+/g, "");
@@ -26,7 +27,7 @@ function Game({ socket, username, room, score, setScore }) {
         if((newAnswer === engAnswer) || (newAnswer === japAnswer)) {
             socket.emit("increase_score", username);
         } else {
-            alert("wrong answer!");
+            alert("Incorrect! Try again!");
         }
     };
 

@@ -17,6 +17,7 @@ const io = new Server(server, {
 });
 
 const users = [];
+let songList = [];
 
 io.on("connection", (socket) => {
     console.log(`User connected: ${socket.id}`);
@@ -30,7 +31,7 @@ io.on("connection", (socket) => {
         let jap = "";
         if(users[0] !== undefined) {
             JSON.stringify(users[0]);
-            const songList = songs[users[0].mode];
+            songList = songs[users[0].mode];
             if(songList !== undefined) {
                 const index = Math.floor(Math.random() * songList.length);
                 song = songList[index].url;
@@ -51,11 +52,18 @@ io.on("connection", (socket) => {
     });
 
     socket.on("increase_score", (data) => {
+        // increase user's score
         users.map((user) => {
             if(user.name === data) {
                 user.score = user.score + 1;
             }
         });
+
+        // get the next URL and send it to the client
+        const index = Math.floor(Math.random() * songList.length);
+        users[1].url = songList[index].url;
+        users[1].eng_answer = songList[index].eng_name;
+        users[1].jap_answer = songList[index].jap_name;
     });
 
     socket.on("disconnect", () => {
