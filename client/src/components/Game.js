@@ -21,9 +21,9 @@ function Game({ socket, username, room, score, setScore }) {
 
     // increase user's score upon correct answer
     const increaseScore = () => {
-        const newAnswer = answer.replace(/:|-|\s+/g, "").toLowerCase();
-        const engAnswer = players[1].eng_answer.replace(/:|-|\s+/g, "");
-        const japAnswer = players[1].jap_answer.replace(/:|-|\s+/g, "");
+        const newAnswer = answer.replace(/\/|:|-|\s+/g, "").toLowerCase();
+        const engAnswer = players[1].eng_answer.replace(/\/|:|-|\s+/g, "");
+        const japAnswer = players[1].jap_answer.replace(/\/|:|-|\s+/g, "");
         if((newAnswer === engAnswer) || (newAnswer === japAnswer)) {
             socket.emit("increase_score", username);
         } else {
