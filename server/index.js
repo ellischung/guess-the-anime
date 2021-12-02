@@ -67,7 +67,7 @@ io.on("connection", (socket) => {
     });
 
     socket.on("end_game", (data) => {
-        socket.to(data).emit("set_game");
+        socket.to(data.room).emit("set_game", data.name);
     });
 
     socket.on("disconnect", () => {

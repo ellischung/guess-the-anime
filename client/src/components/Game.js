@@ -8,6 +8,7 @@ function Game({ socket, username, room }) {
     // game states
     const [players, setPlayers] = useState([]);
     const [answer, setAnswer] = useState("");
+    const [winner, setWinner] = useState("");
 
     // get users
     socket.emit("track_players", room);
@@ -20,7 +21,8 @@ function Game({ socket, username, room }) {
         });
 
         // end the game through server socket
-        socket.on("set_game", () => {
+        socket.on("set_game", (data) => {
+            setWinner(data);
             setGame(false);
         })
     }, [socket]);
@@ -40,8 +42,7 @@ function Game({ socket, username, room }) {
     // check for winner
     const checkScore = (name, score) => {
         if(score === parseInt(players[0].win)) {
-            alert(name + " wins!!");
-            socket.emit("end_game", room);
+            socket.emit("end_game", { room: room, name: name });
         }
     }
 
@@ -58,7 +59,7 @@ function Game({ socket, username, room }) {
             </div>
 
             {!game ? (
-                <div>Play again?</div>
+                <div>{winner} wins! Play again?</div>
             ) : (
                 // game starts here
                 <>

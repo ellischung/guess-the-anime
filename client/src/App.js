@@ -23,8 +23,8 @@ function App() {
         name: userName,
         room: room,
         mode: mode,
-        score: 0,
         win: win,
+        score: 0,
         url: "",
         eng_answer: "",
         jap_answer: ""
@@ -78,12 +78,12 @@ function App() {
             }}
             defaultValue={'DEFAULT'}
           >
-            <option value="DEFAULT" disabled>Set score to win:</option>
+            <option value="DEFAULT" disabled>Points to win:</option>
+            <option value="5">5</option>
             <option value="10">10</option>
             <option value="15">15</option>
             <option value="20">20</option>
             <option value="25">25</option>
-            <option value="30">30</option>
           </select>
           <button onClick={joinRoom}>Join Game</button>
         </div>
