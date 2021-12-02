@@ -39,7 +39,7 @@ function Game({ socket, username, room }) {
 
     // check for winner
     const checkScore = (name, score) => {
-        if(score === 10) {
+        if(score === parseInt(players[0].win)) {
             alert(name + " wins!!");
             socket.emit("end_game", room);
         }
@@ -49,10 +49,10 @@ function Game({ socket, username, room }) {
         <div className="gameContainer">
             <div className="playersContainer">
                 {players.map((player, index) => {
+                    checkScore(player.name, player.score);
                     return <div key={index}>
                         <p>{player.name}:</p>
                         <p>{player.score}</p>
-                        {checkScore(player.name, player.score)}
                     </div>
                 })}
             </div>

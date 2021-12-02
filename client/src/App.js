@@ -9,11 +9,12 @@ function App() {
   const [userName, setUserName] = useState("");
   const [room, setRoom] = useState("");
   const [mode, setMode] = useState("");
+  const [win, setWin] = useState(0);
   const [showGame, setShowGame] = useState(false);
 
   const joinRoom = () => {
-    if(mode === "") {
-      alert("Please select a game mode below!");
+    if(mode === "" || win === 0) {
+      alert("Please fill in all inputs before joining!");
       return;
     }
 
@@ -23,6 +24,7 @@ function App() {
         room: room,
         mode: mode,
         score: 0,
+        win: win,
         url: "",
         eng_answer: "",
         jap_answer: ""
@@ -68,6 +70,20 @@ function App() {
             <option value="easy-osts">Easy OSTs</option>
             <option value="medium-osts">Medium OSTs</option>
             <option value="hard-osts">Hard OSTs</option>
+          </select>
+          <select 
+            id="win" 
+            onChange={(event) => {
+              setWin(event.target.value);
+            }}
+            defaultValue={'DEFAULT'}
+          >
+            <option value="DEFAULT" disabled>Set score to win:</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
           </select>
           <button onClick={joinRoom}>Join Game</button>
         </div>
