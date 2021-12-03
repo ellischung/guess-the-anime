@@ -19,6 +19,18 @@ const io = new Server(server, {
 const users = [];
 let songList = [];
 
+const newURL = () => {
+    // get a new song URL to send to client
+    const index = Math.floor(Math.random() * songList.length);
+    users[1].url = songList[index].url;
+    users[1].eng_answer = songList[index].eng_name;
+    users[1].jap_answer = songList[index].jap_name;
+
+    // reset skips for all users
+    users[0].skip = false;
+    users[1].skip = false;
+};
+
 io.on("connection", (socket) => {
     console.log(`User connected: ${socket.id}`);
 
@@ -43,7 +55,6 @@ io.on("connection", (socket) => {
         data.eng_answer = eng;
         data.jap_answer = jap;
         users.push(data);
-        console.log(`Updated player list: ${users}`);
     });
 
     socket.on("track_players", (data) => {
@@ -52,22 +63,13 @@ io.on("connection", (socket) => {
     });
 
     socket.on("increase_score", (data) => {
-        // increase user's score
+        // increase user's score and then reset URL
         users.map((user) => {
             if(user.name === data) {
                 user.score = user.score + 1;
             }
         });
-
-        // get the next URL and send it to the client
-        const index = Math.floor(Math.random() * songList.length);
-        users[1].url = songList[index].url;
-        users[1].eng_answer = songList[index].eng_name;
-        users[1].jap_answer = songList[index].jap_name;
-
-        // reset skips for all users
-        users[0].skip = false;
-        users[1].skip = false;
+        newURL();
     });
 
     socket.on("end_game", (data) => {
@@ -82,14 +84,9 @@ io.on("connection", (socket) => {
             }
         });
 
-        // send a new URL to the client when both skips are true, then reset skips to false
+        // when both skips are true, reset URL and skips
         if((users[0].skip === true) && (users[1].skip === true)) {
-            const index = Math.floor(Math.random() * songList.length);
-            users[1].url = songList[index].url;
-            users[1].eng_answer = songList[index].eng_name;
-            users[1].jap_answer = songList[index].jap_name;
-            users[0].skip = false;
-            users[1].skip = false;
+            newURL();
         }
     });
 
