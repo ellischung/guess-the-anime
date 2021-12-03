@@ -80,25 +80,29 @@ function Game({ socket, username, room }) {
                         />
                     </div>
                     <div className="answerContainer">
-                        <input
-                            type="text"
-                            value={answer}
-                            placeholder="Guess the anime..."
-                            onChange={(event) => {
-                                setAnswer(event.target.value);
-                            }}
-                            onKeyPress={(event) => {
-                                event.key === "Enter" && increaseScore();
-                            }}
-                        />
-                        <button onClick={increaseScore}>&#9658;</button>
-                    </div>
-                    <div className="skipContainer">
-                        {players[1] !== undefined ? 
-                            <button onClick={skipSong}>Skip</button> 
-                        : 
+                        {players[1] !== undefined ?
+                            <>
+                                <input
+                                    type="text"
+                                    value={answer}
+                                    placeholder="Guess the anime..."
+                                    onChange={(event) => {
+                                        setAnswer(event.target.value);
+                                    }}
+                                    onKeyPress={(event) => {
+                                        event.key === "Enter" && increaseScore();
+                                    }}
+                                />
+                                <button onClick={increaseScore}>&#9658;</button>
+                            </>
+                        :
                             "Waiting for Player 2..."
                         }
+                    </div>
+                    <div className="skipContainer">
+                        {players[1] !== undefined &&
+                            <button onClick={skipSong}>Skip</button> 
+                        } 
                     </div>
                 </>
             )}
