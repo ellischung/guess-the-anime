@@ -37,6 +37,9 @@ function Game({ socket, username, room }) {
         } else {
             alert("Incorrect! Try again!");
         }
+
+        // clear answer input
+        setAnswer("");
     };
 
     // check for winner
@@ -44,6 +47,11 @@ function Game({ socket, username, room }) {
         if(score === parseInt(players[0].win)) {
             socket.emit("end_game", { room: room, name: name });
         }
+    };
+
+    // skip currently playing song
+    const skipSong = () => {
+        socket.emit("skip_song", username);
     };
     
     return (
@@ -85,7 +93,13 @@ function Game({ socket, username, room }) {
                         />
                         <button onClick={increaseScore}>&#9658;</button>
                     </div>
-                    <div>{players[1] !== undefined ? "Game ready" : "Waiting for Player 2..."}</div>
+                    <div className="skipContainer">
+                        {players[1] !== undefined ? 
+                            <button onClick={skipSong}>Skip</button> 
+                        : 
+                            "Waiting for Player 2..."
+                        }
+                    </div>
                 </>
             )}
         </div>

@@ -64,10 +64,33 @@ io.on("connection", (socket) => {
         users[1].url = songList[index].url;
         users[1].eng_answer = songList[index].eng_name;
         users[1].jap_answer = songList[index].jap_name;
+
+        // reset skips for all users
+        users[0].skip = false;
+        users[1].skip = false;
     });
 
     socket.on("end_game", (data) => {
         socket.to(data.room).emit("set_game", data.name);
+    });
+
+    socket.on("skip_song", (data) => {
+        // set skip to true for the user who requested it
+        users.map((user) => {
+            if(user.name === data) {
+                user.skip = true;
+            }
+        });
+
+        // send a new URL to the client when both skips are true, then reset skips to false
+        if((users[0].skip === true) && (users[1].skip === true)) {
+            const index = Math.floor(Math.random() * songList.length);
+            users[1].url = songList[index].url;
+            users[1].eng_answer = songList[index].eng_name;
+            users[1].jap_answer = songList[index].jap_name;
+            users[0].skip = false;
+            users[1].skip = false;
+        }
     });
 
     socket.on("disconnect", () => {

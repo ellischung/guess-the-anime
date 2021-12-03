@@ -25,6 +25,7 @@ function App() {
         mode: mode,
         win: win,
         score: 0,
+        skip: false,
         url: "",
         eng_answer: "",
         jap_answer: ""
