@@ -24,7 +24,7 @@ function Game({ socket, username, room }) {
         socket.on("set_game", (data) => {
             setWinner(data);
             setGame(false);
-        })
+        });
     }, [socket]);
 
     // increase user's score upon correct answer
@@ -44,8 +44,8 @@ function Game({ socket, username, room }) {
         if(score === parseInt(players[0].win)) {
             socket.emit("end_game", { room: room, name: name });
         }
-    }
-
+    };
+    
     return (
         <div className="gameContainer">
             <div className="playersContainer">
@@ -59,7 +59,7 @@ function Game({ socket, username, room }) {
             </div>
 
             {!game ? (
-                <div>{winner} wins! Play again?</div>
+                <div>{winner} wins!</div>
             ) : (
                 // game starts here
                 <>
