@@ -18,12 +18,37 @@
         {
             "url": "https://www.youtube.com/watch?v=vI8W_XYT29Q",
             "eng_name": "sword art online",
-            "jap_name": "sword art online"
+            "jap_name": "sao"
         },
         {
             "url": "https://www.youtube.com/watch?v=jiJu4K2jems",
             "eng_name": "demon slayer",
             "jap_name": "kimetsu no yaiba"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=dfh4JuzYNpM",
+            "eng_name": "bleach",
+            "jap_name": "bleach"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=ShEAiFqkY0E",
+            "eng_name": "fullmetal alchemist: brotherhood",
+            "jap_name": "fmab"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=vxvP9zSOL7s",
+            "eng_name": "naruto shippuden",
+            "jap_name": "naruto shippuuden"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=GwaRztMaoY0",
+            "eng_name": "jujutsu kaisen",
+            "jap_name": "jjk"
+        },
+        {   
+            "url": "https://www.youtube.com/watch?v=dd7BILZcYAY",
+            "eng_name": "steins;gate",
+            "jap_name": "steins;gate"
         }
     ],
     "medium-openings": [
@@ -44,7 +69,7 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=PGoHzoZ2OI0",
-            "eng_name": "durarara",
+            "eng_name": "durarara!!",
             "jap_name": "durarara"
         },
         {
@@ -62,12 +87,12 @@
         {
             "url": "https://www.youtube.com/watch?v=53-Y7Xqelhg",
             "eng_name": "tanaka-kun is always listless",
-            "jap_name": "tanaka-kun wa itsumo kedaruge"
+            "jap_name": "tanaka-kun"
         },
         {
             "url": "https://www.youtube.com/watch?v=zL6lJ3cP6kw",
             "eng_name": "the pet girl of sakurasou",
-            "jap_name": "sakurasou no pet na kanojo"
+            "jap_name": "sakura-sou"
         },
         {
             "url": "https://www.youtube.com/watch?v=hhxmwHErUhU",
@@ -99,7 +124,7 @@
         {
             "url": "https://www.youtube.com/watch?v=pVcoWgTHt0U",
             "eng_name": "no game no life",
-            "jap_name": "no game no life"
+            "jap_name": "ngnl"
         },
         {
             "url": "https://www.youtube.com/watch?v=SKWU3tyWnwA",
@@ -115,7 +140,7 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=vjbApBuLlT0",
-            "eng_name": "toradora",
+            "eng_name": "toradora!",
             "jap_name": "toradora"
         },
         {
@@ -125,12 +150,12 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=nFou81Ckke8",
-            "eng_name": "love, chunibyo & other delusions",
+            "eng_name": "chunibyo",
             "jap_name": "chuunibyou"
         },
         {
             "url": "https://www.youtube.com/watch?v=86sLUOnyCPs",
-            "eng_name": "durarara",
+            "eng_name": "durarara!!",
             "jap_name": "durarara"
         }
     ],
@@ -143,7 +168,7 @@
         {
             "url": "https://www.youtube.com/watch?v=D_ATzqJOfnE",
             "eng_name": "tanaka-kun is always listless",
-            "jap_name": "tanaka-kun wa itsumo kedaruge"
+            "jap_name": "tanaka-kun"
         },
         {
             "url": "https://www.youtube.com/watch?v=ZhMTT8VLylk",
@@ -152,7 +177,7 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=qm7Os0jVf-k",
-            "eng_name": "k-on",
+            "eng_name": "k-on!",
             "jap_name": "k-on"
         },
         {
@@ -196,7 +221,7 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=o5lS_BfFq20",
-            "eng_name": "love, chunibyo & other delusions",
+            "eng_name": "chunibyo",
             "jap_name": "chuunibyou"
         },
         {
@@ -211,7 +236,7 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=T9MOaxcdmYg",
-            "eng_name": "durarara",
+            "eng_name": "durarara!!",
             "jap_name": "durarara"
         }
     ],
@@ -229,7 +254,7 @@
         {
             "url": "https://www.youtube.com/watch?v=-SfXbxjMV_8",
             "eng_name": "tanaka-kun is always listless",
-            "jap_name": "tanaka-kun wa itsumo kedaruge"
+            "jap_name": "tanaka-kun"
         },
         {
             "url": "https://www.youtube.com/watch?v=AQ0Ylx68INQ",
@@ -238,7 +263,7 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=xgd2echy27E",
-            "eng_name": "k-on",
+            "eng_name": "k-on!",
             "jap_name": "k-on"
         }
     ]
