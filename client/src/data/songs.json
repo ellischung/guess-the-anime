@@ -179,6 +179,11 @@
             "url": "https://www.youtube.com/watch?v=oDgZPWWmv3Q",
             "eng_name": "soul eater",
             "jap_name": "soul eater"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=8QE9cmfxx4s",
+            "eng_name": "death note",
+            "jap_name": "death note"
         }
     ],
     "medium-openings": [
@@ -186,6 +191,11 @@
             "url": "https://www.youtube.com/watch?v=3DSQmBQ9EJk",
             "eng_name": "psycho-pass",
             "jap_name": "psycho-pass"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=d5HT8HoiAHg",
+            "eng_name": "death note",
+            "jap_name": "death note"
         },
         {
             "url": "https://www.youtube.com/watch?v=AgWI4EQ78ik",
@@ -321,6 +331,11 @@
             "url": "https://www.youtube.com/watch?v=mAzFWd5WqOg",
             "eng_name": "akame ga kill!",
             "jap_name": "akame ga kill"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=M8FLKLeoFng",
+            "eng_name": "snafu",
+            "jap_name": "oregairu"
         }
     ],
     "hard-openings": [
@@ -704,6 +719,11 @@
             "url": "https://www.youtube.com/watch?v=SAqG9bx9S_I",
             "eng_name": "fairy tail",
             "jap_name": "fairy tail"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=0SEr-FdHiMg",
+            "eng_name": "kokoro connect",
+            "jap_name": "kokoro connect"
         }
     ],
     "easy-osts": [
@@ -714,11 +734,6 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=4PuP7IkpRLU",
-            "eng_name": "attack on titan",
-            "jap_name": "shingeki no kyojin"
-        },
-        {
-            "url": "https://www.youtube.com/watch?v=mpqY5n4wZhM",
             "eng_name": "attack on titan",
             "jap_name": "shingeki no kyojin"
         },
@@ -828,7 +843,7 @@
             "jap_name": "code geass"
         },
         {
-            "url": "https://www.youtube.com/watch?v=2-LQqnyNYiQ",
+            "url": "https://www.youtube.com/watch?v=2-LQqnyNYiQ&t=295s",
             "eng_name": "re:zero",
             "jap_name": "re:zero"
         },
@@ -1008,6 +1023,26 @@
             "url": "https://www.youtube.com/watch?v=NGD72gpF168",
             "eng_name": "soul eater",
             "jap_name": "soul eater"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=rm9y37GuY74&t=27s",
+            "eng_name": "tokyo ghoul",
+            "jap_name": "tokyo ghoul"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=rqq25X1ayis",
+            "eng_name": "snafu",
+            "jap_name": "oregairu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Dnlcx2Ho3PM",
+            "eng_name": "snafu",
+            "jap_name": "oregairu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=UWwbdvtRt8I",
+            "eng_name": "death note",
+            "jap_name": "death note"
         }
     ],
     "hard-osts": [
@@ -1062,11 +1097,6 @@
             "jap_name": "nagi no asukara"
         },
         {
-            "url": "https://www.youtube.com/watch?v=Ra2y_2bJxjg",
-            "eng_name": "tokyo ghoul",
-            "jap_name": "tokyo ghoul"
-        },
-        {
             "url": "https://www.youtube.com/watch?v=wU10eqcK5AM",
             "eng_name": "madoka magica",
             "jap_name": "mahou shoujo madoka magica"
@@ -1085,6 +1115,11 @@
             "url": "https://www.youtube.com/watch?v=5T7Wa1yo6tk",
             "eng_name": "horimiya",
             "jap_name": "horimiya"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=J65wTdQZI9c",
+            "eng_name": "kokoro connect",
+            "jap_name": "kokoro connect"
         }
     ]
 }
