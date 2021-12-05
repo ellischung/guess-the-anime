@@ -49,6 +49,71 @@
             "url": "https://www.youtube.com/watch?v=dd7BILZcYAY",
             "eng_name": "steins;gate",
             "jap_name": "steins;gate"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=XS-N8KfZ5EU",
+            "eng_name": "haikyuu!!",
+            "jap_name": "haikyuu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=uMeR2W19wT0",
+            "eng_name": "tokyo ghoul",
+            "jap_name": "tokyo ghoul"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=yu0HjPzFYnY",
+            "eng_name": "my hero academia",
+            "jap_name": "boku no hero academia"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=JVu7-XSI_OM",
+            "eng_name": "my hero academia",
+            "jap_name": "boku no hero academia"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=gWCnKoEgfP0",
+            "eng_name": "noragami",
+            "jap_name": "noragami"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=HrE6LjIwK84",
+            "eng_name": "noragami aragoto",
+            "jap_name": "noragami"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=HrE6LjIwK84",
+            "eng_name": "death parade",
+            "jap_name": "death parade"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Fh6bTCZGDuo",
+            "eng_name": "food wars",
+            "jap_name": "shokugeki no soma"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Turf7WDB3iY",
+            "eng_name": "angel beats!",
+            "jap_name": "angel beats"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Bw-5Lka7gPE",
+            "eng_name": "mob psycho 100",
+            "jap_name": "mob psycho 100"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=EL-D9LrFJd4",
+            "eng_name": "cowboy bebop",
+            "jap_name": "cowboy bebop"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=3wQiyOmAUOA",
+            "eng_name": "hunter x hunter",
+            "jap_name": "hunter x hunter"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=V4U36cztJno",
+            "eng_name": "the flower we saw that day",
+            "jap_name": "anohana"
         }
     ],
     "medium-openings": [
@@ -101,6 +166,51 @@
             "url": "https://www.youtube.com/watch?v=0H_RCGEcjhs",
             "eng_name": "is it wrong to try to pick up girls in a dungeon?",
             "jap_name": "danmachi"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=en8jbz3aVJE",
+            "eng_name": "tokyo ghoul root a",
+            "jap_name": "tokyo ghoul"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Fc-XPJE3oeM",
+            "eng_name": "violet evergarden",
+            "jap_name": "violet evergarden"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=AFtBES1P8js",
+            "eng_name": "gurren lagann",
+            "jap_name": "tengen toppa gurren lagann"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=OrgpX-_bFqM",
+            "eng_name": "madoka magica",
+            "jap_name": "mahou shoujo madoka magica"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=M9b0BKGCr3I",
+            "eng_name": "bakemonogatari",
+            "jap_name": "bakemonogatari"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=zozE_RkLOp8",
+            "eng_name": "nisemonogatari",
+            "jap_name": "nisemonogatari"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=NcJvsczntO0",
+            "eng_name": "kaguya-sama: love is war",
+            "jap_name": "kaguya-sama"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=xmh3mNvgJBs",
+            "eng_name": "guilty crown",
+            "jap_name": "guilty crown"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Wc_sIBegjME",
+            "eng_name": "neon genesis evangelion",
+            "jap_name": "evangelion"
         }
     ],
     "hard-openings": [
@@ -153,6 +263,16 @@
             "url": "https://www.youtube.com/watch?v=0g-MG0JxxbE",
             "eng_name": "scum's wish",
             "jap_name": "kuzu no honkai"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=zTFftPqsnLA",
+            "eng_name": "monogatari s2",
+            "jap_name": "monogatari"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=fv2Ybecq92E",
+            "eng_name": "a certain magical index",
+            "jap_name": "toaru"
         }
     ],
     "easy-endings": [
@@ -257,6 +377,46 @@
             "url": "https://www.youtube.com/watch?v=xwgZqtD_Ex4",
             "eng_name": "snafu",
             "jap_name": "oregairu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=fic1-AV8fmk",
+            "eng_name": "gurren lagann",
+            "jap_name": "tengen toppa gurren lagann"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=sj3fy3J5EHI",
+            "eng_name": "madoka magica",
+            "jap_name": "mahou shoujo madoka magica"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=8cDI53jAauA",
+            "eng_name": "bakemonogatari",
+            "jap_name": "bakemonogatari"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Yk9zaP1E_JE",
+            "eng_name": "angel beats!",
+            "jap_name": "angel beats"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=YsYQChcJ71Q",
+            "eng_name": "kaguya-sama: love is war",
+            "jap_name": "kaguya-sama"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=z2AyJTOR_qw",
+            "eng_name": "neon genesis evangelion",
+            "jap_name": "evangelion"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Ru_H5PiyfSA",
+            "eng_name": "cowboy bebop",
+            "jap_name": "cowboy bebop"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=0DTFjvlkj-U",
+            "eng_name": "tokyo ghoul",
+            "jap_name": "tokyo ghoul"
         }
     ],
     "hard-endings": [
@@ -309,6 +469,31 @@
             "url": "https://www.youtube.com/watch?v=W3SIX8z3dwg",
             "eng_name": "aldnoah.zero",
             "jap_name": "aldnoah zero"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=4Pdghq3xbwE",
+            "eng_name": "madoka magica",
+            "jap_name": "mahou shoujo madoka magica"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=23xHdz4YzhM",
+            "eng_name": "code geass",
+            "jap_name": "code geass"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=xRsIe1gLipY",
+            "eng_name": "naruto shippuden",
+            "jap_name": "naruto shippuuden"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=03IeQiJl1X8",
+            "eng_name": "mob psycho 100",
+            "jap_name": "mob psycho 100"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=aJRSkf5cOak",
+            "eng_name": "a certain magical index",
+            "jap_name": "toaru"
         }
     ],
     "easy-osts": [
@@ -361,6 +546,36 @@
             "url": "https://www.youtube.com/watch?v=TlYEDJHmokQ",
             "eng_name": "no game no life",
             "jap_name": "ngnl"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=sVRkrUTWANk",
+            "eng_name": "haikyuu!!",
+            "jap_name": "haikyuu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=3S1NmtWDVYk",
+            "eng_name": "tokyo ghoul",
+            "jap_name": "tokyo ghoul"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=iYZIUtDAFIw",
+            "eng_name": "my hero academia",
+            "jap_name": "boku no hero academia"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=U0TXIXTzJEY",
+            "eng_name": "jojo's bizarre adventure",
+            "jap_name": "jojo"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=cRVj8yU_zdo",
+            "eng_name": "naruto",
+            "jap_name": "naruto"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=l8wWa3O9cUo",
+            "eng_name": "cowboy bebop",
+            "jap_name": "cowboy bebop"
         }
     ],
     "medium-osts": [
@@ -413,6 +628,46 @@
             "url": "https://www.youtube.com/watch?v=pcScX2Rh6qM",
             "eng_name": "parasyte",
             "jap_name": "kiseijuu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=PoZ_2jcJymQ",
+            "eng_name": "tokyo ghoul",
+            "jap_name": "tokyo ghoul"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=YcrqRwwYDhA",
+            "eng_name": "my hero academia",
+            "jap_name": "boku no hero academia"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=A_Zyf8dBR1o",
+            "eng_name": "psycho-pass",
+            "jap_name": "psycho-pass"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=0l__jSgTAmQ",
+            "eng_name": "gurren lagann",
+            "jap_name": "tengen toppa gurren lagann"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=TEvkbGgeq4k",
+            "eng_name": "violet evergarden",
+            "jap_name": "violet evergarden"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=HcgEHrwdSO4",
+            "eng_name": "madoka magica",
+            "jap_name": "mahou shoujo madoka magica"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=DgWhH_PTcjQ",
+            "eng_name": "mob psycho 100",
+            "jap_name": "mob psycho 100"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=4u6V6UisBz8",
+            "eng_name": "neon genesis evangelion",
+            "jap_name": "evangelion"
         }
     ],
     "hard-osts": [
@@ -465,6 +720,21 @@
             "url": "https://www.youtube.com/watch?v=fzyAvt6BM-k",
             "eng_name": "a lull in the sea",
             "jap_name": "nagi no asukara"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Ra2y_2bJxjg",
+            "eng_name": "tokyo ghoul",
+            "jap_name": "tokyo ghoul"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=wU10eqcK5AM",
+            "eng_name": "madoka magica",
+            "jap_name": "mahou shoujo madoka magica"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=fv2Ybecq92E",
+            "eng_name": "a certain scientific railgun",
+            "jap_name": "toaru"
         }
     ]
 }
