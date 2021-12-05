@@ -16,6 +16,16 @@ const io = new Server(server, {
     }
 });
 
+console.log("Easy Openings: " + songs['easy-openings'].length);
+console.log("Medium Openings: " + songs['medium-openings'].length);
+console.log("Hard Openings: " + songs['hard-openings'].length + "\n");
+console.log("Easy Endings: " + songs['easy-endings'].length);
+console.log("Medium Endings: " + songs['medium-endings'].length);
+console.log("Hard Endings: " + songs['hard-endings'].length + "\n");
+console.log("Easy OSTs: " + songs['easy-osts'].length);
+console.log("Medium OSTs: " + songs['medium-osts'].length);
+console.log("Hard OSTs: " + songs['hard-osts'].length + "\n");
+
 const users = [];
 let songList = [];
 

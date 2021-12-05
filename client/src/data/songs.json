@@ -1010,7 +1010,7 @@
             "jap_name": "shigatsu wa kimi no uso"
         },
         {
-            "url": "https://www.youtube.com/watch?v=Ib8Um1e0KqQ",
+            "url": "https://www.youtube.com/watch?v=Ib8Um1e0KqQ&t=45s",
             "eng_name": "the promised neverland",
             "jap_name": "promised neverland"
         },
@@ -1043,6 +1043,16 @@
             "url": "https://www.youtube.com/watch?v=UWwbdvtRt8I",
             "eng_name": "death note",
             "jap_name": "death note"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=cJyPtpldb78",
+            "eng_name": "bakemonogatari",
+            "jap_name": "bakemonogatari"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=pWlfyXi0KYs",
+            "eng_name": "is it wrong to try to pick up girls in a dungeon?",
+            "jap_name": "danmachi"
         }
     ],
     "hard-osts": [
@@ -1120,6 +1130,11 @@
             "url": "https://www.youtube.com/watch?v=J65wTdQZI9c",
             "eng_name": "kokoro connect",
             "jap_name": "kokoro connect"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=vuLWRzvFFJI",
+            "eng_name": "bakemonogatari",
+            "jap_name": "bakemonogatari"
         }
     ]
 }
