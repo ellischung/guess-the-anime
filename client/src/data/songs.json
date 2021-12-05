@@ -159,6 +159,26 @@
             "url": "https://www.youtube.com/watch?v=ji9BD3ESMqg",
             "eng_name": "akame ga kill!",
             "jap_name": "akame ga kill"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=NWsaxe2UcIo",
+            "eng_name": "the promised neverland",
+            "jap_name": "promised neverland"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Rm8UjBAS3cs",
+            "eng_name": "parasyte",
+            "jap_name": "kiseijuu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=9jvVBVcZ0-Y",
+            "eng_name": "fairy tail",
+            "jap_name": "fairy tail"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=oDgZPWWmv3Q",
+            "eng_name": "soul eater",
+            "jap_name": "soul eater"
         }
     ],
     "medium-openings": [
@@ -430,6 +450,16 @@
             "url": "https://www.youtube.com/watch?v=gbZr73KXXUY",
             "eng_name": "seven deadly sins",
             "jap_name": "7 deadly sins"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=iDhY5BM7BlQ",
+            "eng_name": "akame ga kill!",
+            "jap_name": "akame ga kill"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=6riDJMI-Y8U",
+            "eng_name": "jujutsu kaisen",
+            "jap_name": "jjk"
         }
     ],
     "medium-endings": [
@@ -557,6 +587,36 @@
             "url": "https://www.youtube.com/watch?v=b5Nud2MMRo4",
             "eng_name": "re:zero",
             "jap_name": "re:zero"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=mGclLUQiqH8",
+            "eng_name": "akame ga kill!",
+            "jap_name": "akame ga kill"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=f8JWhakG2Pc",
+            "eng_name": "jujutsu kaisen",
+            "jap_name": "jjk"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=JkAsE9FCWv4",
+            "eng_name": "the promised neverland",
+            "jap_name": "promised neverland"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=EVndDcpk1A0",
+            "eng_name": "parasyte",
+            "jap_name": "kiseijuu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Q8hEsz2KGpo",
+            "eng_name": "fairy tail",
+            "jap_name": "fairy tail"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=MLx_Yc02QB8",
+            "eng_name": "death parade",
+            "jap_name": "death parade"
         }
     ],
     "hard-endings": [
@@ -639,6 +699,11 @@
             "url": "https://www.youtube.com/watch?v=MDGf9PzJbuE",
             "eng_name": "a lull in the sea",
             "jap_name": "nagi no asukara"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=SAqG9bx9S_I",
+            "eng_name": "fairy tail",
+            "jap_name": "fairy tail"
         }
     ],
     "easy-osts": [
@@ -786,6 +851,16 @@
             "url": "https://www.youtube.com/watch?v=5-Ltm-3lmss",
             "eng_name": "seven deadly sins",
             "jap_name": "7 deadly sins"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=igKXRrb5_ts",
+            "eng_name": "akame ga kill!",
+            "jap_name": "akame ga kill"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=rTJjtSP-ORc",
+            "eng_name": "the promised neverland",
+            "jap_name": "promised neverland"
         }
     ],
     "medium-osts": [
@@ -918,6 +993,21 @@
             "url": "https://www.youtube.com/watch?v=tikGx8W13yg",
             "eng_name": "your lie in april",
             "jap_name": "shigatsu wa kimi no uso"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Ib8Um1e0KqQ",
+            "eng_name": "the promised neverland",
+            "jap_name": "promised neverland"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=to7pBlL-rQ4",
+            "eng_name": "death parade",
+            "jap_name": "death parade"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=NGD72gpF168",
+            "eng_name": "soul eater",
+            "jap_name": "soul eater"
         }
     ],
     "hard-osts": [
