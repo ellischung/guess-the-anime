@@ -6,7 +6,22 @@
             "jap_name": "shingeki no kyojin"
         },
         {
+            "url": "https://www.youtube.com/watch?v=jhYg5NrN-r8",
+            "eng_name": "attack on titan",
+            "jap_name": "shingeki no kyojin"
+        },
+        {
             "url": "https://www.youtube.com/watch?v=4t__wczfpRI",
+            "eng_name": "naruto",
+            "jap_name": "naruto"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=q9dv1-p-SZQ",
+            "eng_name": "naruto",
+            "jap_name": "naruto"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=gVbBgiLbMBk",
             "eng_name": "naruto",
             "jap_name": "naruto"
         },
@@ -32,6 +47,11 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=ShEAiFqkY0E",
+            "eng_name": "fullmetal alchemist: brotherhood",
+            "jap_name": "fmab"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=cRA5gsdCf4c",
             "eng_name": "fullmetal alchemist: brotherhood",
             "jap_name": "fmab"
         },
@@ -114,6 +134,31 @@
             "url": "https://www.youtube.com/watch?v=V4U36cztJno",
             "eng_name": "the flower we saw that day",
             "jap_name": "anohana"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Y3Xmzu0OtS8",
+            "eng_name": "toradora!",
+            "jap_name": "toradora"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=0Vwwr3VGsYg",
+            "eng_name": "re:zero",
+            "jap_name": "re:zero"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=ql0NtjXIv_s",
+            "eng_name": "future diary",
+            "jap_name": "mirai nikki"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=f7FO0tt9MNo",
+            "eng_name": "seven deadly sins",
+            "jap_name": "7 deadly sins"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=ji9BD3ESMqg",
+            "eng_name": "akame ga kill!",
+            "jap_name": "akame ga kill"
         }
     ],
     "medium-openings": [
@@ -231,6 +276,31 @@
             "url": "https://www.youtube.com/watch?v=N6AaSfL4yVk",
             "eng_name": "the pet girl of sakurasou",
             "jap_name": "sakura-sou"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=fpG3BPNQepY",
+            "eng_name": "konosuba",
+            "jap_name": "konosuba"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=vdcddjV0l5o",
+            "eng_name": "konosuba",
+            "jap_name": "konosuba"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=ey0T9h1Ibng",
+            "eng_name": "toradora!",
+            "jap_name": "toradora"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=iu_0kOfMGD0",
+            "eng_name": "re:zero",
+            "jap_name": "re:zero"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=mAzFWd5WqOg",
+            "eng_name": "akame ga kill!",
+            "jap_name": "akame ga kill"
         }
     ],
     "hard-openings": [
@@ -350,6 +420,16 @@
             "url": "https://www.youtube.com/watch?v=Od9NQbyNpwE",
             "eng_name": "erased",
             "jap_name": "boku dake ga inai machi"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Vi9zgj8foKo",
+            "eng_name": "fullmetal alchemist: brotherhood",
+            "jap_name": "fmab"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=gbZr73KXXUY",
+            "eng_name": "seven deadly sins",
+            "jap_name": "7 deadly sins"
         }
     ],
     "medium-endings": [
@@ -452,6 +532,31 @@
             "url": "https://www.youtube.com/watch?v=_T18BogSUpU",
             "eng_name": "the pet girl of sakurasou",
             "jap_name": "sakura-sou"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=cR3E9nwcthM",
+            "eng_name": "konosuba",
+            "jap_name": "konosuba"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=AubeXRKtU8U",
+            "eng_name": "konosuba",
+            "jap_name": "konosuba"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=qke_GPqn_Gg",
+            "eng_name": "attack on titan",
+            "jap_name": "shingeki no kyojin"
+        },
+        {   
+            "url": "https://www.youtube.com/watch?v=5TzDAms8SXk",
+            "eng_name": "steins;gate",
+            "jap_name": "steins;gate"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=b5Nud2MMRo4",
+            "eng_name": "re:zero",
+            "jap_name": "re:zero"
         }
     ],
     "hard-endings": [
@@ -548,6 +653,11 @@
             "jap_name": "shingeki no kyojin"
         },
         {
+            "url": "https://www.youtube.com/watch?v=mpqY5n4wZhM",
+            "eng_name": "attack on titan",
+            "jap_name": "shingeki no kyojin"
+        },
+        {
             "url": "https://www.youtube.com/watch?v=GAgIg2qUfLY",
             "eng_name": "naruto",
             "jap_name": "naruto"
@@ -583,6 +693,11 @@
             "jap_name": "naruto shippuuden"
         },
         {
+            "url": "https://www.youtube.com/watch?v=5kQybVJa9AM",
+            "eng_name": "naruto shippuden",
+            "jap_name": "naruto shippuuden"
+        },
+        {
             "url": "https://www.youtube.com/watch?v=TlYEDJHmokQ",
             "eng_name": "no game no life",
             "jap_name": "ngnl"
@@ -603,6 +718,11 @@
             "jap_name": "boku no hero academia"
         },
         {
+            "url": "https://www.youtube.com/watch?v=LhYrWid-URY",
+            "eng_name": "my hero academia",
+            "jap_name": "boku no hero academia"
+        },
+        {
             "url": "https://www.youtube.com/watch?v=U0TXIXTzJEY",
             "eng_name": "jojo's bizarre adventure",
             "jap_name": "jojo"
@@ -616,6 +736,56 @@
             "url": "https://www.youtube.com/watch?v=l8wWa3O9cUo",
             "eng_name": "cowboy bebop",
             "jap_name": "cowboy bebop"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=SkNjCfMjRXA",
+            "eng_name": "fullmetal alchemist: brotherhood",
+            "jap_name": "fmab"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=iP6ZABrm8Lo",
+            "eng_name": "your name",
+            "jap_name": "kimi no na wa"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=q43wzP6A1CM",
+            "eng_name": "hunter x hunter",
+            "jap_name": "hunter x hunter"
+        },
+        {   
+            "url": "https://www.youtube.com/watch?v=YjJIP3qKGkY",
+            "eng_name": "steins;gate",
+            "jap_name": "steins;gate"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=FRGdEBBKA-M",
+            "eng_name": "code geass",
+            "jap_name": "code geass"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=2-LQqnyNYiQ",
+            "eng_name": "re:zero",
+            "jap_name": "re:zero"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=rSn1M0hVf6E",
+            "eng_name": "a silent voice",
+            "jap_name": "koe no katachi"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=p3nsV6TPT1s",
+            "eng_name": "your lie in april",
+            "jap_name": "shigatsu wa kimi no uso"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=pppp6Jzuc3A",
+            "eng_name": "future diary",
+            "jap_name": "mirai nikki"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=5-Ltm-3lmss",
+            "eng_name": "seven deadly sins",
+            "jap_name": "7 deadly sins"
         }
     ],
     "medium-osts": [
@@ -656,6 +826,11 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=rw4WjrGcuUQ",
+            "eng_name": "toradora!",
+            "jap_name": "toradora"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=4kYIYVdaJR8",
             "eng_name": "toradora!",
             "jap_name": "toradora"
         },
@@ -718,6 +893,31 @@
             "url": "https://www.youtube.com/watch?v=Tc9VnW4dH3M",
             "eng_name": "the pet girl of sakurasou",
             "jap_name": "sakura-sou"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=7M95h7zQU3k",
+            "eng_name": "attack on titan",
+            "jap_name": "shingeki no kyojin"
+        },
+        {   
+            "url": "https://www.youtube.com/watch?v=WlmAOdNnCYk",
+            "eng_name": "steins;gate",
+            "jap_name": "steins;gate"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=gYZu0pttA14",
+            "eng_name": "code geass",
+            "jap_name": "code geass"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=7p8oa1p0K4o",
+            "eng_name": "code geass",
+            "jap_name": "code geass"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=tikGx8W13yg",
+            "eng_name": "your lie in april",
+            "jap_name": "shigatsu wa kimi no uso"
         }
     ],
     "hard-osts": [
