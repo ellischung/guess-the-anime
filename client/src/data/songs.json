@@ -211,6 +211,26 @@
             "url": "https://www.youtube.com/watch?v=Wc_sIBegjME",
             "eng_name": "neon genesis evangelion",
             "jap_name": "evangelion"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=P7VMQoYkqeo",
+            "eng_name": "bunny girl",
+            "jap_name": "bunny girl senpai"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=cM1WSovcn4I",
+            "eng_name": "rent a girlfriend",
+            "jap_name": "kanojo okarishimasu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=8iP8xXXdvoU",
+            "eng_name": "horimiya",
+            "jap_name": "horimiya"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=N6AaSfL4yVk",
+            "eng_name": "the pet girl of sakurasou",
+            "jap_name": "sakura-sou"
         }
     ],
     "hard-openings": [
@@ -273,6 +293,11 @@
             "url": "https://www.youtube.com/watch?v=fv2Ybecq92E",
             "eng_name": "a certain magical index",
             "jap_name": "toaru"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=3qpBFlASUK4",
+            "eng_name": "a lull in the sea",
+            "jap_name": "nagi no asukara"
         }
     ],
     "easy-endings": [
@@ -417,6 +442,16 @@
             "url": "https://www.youtube.com/watch?v=0DTFjvlkj-U",
             "eng_name": "tokyo ghoul",
             "jap_name": "tokyo ghoul"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=6skJdifi6sY",
+            "eng_name": "bunny girl",
+            "jap_name": "bunny girl senpai"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=_T18BogSUpU",
+            "eng_name": "the pet girl of sakurasou",
+            "jap_name": "sakura-sou"
         }
     ],
     "hard-endings": [
@@ -494,6 +529,11 @@
             "url": "https://www.youtube.com/watch?v=aJRSkf5cOak",
             "eng_name": "a certain magical index",
             "jap_name": "toaru"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=MDGf9PzJbuE",
+            "eng_name": "a lull in the sea",
+            "jap_name": "nagi no asukara"
         }
     ],
     "easy-osts": [
@@ -668,6 +708,16 @@
             "url": "https://www.youtube.com/watch?v=4u6V6UisBz8",
             "eng_name": "neon genesis evangelion",
             "jap_name": "evangelion"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=wUBfOiZfwPM",
+            "eng_name": "the pet girl of sakurasou",
+            "jap_name": "sakura-sou"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Tc9VnW4dH3M",
+            "eng_name": "the pet girl of sakurasou",
+            "jap_name": "sakura-sou"
         }
     ],
     "hard-osts": [
@@ -735,6 +785,16 @@
             "url": "https://www.youtube.com/watch?v=tjEIoTxDOvE",
             "eng_name": "a certain scientific railgun",
             "jap_name": "toaru"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=PnsZkqHPS4M",
+            "eng_name": "a lull in the sea",
+            "jap_name": "nagi no asukara"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=5T7Wa1yo6tk",
+            "eng_name": "horimiya",
+            "jap_name": "horimiya"
         }
     ]
 }
