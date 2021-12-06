@@ -361,6 +361,21 @@
             "url": "https://www.youtube.com/watch?v=qaLeO-2Fytg",
             "eng_name": "kill la kill",
             "jap_name": "kill la kill"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=kupW7eDG48s",
+            "eng_name": "another",
+            "jap_name": "another"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=d08dw3ztKZw",
+            "eng_name": "naruto shippuden",
+            "jap_name": "naruto shippuuden"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=VtNgeDxYJzE",
+            "eng_name": "my hero academia",
+            "jap_name": "boku no hero academia"
         }
     ],
     "hard-openings": [
@@ -430,14 +445,19 @@
             "jap_name": "nagi no asukara"
         },
         {
-            "url": "https://www.youtube.com/watch?v=VtNgeDxYJzE",
-            "eng_name": "my hero academia",
-            "jap_name": "boku no hero academia"
+            "url": "https://www.youtube.com/watch?v=zCCb4eT9V08",
+            "eng_name": "baccano!",
+            "jap_name": "baccano"
         },
         {
-            "url": "https://www.youtube.com/watch?v=d08dw3ztKZw",
-            "eng_name": "naruto shippuden",
-            "jap_name": "naruto shippuuden"
+            "url": "https://www.youtube.com/watch?v=_qCo-E3CHT0",
+            "eng_name": "natsume's book of friends",
+            "jap_name": "natsume yuujinchou"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=m7_-RBl0lfY",
+            "eng_name": "k-on!",
+            "jap_name": "k-on"
         }
     ],
     "easy-endings": [
@@ -722,6 +742,16 @@
             "url": "https://www.youtube.com/watch?v=2HACXCqZGJ8",
             "eng_name": "kill la kill",
             "jap_name": "kill la kill"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=6kguaGI7aZg",
+            "eng_name": "neon genesis evangelion",
+            "jap_name": "evangelion"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=LbfznKdpOVY",
+            "eng_name": "the flower we saw that day",
+            "jap_name": "anohana"
         }
     ],
     "hard-endings": [
@@ -819,6 +849,11 @@
             "url": "https://www.youtube.com/watch?v=atz1iAwmH8M",
             "eng_name": "my hero academia",
             "jap_name": "boku no hero academia"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=8kQDSgt-4xE",
+            "eng_name": "march comes in like a lion",
+            "jap_name": "sangatsu no lion"
         }
     ],
     "easy-osts": [
@@ -1178,6 +1213,11 @@
             "url": "https://www.youtube.com/watch?v=n1Zg4BYbG8g",
             "eng_name": "kill la kill",
             "jap_name": "kill la kill"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Wo7npE4L3-o",
+            "eng_name": "another",
+            "jap_name": "another"
         }
     ],
     "hard-osts": [

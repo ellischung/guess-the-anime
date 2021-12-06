@@ -31,10 +31,14 @@ let songList = [];
 let easyList = [];
 let mediumList = [];
 let hardList = [];
+let index = 0;
 
 const newURL = () => {
+    // remove song from list
+    songList.splice(index, 1);
+
     // get a new song URL to send to client
-    const index = Math.floor(Math.random() * songList.length);
+    index = Math.floor(Math.random() * songList.length);
     users[1].url = songList[index].url;
     users[1].eng_answer = songList[index].eng_name;
     users[1].jap_answer = songList[index].jap_name;
@@ -70,7 +74,7 @@ io.on("connection", (socket) => {
                 songList = songs[users[0].mode];
             }
             if(songList !== undefined) {
-                const index = Math.floor(Math.random() * songList.length);
+                index = Math.floor(Math.random() * songList.length);
                 song = songList[index].url;
                 eng = songList[index].eng_name;
                 jap = songList[index].jap_name;
