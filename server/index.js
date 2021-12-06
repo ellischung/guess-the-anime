@@ -28,6 +28,9 @@ console.log("Hard OSTs: " + songs['hard-osts'].length + "\n");
 
 const users = [];
 let songList = [];
+let easyList = [];
+let mediumList = [];
+let hardList = [];
 
 const newURL = () => {
     // get a new song URL to send to client
@@ -45,15 +48,27 @@ io.on("connection", (socket) => {
     console.log(`User connected: ${socket.id}`);
 
     socket.on("join_room", (data) => {
+        // connect the client to the room 
         socket.join(data.room);
         console.log(`User with ID: ${socket.id} joined room: ${data.room}`);
         data.id = socket.id;
+
+        // set song and answer variables and pass them to the player data
         let song = "";
         let eng = "";
         let jap = "";
         if(users[0] !== undefined) {
             JSON.stringify(users[0]);
-            songList = songs[users[0].mode];
+            if((users[0].mode === "openings") || (users[0].mode === "endings") || (users[0].mode === "osts")) {
+                Object.keys(songs).map((mode) => {
+                    if(mode.includes(users[0].mode) && mode.includes("easy")) easyList = songs[mode];
+                    if(mode.includes(users[0].mode) && mode.includes("medium")) mediumList = songs[mode];
+                    if(mode.includes(users[0].mode) && mode.includes("hard")) hardList = songs[mode];
+                });
+                songList = easyList.concat(mediumList, hardList);
+            } else {
+                songList = songs[users[0].mode];
+            }
             if(songList !== undefined) {
                 const index = Math.floor(Math.random() * songList.length);
                 song = songList[index].url;
@@ -64,6 +79,8 @@ io.on("connection", (socket) => {
         data.url = song;
         data.eng_answer = eng;
         data.jap_answer = jap;
+
+        // add player data to users array
         users.push(data);
     });
 

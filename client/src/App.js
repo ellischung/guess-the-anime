@@ -62,6 +62,9 @@ function App() {
             defaultValue={'DEFAULT'}
           >
             <option value="DEFAULT" disabled>Select mode:</option>
+            <option value="openings">ALL Openings</option>
+            <option value="endings">ALL Endings</option>
+            <option value="osts">ALL OSTs</option>
             <option value="easy-openings">Easy Openings</option>
             <option value="medium-openings">Medium Openings</option>
             <option value="hard-openings">Hard Openings</option>
