@@ -36,12 +36,17 @@
             "jap_name": "sao"
         },
         {
+            "url": "https://www.youtube.com/watch?v=frw21EeOrV0",
+            "eng_name": "sword art online",
+            "jap_name": "sao"
+        },
+        {
             "url": "https://www.youtube.com/watch?v=jiJu4K2jems",
             "eng_name": "demon slayer",
             "jap_name": "kimetsu no yaiba"
         },
         {
-            "url": "https://www.youtube.com/watch?v=dfh4JuzYNpM",
+            "url": "https://www.youtube.com/watch?v=_ty-Nqm4Pdc",
             "eng_name": "bleach",
             "jap_name": "bleach"
         },
@@ -184,6 +189,16 @@
             "url": "https://www.youtube.com/watch?v=8QE9cmfxx4s",
             "eng_name": "death note",
             "jap_name": "death note"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=HRaoYuRKBaA&t=30s",
+            "eng_name": "one piece",
+            "jap_name": "one piece"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=80-W822k6Vw",
+            "eng_name": "blue exorcist",
+            "jap_name": "ao no exorcist"
         }
     ],
     "medium-openings": [
@@ -336,6 +351,16 @@
             "url": "https://www.youtube.com/watch?v=M8FLKLeoFng",
             "eng_name": "snafu",
             "jap_name": "oregairu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Zd-Dkt82F8Q",
+            "eng_name": "assassination classroom",
+            "jap_name": "ansatsu kyoushitsu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=qaLeO-2Fytg",
+            "eng_name": "kill la kill",
+            "jap_name": "kill la kill"
         }
     ],
     "hard-openings": [
@@ -403,6 +428,16 @@
             "url": "https://www.youtube.com/watch?v=3qpBFlASUK4",
             "eng_name": "a lull in the sea",
             "jap_name": "nagi no asukara"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=VtNgeDxYJzE",
+            "eng_name": "my hero academia",
+            "jap_name": "boku no hero academia"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=d08dw3ztKZw",
+            "eng_name": "naruto shippuden",
+            "jap_name": "naruto shippuuden"
         }
     ],
     "easy-endings": [
@@ -475,6 +510,31 @@
             "url": "https://www.youtube.com/watch?v=6riDJMI-Y8U",
             "eng_name": "jujutsu kaisen",
             "jap_name": "jjk"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=7AWwQxmMu6k",
+            "eng_name": "sword art online",
+            "jap_name": "sao"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=ELuVDnlB8PE",
+            "eng_name": "hunter x hunter",
+            "jap_name": "hunter x hunter"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=ONX9knC4vnA",
+            "eng_name": "demon slayer",
+            "jap_name": "kimetsu no yaiba"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=YM8BSv-b3xw",
+            "eng_name": "haikyuu!!",
+            "jap_name": "haikyuu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=PPiHlPa080M",
+            "eng_name": "bleach",
+            "jap_name": "bleach"
         }
     ],
     "medium-endings": [
@@ -632,6 +692,36 @@
             "url": "https://www.youtube.com/watch?v=MLx_Yc02QB8",
             "eng_name": "death parade",
             "jap_name": "death parade"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=ipq7H-y7yew",
+            "eng_name": "sword art online",
+            "jap_name": "sao"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=qefTKsUpVjY",
+            "eng_name": "noragami",
+            "jap_name": "noragami"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=kqNoohipXa4",
+            "eng_name": "noragami aragoto",
+            "jap_name": "noragami"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=3odpfe0NCcs",
+            "eng_name": "assassination classroom",
+            "jap_name": "ansatsu kyoushitsu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=zA3ngjYKCIM",
+            "eng_name": "haikyuu!!",
+            "jap_name": "haikyuu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=2HACXCqZGJ8",
+            "eng_name": "kill la kill",
+            "jap_name": "kill la kill"
         }
     ],
     "hard-endings": [
@@ -724,6 +814,11 @@
             "url": "https://www.youtube.com/watch?v=0SEr-FdHiMg",
             "eng_name": "kokoro connect",
             "jap_name": "kokoro connect"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=atz1iAwmH8M",
+            "eng_name": "my hero academia",
+            "jap_name": "boku no hero academia"
         }
     ],
     "easy-osts": [
@@ -746,6 +841,11 @@
             "url": "https://www.youtube.com/watch?v=kIwmrk7LoDk",
             "eng_name": "fairy tail",
             "jap_name": "fairy tail"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=6FscTa_Nqwo",
+            "eng_name": "one piece",
+            "jap_name": "one piece"
         },
         {
             "url": "https://www.youtube.com/watch?v=xc74Bm__cP8",
@@ -876,6 +976,11 @@
             "url": "https://www.youtube.com/watch?v=rTJjtSP-ORc",
             "eng_name": "the promised neverland",
             "jap_name": "promised neverland"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=PR-wiO1a4jc",
+            "eng_name": "blue exorcist",
+            "jap_name": "ao no exorcist"
         }
     ],
     "medium-osts": [
@@ -1053,6 +1158,26 @@
             "url": "https://www.youtube.com/watch?v=pWlfyXi0KYs",
             "eng_name": "is it wrong to try to pick up girls in a dungeon?",
             "jap_name": "danmachi"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=2yIP6LQ_yiY",
+            "eng_name": "assassination classroom",
+            "jap_name": "ansatsu kyoushitsu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=fdLu9TeMcbY",
+            "eng_name": "konosuba",
+            "jap_name": "konosuba"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=QYBUdoV8QAM",
+            "eng_name": "haikyuu!!",
+            "jap_name": "haikyuu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=n1Zg4BYbG8g",
+            "eng_name": "kill la kill",
+            "jap_name": "kill la kill"
         }
     ],
     "hard-osts": [

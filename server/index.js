@@ -92,9 +92,7 @@ io.on("connection", (socket) => {
     socket.on("increase_score", (data) => {
         // increase user's score and then reset URL
         users.map((user) => {
-            if(user.name === data) {
-                user.score = user.score + 1;
-            }
+            if(user.name === data) user.score = user.score + 1;
         });
         newURL();
     });
@@ -106,23 +104,17 @@ io.on("connection", (socket) => {
     socket.on("skip_song", (data) => {
         // set skip to true for the user who requested it
         users.map((user) => {
-            if(user.name === data) {
-                user.skip = true;
-            }
+            if(user.name === data) user.skip = true;
         });
 
         // when both skips are true, reset URL and skips
-        if((users[0].skip === true) && (users[1].skip === true)) {
-            newURL();
-        }
+        if((users[0].skip === true) && (users[1].skip === true)) newURL();
     });
 
     socket.on("disconnect", () => {
         // remove the user from the array
         users.map((user, index) => {
-            if(user.id === socket.id) {
-                users.splice(index, 1);
-            }
+            if(user.id === socket.id) users.splice(index, 1);
         });
         console.log("User disconnected", socket.id);
     });
