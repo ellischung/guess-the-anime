@@ -28,9 +28,6 @@ console.log("Hard OSTs: " + songs['hard-osts'].length + "\n");
 
 const users = [];
 let songList = [];
-let easyList = [];
-let mediumList = [];
-let hardList = [];
 let index = 0;
 
 const newURL = () => {
@@ -65,11 +62,8 @@ io.on("connection", (socket) => {
             JSON.stringify(users[0]);
             if((users[0].mode === "openings") || (users[0].mode === "endings") || (users[0].mode === "osts")) {
                 Object.keys(songs).map((mode) => {
-                    if(mode.includes(users[0].mode) && mode.includes("easy")) easyList = songs[mode];
-                    if(mode.includes(users[0].mode) && mode.includes("medium")) mediumList = songs[mode];
-                    if(mode.includes(users[0].mode) && mode.includes("hard")) hardList = songs[mode];
+                    if(mode.includes(users[0].mode)) songList = songList.concat(songs[mode]);
                 });
-                songList = easyList.concat(mediumList, hardList);
             } else {
                 songList = songs[users[0].mode];
             }
