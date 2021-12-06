@@ -106,7 +106,7 @@
             "jap_name": "noragami"
         },
         {
-            "url": "https://www.youtube.com/watch?v=HrE6LjIwK84",
+            "url": "https://www.youtube.com/watch?v=Ca5Tf5BDSYI",
             "eng_name": "death parade",
             "jap_name": "death parade"
         },
@@ -199,6 +199,26 @@
             "url": "https://www.youtube.com/watch?v=80-W822k6Vw",
             "eng_name": "blue exorcist",
             "jap_name": "ao no exorcist"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=fodAJ-1dN3I",
+            "eng_name": "erased",
+            "jap_name": "boku dake ga inai machi"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=WWBDuVCuiUQ",
+            "eng_name": "psycho-pass",
+            "jap_name": "psycho-pass"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=tF4faMbs5oQ",
+            "eng_name": "dr. stone",
+            "jap_name": "dr stone"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=A4kLcDWBYcQ",
+            "eng_name": "darling in the franxx",
+            "jap_name": "darling in the franxx"
         }
     ],
     "medium-openings": [
@@ -376,6 +396,31 @@
             "url": "https://www.youtube.com/watch?v=VtNgeDxYJzE",
             "eng_name": "my hero academia",
             "jap_name": "boku no hero academia"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=pfKqHHkjL3U",
+            "eng_name": "elfen lied",
+            "jap_name": "elfen lied"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=zp46Remynxs",
+            "eng_name": "charlotte",
+            "jap_name": "charlotte"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=zp46Remynxs",
+            "eng_name": "highschool of the dead",
+            "jap_name": "hotd"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=GiOJEjWeShI",
+            "eng_name": "fate/zero",
+            "jap_name": "fate/zero"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=l6UUpGXZ22c",
+            "eng_name": "unlimited blade works",
+            "jap_name": "fate/stay night"
         }
     ],
     "hard-openings": [
@@ -555,6 +600,31 @@
             "url": "https://www.youtube.com/watch?v=PPiHlPa080M",
             "eng_name": "bleach",
             "jap_name": "bleach"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=jFRfbctNXhU",
+            "eng_name": "naruto shippuden",
+            "jap_name": "naruto shippuuden"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=i8Yjk7KedVg",
+            "eng_name": "mob psycho 100",
+            "jap_name": "mob psycho 100"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=dVySC2UOEgY",
+            "eng_name": "one piece",
+            "jap_name": "one piece"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=aATPWZ-FpJ8",
+            "eng_name": "dr. stone",
+            "jap_name": "dr stone"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=t-p_PZybvCo",
+            "eng_name": "darling in the franxx",
+            "jap_name": "darling in the franxx"
         }
     ],
     "medium-endings": [
@@ -752,6 +822,21 @@
             "url": "https://www.youtube.com/watch?v=LbfznKdpOVY",
             "eng_name": "the flower we saw that day",
             "jap_name": "anohana"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=EVz82npkUyw",
+            "eng_name": "food wars",
+            "jap_name": "shokugeki no soma"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=atz1iAwmH8M",
+            "eng_name": "my hero academia",
+            "jap_name": "boku no hero academia"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=sLo5ulePYc0",
+            "eng_name": "charlotte",
+            "jap_name": "charlotte"
         }
     ],
     "hard-endings": [
@@ -846,14 +931,14 @@
             "jap_name": "kokoro connect"
         },
         {
-            "url": "https://www.youtube.com/watch?v=atz1iAwmH8M",
-            "eng_name": "my hero academia",
-            "jap_name": "boku no hero academia"
-        },
-        {
             "url": "https://www.youtube.com/watch?v=8kQDSgt-4xE",
             "eng_name": "march comes in like a lion",
             "jap_name": "sangatsu no lion"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=L3YhHK6jNGo",
+            "eng_name": "highschool of the dead",
+            "jap_name": "hotd"
         }
     ],
     "easy-osts": [
@@ -1016,6 +1101,21 @@
             "url": "https://www.youtube.com/watch?v=PR-wiO1a4jc",
             "eng_name": "blue exorcist",
             "jap_name": "ao no exorcist"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=gAqfEHgKCuY&t=20s",
+            "eng_name": "food wars",
+            "jap_name": "shokugeki no soma"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=PY9NoC05wdI",
+            "eng_name": "the flower we saw that day",
+            "jap_name": "anohana"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=xCon20LC14o",
+            "eng_name": "dr. stone",
+            "jap_name": "dr stone"
         }
     ],
     "medium-osts": [
@@ -1218,6 +1318,21 @@
             "url": "https://www.youtube.com/watch?v=Wo7npE4L3-o",
             "eng_name": "another",
             "jap_name": "another"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=TjMJyGZ5oMQ",
+            "eng_name": "food wars",
+            "jap_name": "shokugeki no soma"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=pyiBOwTQRMQ",
+            "eng_name": "elfen lied",
+            "jap_name": "elfen lied"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=8mK_0up-LMc",
+            "eng_name": "fate/zero",
+            "jap_name": "fate/zero"
         }
     ],
     "hard-osts": [

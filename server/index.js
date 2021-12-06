@@ -26,6 +26,7 @@ console.log("Easy OSTs: " + songs['easy-osts'].length);
 console.log("Medium OSTs: " + songs['medium-osts'].length);
 console.log("Hard OSTs: " + songs['hard-osts'].length + "\n");
 
+// game variables
 const users = [];
 let songList = [];
 let index = 0;
@@ -55,9 +56,6 @@ io.on("connection", (socket) => {
         data.id = socket.id;
 
         // set song and answer variables and pass them to the player data
-        let song = "";
-        let eng = "";
-        let jap = "";
         if(users[0] !== undefined) {
             JSON.stringify(users[0]);
             if((users[0].mode === "openings") || (users[0].mode === "endings") || (users[0].mode === "osts")) {
@@ -69,14 +67,11 @@ io.on("connection", (socket) => {
             }
             if(songList !== undefined) {
                 index = Math.floor(Math.random() * songList.length);
-                song = songList[index].url;
-                eng = songList[index].eng_name;
-                jap = songList[index].jap_name;
+                data.url = songList[index].url;
+                data.eng_answer = songList[index].eng_name;
+                data.jap_answer = songList[index].jap_name;
             }
         }
-        data.url = song;
-        data.eng_answer = eng;
-        data.jap_answer = jap;
 
         // add player data to users array
         users.push(data);
