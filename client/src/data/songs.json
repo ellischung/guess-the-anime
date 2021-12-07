@@ -506,6 +506,16 @@
             "url": "https://www.youtube.com/watch?v=tvHqaimwcKE",
             "eng_name": "bungo stray dogs",
             "jap_name": "bungou stray dogs"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=_5WvUPHF5f8",
+            "eng_name": "deadman wonderland",
+            "jap_name": "deadman wonderland"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=iXpGVuaQwXo",
+            "eng_name": "gintama",
+            "jap_name": "gintama"
         }
     ],
     "hard-openings": [
@@ -1119,6 +1129,11 @@
             "url": "https://www.youtube.com/watch?v=YJkr6rSsdM0",
             "eng_name": "bungo stray dogs",
             "jap_name": "bungou stray dogs"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=-ZUQ4kMV7Ss",
+            "eng_name": "deadman wonderland",
+            "jap_name": "deadman wonderland"
         }
     ],
     "easy-osts": [
@@ -1341,6 +1356,11 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=SF_tj5g9SIo",
+            "eng_name": "made in abyss",
+            "jap_name": "made in abyss"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=UN-LX-y2Ntw",
             "eng_name": "made in abyss",
             "jap_name": "made in abyss"
         },
@@ -1603,6 +1623,11 @@
             "url": "https://www.youtube.com/watch?v=GJJ7fzeDNec",
             "eng_name": "princess mononoke",
             "jap_name": "mononoke hime"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=IunstAdGBP4",
+            "eng_name": "deadman wonderland",
+            "jap_name": "deadman wonderland"
         }
     ],
     "hard-osts": [
