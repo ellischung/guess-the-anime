@@ -219,6 +219,41 @@
             "url": "https://www.youtube.com/watch?v=A4kLcDWBYcQ",
             "eng_name": "darling in the franxx",
             "jap_name": "darling in the franxx"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=EJxrk8G5lkk",
+            "eng_name": "samurai champloo",
+            "jap_name": "samurai champloo"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=4NEbSnuL6GA",
+            "eng_name": "kaguya-sama: love is war",
+            "jap_name": "kaguya-sama"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=KOWcj7XKnfQ",
+            "eng_name": "overlord",
+            "jap_name": "overlord"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=dsK8SsfqdHE",
+            "eng_name": "black clover",
+            "jap_name": "black clover"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=GhGTc6p8sg0",
+            "eng_name": "that time i got reincarnated as a slime",
+            "jap_name": "slime"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=FJqGirLjQn4",
+            "eng_name": "dragon ball",
+            "jap_name": "db"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=FJqGirLjQn4",
+            "eng_name": "dragon ball",
+            "jap_name": "db"
         }
     ],
     "medium-openings": [
@@ -421,6 +456,56 @@
             "url": "https://www.youtube.com/watch?v=l6UUpGXZ22c",
             "eng_name": "unlimited blade works",
             "jap_name": "fate/stay night"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=qL5x6JuaeHw",
+            "eng_name": "maid sama",
+            "jap_name": "kaichou wa maid-sama"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=oe9gQt-x_BE",
+            "eng_name": "the devil is a part-timer",
+            "jap_name": "hataraku maou-sama"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=8Ns3murXFhw",
+            "eng_name": "jojo's bizarre adventure",
+            "jap_name": "jojo"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=S9yfM5OrpKU",
+            "eng_name": "overlord",
+            "jap_name": "overlord"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=oHdZOKm5xzo",
+            "eng_name": "clannad",
+            "jap_name": "clannad"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=jZvFEtR8RH0",
+            "eng_name": "the rising of the shield hero",
+            "jap_name": "tate no yuusha"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=wnfQCqrR0Kc",
+            "eng_name": "kakegurui",
+            "jap_name": "kakegurui"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Msuu3b-L-2k",
+            "eng_name": "hyouka",
+            "jap_name": "hyouka"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=MxoJvOE7hcU",
+            "eng_name": "seraph of the end",
+            "jap_name": "owari no seraph"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=tvHqaimwcKE",
+            "eng_name": "bungo stray dogs",
+            "jap_name": "bungou stray dogs"
         }
     ],
     "hard-openings": [
@@ -503,6 +588,26 @@
             "url": "https://www.youtube.com/watch?v=m7_-RBl0lfY",
             "eng_name": "k-on!",
             "jap_name": "k-on"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=KguH2GtOwEw",
+            "eng_name": "inuyashiki",
+            "jap_name": "inuyashiki"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=oHdZOKm5xzo",
+            "eng_name": "clannad: after story",
+            "jap_name": "clannad: after story"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=wmlPoQaseQE",
+            "eng_name": "highschool dxd",
+            "jap_name": "highschool dxd"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=bMX9_lK9Dws",
+            "eng_name": "aldnoah.zero",
+            "jap_name": "aldnoah zero"
         }
     ],
     "easy-endings": [
@@ -625,6 +730,16 @@
             "url": "https://www.youtube.com/watch?v=t-p_PZybvCo",
             "eng_name": "darling in the franxx",
             "jap_name": "darling in the franxx"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=RLsOEC1fZWU",
+            "eng_name": "jojo's bizarre adventure",
+            "jap_name": "jojo"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=ChayFwyFvPk",
+            "eng_name": "overlord",
+            "jap_name": "overlord"
         }
     ],
     "medium-endings": [
@@ -837,6 +952,51 @@
             "url": "https://www.youtube.com/watch?v=sLo5ulePYc0",
             "eng_name": "charlotte",
             "jap_name": "charlotte"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=fOcRSrIrGnI",
+            "eng_name": "horimiya",
+            "jap_name": "horimiya"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=F7UG_YI29Mg",
+            "eng_name": "is it wrong to try to pick up girls in a dungeon?",
+            "jap_name": "danmachi"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=XXDxZ0YGWG8",
+            "eng_name": "clannad",
+            "jap_name": "clannad"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=-SYs1Y_m7kE",
+            "eng_name": "black clover",
+            "jap_name": "black clover"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=CzANwOt3M4k",
+            "eng_name": "the rising of the shield hero",
+            "jap_name": "tate no yuusha"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=368f0A8IM4c",
+            "eng_name": "hyouka",
+            "jap_name": "hyouka"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=9weDcuqtYi4",
+            "eng_name": "seraph of the end",
+            "jap_name": "owari no seraph"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=I_jyMbeLObY",
+            "eng_name": "guilty crown",
+            "jap_name": "guilty crown"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=-cFvEPfhMdo",
+            "eng_name": "bungo stray dogs",
+            "jap_name": "bungou stray dogs"
         }
     ],
     "hard-endings": [
@@ -939,6 +1099,26 @@
             "url": "https://www.youtube.com/watch?v=L3YhHK6jNGo",
             "eng_name": "highschool of the dead",
             "jap_name": "hotd"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=0T49D73myWA",
+            "eng_name": "inuyashiki",
+            "jap_name": "inuyashiki"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=CebPvjuvY80",
+            "eng_name": "highschool dxd",
+            "jap_name": "highschool dxd"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=uf3a63J2A9I",
+            "eng_name": "hyouka",
+            "jap_name": "hyouka"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=YJkr6rSsdM0",
+            "eng_name": "bungo stray dogs",
+            "jap_name": "bungou stray dogs"
         }
     ],
     "easy-osts": [
@@ -1116,6 +1296,31 @@
             "url": "https://www.youtube.com/watch?v=xCon20LC14o",
             "eng_name": "dr. stone",
             "jap_name": "dr stone"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Z-tTmSY4m4M",
+            "eng_name": "samurai champloo",
+            "jap_name": "samurai champloo"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=vMboypSkj3c",
+            "eng_name": "spirited away",
+            "jap_name": "spirited away"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=UwxatzcYf9Q",
+            "eng_name": "howl's moving castle",
+            "jap_name": "howl's moving castle"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=kfIl70TPX28",
+            "eng_name": "dragon ball super",
+            "jap_name": "dbs"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=6lGuDTRilKQ",
+            "eng_name": "dragon ball z",
+            "jap_name": "dbz"
         }
     ],
     "medium-osts": [
@@ -1130,12 +1335,17 @@
             "jap_name": "chuunibyou"
         },
         {
+            "url": "https://www.youtube.com/watch?v=2L-7QKf_PFk",
+            "eng_name": "chunibyo",
+            "jap_name": "chuunibyou"
+        },
+        {
             "url": "https://www.youtube.com/watch?v=SF_tj5g9SIo",
             "eng_name": "made in abyss",
             "jap_name": "made in abyss"
         },
         {
-            "url": "https://www.youtube.com/watch?v=IBSz5Npj4Bs&t=7s",
+            "url": "https://www.youtube.com/watch?v=IBSz5Npj4Bs",
             "eng_name": "hyouka",
             "jap_name": "hyouka"
         },
@@ -1333,6 +1543,66 @@
             "url": "https://www.youtube.com/watch?v=8mK_0up-LMc",
             "eng_name": "fate/zero",
             "jap_name": "fate/zero"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=BeICjkrcp2w",
+            "eng_name": "maid sama",
+            "jap_name": "kaichou wa maid-sama"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=qQZMALaUIH8",
+            "eng_name": "samurai champloo",
+            "jap_name": "samurai champloo"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=5T7Wa1yo6tk",
+            "eng_name": "horimiya",
+            "jap_name": "horimiya"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=GJMD3eO7tpE",
+            "eng_name": "the devil is a part-timer",
+            "jap_name": "hataraku maou-sama"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=CemKsp95OY4",
+            "eng_name": "kaguya-sama: love is war",
+            "jap_name": "kaguya-sama"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=rkpu4Ruz8i4",
+            "eng_name": "overlord",
+            "jap_name": "overlord"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=vdk_76z38bA",
+            "eng_name": "clannad",
+            "jap_name": "clannad"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=kewk6nqdgv0&t=551s",
+            "eng_name": "durarara!!",
+            "jap_name": "durarara"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=BWXPgzcsSx8",
+            "eng_name": "kakegurui",
+            "jap_name": "kakegurui"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=XdGrIQ2Sh1Y",
+            "eng_name": "seraph of the end",
+            "jap_name": "owari no seraph"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=UMCka_vXtL4&t=59s",
+            "eng_name": "guilty crown",
+            "jap_name": "guilty crown"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=GJJ7fzeDNec",
+            "eng_name": "princess mononoke",
+            "jap_name": "mononoke hime"
         }
     ],
     "hard-osts": [
@@ -1358,6 +1628,11 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=xgd2echy27E",
+            "eng_name": "k-on!",
+            "jap_name": "k-on"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Xlacckqbdns",
             "eng_name": "k-on!",
             "jap_name": "k-on"
         },
@@ -1402,11 +1677,6 @@
             "jap_name": "nagi no asukara"
         },
         {
-            "url": "https://www.youtube.com/watch?v=5T7Wa1yo6tk",
-            "eng_name": "horimiya",
-            "jap_name": "horimiya"
-        },
-        {
             "url": "https://www.youtube.com/watch?v=J65wTdQZI9c",
             "eng_name": "kokoro connect",
             "jap_name": "kokoro connect"
@@ -1415,6 +1685,21 @@
             "url": "https://www.youtube.com/watch?v=vuLWRzvFFJI",
             "eng_name": "bakemonogatari",
             "jap_name": "bakemonogatari"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=BDHXZ4Fjqr8",
+            "eng_name": "baccano!",
+            "jap_name": "baccano"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=MGFiqGGVAuk",
+            "eng_name": "aldnoah.zero",
+            "jap_name": "aldnoah zero"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=HHsXk4Q1PMA&t=31s",
+            "eng_name": "aldnoah.zero",
+            "jap_name": "aldnoah zero"
         }
     ]
 }
