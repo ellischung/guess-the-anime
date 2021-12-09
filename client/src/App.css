@@ -1,62 +1,19 @@
 .App {
   width: 100vw;
   height: 100vh;
-  color: #212121;
   background-image: url(anime-background.png);
-  font-family: "Open Sans", sans-serif;
   display: grid;
   place-items: center;
 }
+
 body {
   margin: 0%;
   padding: 0%;
 }
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
 
 .joinGameContainer {
   display: flex;
   flex-direction: column;
   text-align: center;
-}
-
-.joinGameContainer h3 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.joinGameContainer input {
-  width: 210px;
-  height: 40px;
-  margin: 7px;
-  border: 2px solid #43a047;
-  border-radius: 5px;
-  padding: 5px;
-  font-size: 16px;
-}
-
-.joinGameContainer select {
-  width: 210px;
-  height: 40px;
-  margin: 7px;
-  border: 2px solid #43a047;
-  border-radius: 5px;
-  padding: 5px;
-  font-size: 16px;
-}
-
-.joinGameContainer button {
-  width: 225px;
-  height: 50px;
-  margin: 7px;
-  border: none;
-  border-radius: 5px;
-  padding: 5px;
-  font-size: 16px;
-  background: #43a047;
-  color: #fff;
-  cursor: pointer;
-}
-
-.joinGameContainer button:hover {
-  background: #2e7d32;
+  align-items: center;
 }

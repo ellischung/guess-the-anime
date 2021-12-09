@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TextField } from '@material-ui/core';
+import { TextField, FormControl, InputLabel, Select, MenuItem, Button } from '@material-ui/core';
 import './App.css';
 import io from 'socket.io-client';
 import Game from './components/Game';
@@ -14,12 +14,7 @@ function App() {
   const [showGame, setShowGame] = useState(false);
 
   const joinRoom = () => {
-    if(mode === "" || win === 0) {
-      alert("Please fill in all inputs before joining!");
-      return;
-    }
-
-    if(userName !== "" && room !== "") {
+    if(userName !== "" && room !== "" && mode !== "" && win !== 0) {
       const playerData = {
         name: userName,
         room: room,
@@ -44,7 +39,7 @@ function App() {
             id="outlined-basic" 
             label="Name..." 
             variant="outlined" 
-            style={{padding: '10px'}}
+            style={{marginBottom: '20px'}}
             onChange={(event) => {
               setUserName(event.target.value);
             }} 
@@ -53,61 +48,62 @@ function App() {
             id="outlined-basic" 
             label="Room ID..." 
             variant="outlined" 
-            style={{padding: '10px'}}
+            style={{marginBottom: '20px'}}
             onChange={(event) => {
               setRoom(event.target.value);
             }} 
           />
-          {/* <input 
-            type="text" 
-            placeholder="Name..." 
-            onChange={(event) => {
-              setUserName(event.target.value);
+          <FormControl fullWidth>
+            <InputLabel id="mode">Mode</InputLabel>
+            <Select
+              style={{marginBottom: '20px'}}
+              onChange={(event) => {
+                setMode(event.target.value);
+              }}
+            >
+              <MenuItem value="openings">ALL Openings</MenuItem>
+              <MenuItem value="endings">ALL Endings</MenuItem>
+              <MenuItem value="osts">ALL OSTs</MenuItem>
+              <MenuItem value="easy-openings">Easy Openings</MenuItem>
+              <MenuItem value="medium-openings">Medium Openings</MenuItem>
+              <MenuItem value="hard-openings">Hard Openings</MenuItem>
+              <MenuItem value="easy-endings">Easy Endings</MenuItem>
+              <MenuItem value="medium-endings">Medium Endings</MenuItem>
+              <MenuItem value="hard-endings">Hard Endings</MenuItem>
+              <MenuItem value="easy-osts">Easy OSTs</MenuItem>
+              <MenuItem value="medium-osts">Medium OSTs</MenuItem>
+              <MenuItem value="hard-osts">Hard OSTs</MenuItem>
+            </Select>
+          </FormControl>
+          <FormControl fullWidth>
+            <InputLabel id="mode">Points to win</InputLabel>
+            <Select
+              style={{marginBottom: '20px'}}
+              onChange={(event) => {
+                setWin(event.target.value);
+              }}
+            >
+              <MenuItem value="5">5</MenuItem>
+              <MenuItem value="10">10</MenuItem>
+              <MenuItem value="15">15</MenuItem>
+              <MenuItem value="20">20</MenuItem>
+              <MenuItem value="25">25</MenuItem>
+            </Select>
+          </FormControl>
+          <Button 
+            variant="outlined"
+            style={{
+              borderRadius: 15,
+              backgroundColor: '#73787C',
+              color: '#b9f2ff',
+              marginTop: '30px', 
+              width: '120px', 
+              height: '40px',
             }} 
-          /> */}
-          {/* <input 
-            type="text" 
-            placeholder="Room ID..." 
-            onChange={(event) => {
-              setRoom(event.target.value);
-            }} 
-          /> */}
-          <select 
-            id="mode" 
-            onChange={(event) => {
-              setMode(event.target.value);
-            }}
-            defaultValue={'DEFAULT'}
+            onClick={joinRoom}
           >
-            <option value="DEFAULT" disabled>Select mode:</option>
-            <option value="openings">ALL Openings</option>
-            <option value="endings">ALL Endings</option>
-            <option value="osts">ALL OSTs</option>
-            <option value="easy-openings">Easy Openings</option>
-            <option value="medium-openings">Medium Openings</option>
-            <option value="hard-openings">Hard Openings</option>
-            <option value="easy-endings">Easy Endings</option>
-            <option value="medium-endings">Medium Endings</option>
-            <option value="hard-endings">Hard Endings</option>
-            <option value="easy-osts">Easy OSTs</option>
-            <option value="medium-osts">Medium OSTs</option>
-            <option value="hard-osts">Hard OSTs</option>
-          </select>
-          <select 
-            id="win" 
-            onChange={(event) => {
-              setWin(event.target.value);
-            }}
-            defaultValue={'DEFAULT'}
-          >
-            <option value="DEFAULT" disabled>Points to win:</option>
-            <option value="5">5</option>
-            <option value="10">10</option>
-            <option value="15">15</option>
-            <option value="20">20</option>
-            <option value="25">25</option>
-          </select>
-          <button onClick={joinRoom}>Join Game</button>
+            Join Game
+          </Button>
         </div>
       ) : (
         <Game socket={socket} username={userName} room={room} />
