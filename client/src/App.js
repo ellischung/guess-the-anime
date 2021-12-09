@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { TextField } from '@material-ui/core';
 import './App.css';
 import io from 'socket.io-client';
 import Game from './components/Game';
@@ -39,21 +40,38 @@ function App() {
     <div className="App">
       {!showGame ? (
         <div className="joinGameContainer">
-          <h3>Guess The Anime</h3>
-          <input 
+          <TextField 
+            id="outlined-basic" 
+            label="Name..." 
+            variant="outlined" 
+            style={{padding: '10px'}}
+            onChange={(event) => {
+              setUserName(event.target.value);
+            }} 
+          />
+          <TextField 
+            id="outlined-basic" 
+            label="Room ID..." 
+            variant="outlined" 
+            style={{padding: '10px'}}
+            onChange={(event) => {
+              setRoom(event.target.value);
+            }} 
+          />
+          {/* <input 
             type="text" 
             placeholder="Name..." 
             onChange={(event) => {
               setUserName(event.target.value);
             }} 
-          />
-          <input 
+          /> */}
+          {/* <input 
             type="text" 
             placeholder="Room ID..." 
             onChange={(event) => {
               setRoom(event.target.value);
             }} 
-          />
+          /> */}
           <select 
             id="mode" 
             onChange={(event) => {

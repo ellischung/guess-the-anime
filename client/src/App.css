@@ -1,8 +1,8 @@
 .App {
   width: 100vw;
   height: 100vh;
-  background: #fff;
   color: #212121;
+  background-image: url(anime-background.png);
   font-family: "Open Sans", sans-serif;
   display: grid;
   place-items: center;
