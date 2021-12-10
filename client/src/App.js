@@ -36,7 +36,6 @@ function App() {
       {!showGame ? (
         <div className="joinGameContainer">
           <TextField 
-            id="outlined-basic" 
             label="Name..." 
             variant="outlined" 
             style={{marginBottom: '20px'}}
@@ -45,7 +44,6 @@ function App() {
             }} 
           />
           <TextField 
-            id="outlined-basic" 
             label="Room ID..." 
             variant="outlined" 
             style={{marginBottom: '20px'}}
@@ -54,7 +52,7 @@ function App() {
             }} 
           />
           <FormControl fullWidth>
-            <InputLabel id="mode">Mode</InputLabel>
+            <InputLabel>Mode</InputLabel>
             <Select
               style={{marginBottom: '20px'}}
               onChange={(event) => {
@@ -76,7 +74,7 @@ function App() {
             </Select>
           </FormControl>
           <FormControl fullWidth>
-            <InputLabel id="mode">Points to win</InputLabel>
+            <InputLabel>Points to win</InputLabel>
             <Select
               style={{marginBottom: '20px'}}
               onChange={(event) => {
@@ -97,8 +95,9 @@ function App() {
               backgroundColor: '#73787C',
               color: '#b9f2ff',
               marginTop: '30px', 
-              width: '120px', 
+              width: '110px', 
               height: '40px',
+              textTransform: 'none'
             }} 
             onClick={joinRoom}
           >

@@ -254,6 +254,11 @@
             "url": "https://www.youtube.com/watch?v=FJqGirLjQn4",
             "eng_name": "dragon ball",
             "jap_name": "db"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=LGQCPOMcYJQ&t=11s",
+            "eng_name": "sailor moon",
+            "jap_name": "sailor moon"
         }
     ],
     "medium-openings": [
@@ -416,11 +421,6 @@
             "url": "https://www.youtube.com/watch?v=qaLeO-2Fytg",
             "eng_name": "kill la kill",
             "jap_name": "kill la kill"
-        },
-        {
-            "url": "https://www.youtube.com/watch?v=kupW7eDG48s",
-            "eng_name": "another",
-            "jap_name": "another"
         },
         {
             "url": "https://www.youtube.com/watch?v=d08dw3ztKZw",
@@ -618,6 +618,51 @@
             "url": "https://www.youtube.com/watch?v=bMX9_lK9Dws",
             "eng_name": "aldnoah.zero",
             "jap_name": "aldnoah zero"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=kupW7eDG48s",
+            "eng_name": "another",
+            "jap_name": "another"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=ocQ6PDiP014",
+            "eng_name": "berserk",
+            "jap_name": "berserk"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=-jYqJCzZ8zs",
+            "eng_name": "banana fish",
+            "jap_name": "banana fish"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=IcCJgmLZYkE",
+            "eng_name": "chihayafuru",
+            "jap_name": "chihayafuru"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Lb2EmdLOZ10",
+            "eng_name": "how to raise a boring girlfriend",
+            "jap_name": "saekano"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=qUk1ZoCGqsA",
+            "eng_name": "my ordinary life",
+            "jap_name": "nichijou"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=6iseNlvH2_s&t=6s",
+            "eng_name": "lucky star",
+            "jap_name": "lucky star"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=mF5MKNwbRhg",
+            "eng_name": "girls' last tour",
+            "jap_name": "girls last tour"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=XjHqfhOcK_0",
+            "eng_name": "wotakoi",
+            "jap_name": "wotakoi"
         }
     ],
     "easy-endings": [
@@ -750,6 +795,11 @@
             "url": "https://www.youtube.com/watch?v=ChayFwyFvPk",
             "eng_name": "overlord",
             "jap_name": "overlord"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=LbfznKdpOVY",
+            "eng_name": "the flower we saw that day",
+            "jap_name": "anohana"
         }
     ],
     "medium-endings": [
@@ -944,11 +994,6 @@
             "jap_name": "evangelion"
         },
         {
-            "url": "https://www.youtube.com/watch?v=LbfznKdpOVY",
-            "eng_name": "the flower we saw that day",
-            "jap_name": "anohana"
-        },
-        {
             "url": "https://www.youtube.com/watch?v=EVz82npkUyw",
             "eng_name": "food wars",
             "jap_name": "shokugeki no soma"
@@ -1007,6 +1052,11 @@
             "url": "https://www.youtube.com/watch?v=-cFvEPfhMdo",
             "eng_name": "bungo stray dogs",
             "jap_name": "bungou stray dogs"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=lYUdHGhxCw4",
+            "eng_name": "rent a girlfriend",
+            "jap_name": "kanojo okarishimasu"
         }
     ],
     "hard-endings": [
@@ -1134,6 +1184,31 @@
             "url": "https://www.youtube.com/watch?v=-ZUQ4kMV7Ss",
             "eng_name": "deadman wonderland",
             "jap_name": "deadman wonderland"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=8MlYBcRr-dU",
+            "eng_name": "berserk",
+            "jap_name": "berserk"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=_rU86Gl7bP8",
+            "eng_name": "banana fish",
+            "jap_name": "banana fish"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=EiGCCyWWur0",
+            "eng_name": "how to raise a boring girlfriend",
+            "jap_name": "saekano"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=aVGzYXbxslU",
+            "eng_name": "my ordinary life",
+            "jap_name": "nichijou"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Kpr4iQnv2X4",
+            "eng_name": "wotakoi",
+            "jap_name": "wotakoi"
         }
     ],
     "easy-osts": [
@@ -1545,11 +1620,6 @@
             "jap_name": "kill la kill"
         },
         {
-            "url": "https://www.youtube.com/watch?v=Wo7npE4L3-o",
-            "eng_name": "another",
-            "jap_name": "another"
-        },
-        {
             "url": "https://www.youtube.com/watch?v=TjMJyGZ5oMQ",
             "eng_name": "food wars",
             "jap_name": "shokugeki no soma"
@@ -1628,6 +1698,11 @@
             "url": "https://www.youtube.com/watch?v=IunstAdGBP4",
             "eng_name": "deadman wonderland",
             "jap_name": "deadman wonderland"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=mQASvdkQVfs",
+            "eng_name": "rent a girlfriend",
+            "jap_name": "kanojo okarishimasu"
         }
     ],
     "hard-osts": [
@@ -1725,6 +1800,36 @@
             "url": "https://www.youtube.com/watch?v=HHsXk4Q1PMA&t=31s",
             "eng_name": "aldnoah.zero",
             "jap_name": "aldnoah zero"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Wo7npE4L3-o",
+            "eng_name": "another",
+            "jap_name": "another"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=GLg_wp0IXoI",
+            "eng_name": "berserk",
+            "jap_name": "berserk"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=cxVAT_pdyOA",
+            "eng_name": "fooly cooly",
+            "jap_name": "flcl"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=1Ne7oNIMJyA",
+            "eng_name": "chihayafuru",
+            "jap_name": "chihayafuru"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=_ouXET8zNI8",
+            "eng_name": "my ordinary life",
+            "jap_name": "nichijou"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=1hbHgZDB95o",
+            "eng_name": "lucky star",
+            "jap_name": "lucky star"
         }
     ]
 }

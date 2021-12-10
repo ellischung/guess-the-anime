@@ -1,4 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import { Typography, Grid, TextField, Button } from '@material-ui/core';
+import PersonIcon from '@material-ui/icons/Person';
+import SendIcon from '@material-ui/icons/Send';
+import SkipNextIcon from '@material-ui/icons/SkipNext';
 import ReactPlayer from 'react-player';
 
 function Game({ socket, username, room }) {
@@ -35,9 +39,8 @@ function Game({ socket, username, room }) {
         if((newAnswer === engAnswer) || (newAnswer === japAnswer)) {
             socket.emit("increase_score", username);
         } else {
-            alert("Incorrect! Try again!");
+            alert("Incorrect answer! Try again!");
         }
-
         // clear answer input
         setAnswer("");
     };
@@ -55,56 +58,76 @@ function Game({ socket, username, room }) {
     };
     
     return (
-        <div className="gameContainer">
-            <div className="playersContainer">
-                {players.map((player, index) => {
+        <div>
+            <Grid container spacing={4} style={{marginBottom: '20px'}}>
+                {players.map((player) => {
                     checkScore(player.name, player.score);
-                    return <div key={index}>
-                        <p>{player.name}:</p>
-                        <p>{player.score}</p>
-                    </div>
+                    return (
+                        <Grid 
+                            item 
+                            style={{
+                                display: 'flex', 
+                                flexDirection: 'column', 
+                                alignItems: 'center'
+                            }}
+                        >
+                            <PersonIcon />
+                            <Typography>{player.name}</Typography>
+                            <Typography>{player.score}</Typography>
+                        </Grid>
+                    )
                 })}
-            </div>
-
+            </Grid>
             {!game ? (
-                <div>{winner} wins!</div>
+                <Typography>{winner} wins!</Typography>
             ) : (
                 // game starts here
-                <>
-                    <div className="songsContainer">
-                        <ReactPlayer 
-                            width='0px'
-                            height='0px'
-                            playing={true}
-                            url={players[1] !== undefined ? players[1].url : ""}
-                        />
-                    </div>
-                    <div className="answerContainer">
+                <div>
+                    <ReactPlayer 
+                        width='0px'
+                        height='0px'
+                        playing={true}
+                        url={players[1] !== undefined ? players[1].url : ""}
+                    />
+                    {/* {console.log(players[1].url)} */}
+                    <div>
                         {players[1] !== undefined ?
                             <>
-                                <input
-                                    type="text"
+                                <TextField 
+                                    variant="standard" 
                                     value={answer}
                                     placeholder="Guess the anime..."
+                                    style={{marginBottom: '20px'}}
                                     onChange={(event) => {
                                         setAnswer(event.target.value);
-                                    }}
+                                    }} 
                                     onKeyPress={(event) => {
                                         event.key === "Enter" && increaseScore();
                                     }}
                                 />
-                                <button onClick={increaseScore}>&#9658;</button>
+                                <Button onClick={increaseScore}><SendIcon /></Button>
                             </>
                         :
-                            "Waiting for Player 2..."
+                            <Typography>Waiting for Player 2...</Typography>
                         }
                     </div>
-                    <div className="skipContainer">
-                        {players[1] !== undefined &&
-                            <button onClick={skipSong}>Skip</button> 
-                        } 
-                    </div>
-                </>
+                    {players[1] !== undefined &&
+                        <Button 
+                            variant="contained" 
+                            style={{
+                                width: '70px',
+                                height: '30px',
+                                marginTop: '20px',
+                                backgroundColor: '#73787C',
+                                color: '#b9f2ff',
+                                textTransform: 'none'
+                            }} 
+                            onClick={skipSong}
+                        >
+                            Skip <SkipNextIcon />
+                        </Button> 
+                    } 
+                </div>
             )}
         </div>
     );
