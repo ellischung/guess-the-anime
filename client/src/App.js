@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="App">
       {!showGame ? (
-        <div className="joinGameContainer">
+        <div className="container">
           <TextField 
             label="Name..." 
             variant="outlined" 

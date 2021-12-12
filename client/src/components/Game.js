@@ -110,7 +110,10 @@ function Game({ socket, username, room }) {
                 })}
             </Grid>
             {!game ? (
-                <Typography>{winner} wins!</Typography>
+                <div className="container">
+                    <Typography style={{fontSize: '25px', fontWeight: 'bold'}}>{winner} wins!</Typography>
+                    <img alt="winner" src={`${process.env.PUBLIC_URL}/winner.gif`} />
+                </div>
             ) : (
                 // game starts here
                 <div>

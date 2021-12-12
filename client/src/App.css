@@ -11,7 +11,7 @@ body {
   padding: 0%;
 }
 
-.joinGameContainer {
+.container {
   display: flex;
   flex-direction: column;
   text-align: center;
