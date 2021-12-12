@@ -38,8 +38,11 @@ function Game({ socket, username, room }) {
         });
     }, [socket]);
 
-    // increase user's score upon correct answer
-    const increaseScore = () => {
+    // verify answer and increase score if correct
+    const checkAnswer = () => {
+        // if no input, return
+        if(answer === "") return;
+
         // set up message data to send to server
         const messageData = {
             room: room,
@@ -49,6 +52,7 @@ function Game({ socket, username, room }) {
                 new Date(Date.now()).getHours() +
                 ":" +
                 new Date(Date.now()).getMinutes(),
+                // new Date(Date.now()).getMinutes().toISOString(),
         };
 
         // compare input to both answers from songs json
@@ -61,7 +65,7 @@ function Game({ socket, username, room }) {
             socket.emit("increase_score", username);
         }
 
-        // send the message
+        // send the message to the server
         socket.emit("send_message", messageData);
 
         // update the message list and clear user input
@@ -96,7 +100,7 @@ function Game({ socket, username, room }) {
                             }}
                         >
                             <PersonIcon />
-                            <Typography>{player.name}</Typography>
+                            <Typography style={{fontWeight: 'bold'}}>{player.name}</Typography>
                             <Typography>{player.score}</Typography>
                         </Grid>
                     )
@@ -114,11 +118,11 @@ function Game({ socket, username, room }) {
                         url={players[1] !== undefined ? players[1].url : ""}
                     />
                     {/* {console.log(players[1].url)} */}
-                    <div className="chat-window">
+                    <div className="chatWindow">
                         {players[1] !== undefined ?
                             <>
-                                <div className="chat-body">
-                                    <ScrollToBottom className="message-container">
+                                <div className="chatBody">
+                                    <ScrollToBottom className="messageContainer">
                                         {messageList.map((messageContent) => {
                                             return (
                                                 <div
@@ -126,12 +130,12 @@ function Game({ socket, username, room }) {
                                                     id={username === messageContent.name ? "you" : "other"}
                                                 >
                                                     <div>
-                                                        <div className="message-content">
-                                                            <p>{messageContent.message}</p>
+                                                        <div className="messageContent">
+                                                            <Typography>{messageContent.message}</Typography>
                                                         </div>
-                                                        <div className="message-meta">
-                                                            <p id="time">{messageContent.time}</p>
-                                                            <p id="name">{messageContent.name}</p>
+                                                        <div className="messageMeta">
+                                                            <Typography id="time">{messageContent.time}</Typography>
+                                                            <Typography id="name">{messageContent.name}</Typography>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -139,22 +143,24 @@ function Game({ socket, username, room }) {
                                         })}
                                     </ScrollToBottom>
                                 </div>
-                                <TextField 
-                                    variant="standard" 
-                                    value={answer}
-                                    placeholder="Guess the anime..."
-                                    style={{marginBottom: '20px'}}
-                                    onChange={(event) => {
-                                        setAnswer(event.target.value);
-                                    }} 
-                                    onKeyPress={(event) => {
-                                        event.key === "Enter" && increaseScore();
-                                    }}
-                                />
-                                <Button onClick={increaseScore}><SendIcon /></Button>
+                                <div className="chatFooter">
+                                    <TextField 
+                                        variant="standard" 
+                                        value={answer}
+                                        placeholder="Guess the anime..."
+                                        style={{marginBottom: '20px'}}
+                                        onChange={(event) => {
+                                            setAnswer(event.target.value);
+                                        }} 
+                                        onKeyPress={(event) => {
+                                            event.key === "Enter" && checkAnswer();
+                                        }}
+                                    />
+                                    <Button onClick={checkAnswer}><SendIcon /></Button>
+                                </div>
                             </>
                         :
-                            <Typography>Waiting for Player 2...</Typography>
+                            <Typography style={{fontWeight: 'bold'}}>Waiting for Player 2...</Typography>
                         }
                     </div>
                     {players[1] !== undefined &&
@@ -163,7 +169,6 @@ function Game({ socket, username, room }) {
                             style={{
                                 width: '70px',
                                 height: '30px',
-                                marginTop: '20px',
                                 backgroundColor: '#73787C',
                                 color: '#b9f2ff',
                                 textTransform: 'none'
