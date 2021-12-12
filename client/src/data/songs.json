@@ -259,6 +259,21 @@
             "url": "https://www.youtube.com/watch?v=LGQCPOMcYJQ&t=11s",
             "eng_name": "sailor moon",
             "jap_name": "sailor moon"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=JBqxVX_LXvk",
+            "eng_name": "fire force",
+            "jap_name": "fire force"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=FgQR2O8PGf4",
+            "eng_name": "dororo",
+            "jap_name": "dororo"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Wc_sIBegjME",
+            "eng_name": "neon genesis evangelion",
+            "jap_name": "evangelion"
         }
     ],
     "medium-openings": [
@@ -274,7 +289,7 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=AgWI4EQ78ik",
-            "eng_name": "code geass",
+            "eng_name": "code geass r2",
             "jap_name": "code geass"
         },
         {
@@ -356,11 +371,6 @@
             "url": "https://www.youtube.com/watch?v=xmh3mNvgJBs",
             "eng_name": "guilty crown",
             "jap_name": "guilty crown"
-        },
-        {
-            "url": "https://www.youtube.com/watch?v=Wc_sIBegjME",
-            "eng_name": "neon genesis evangelion",
-            "jap_name": "evangelion"
         },
         {
             "url": "https://www.youtube.com/watch?v=P7VMQoYkqeo",
@@ -513,9 +523,79 @@
             "jap_name": "deadman wonderland"
         },
         {
+            "url": "https://www.youtube.com/watch?v=REHaJZgWwxY",
+            "eng_name": "gintama",
+            "jap_name": "gintama"
+        },
+        {
             "url": "https://www.youtube.com/watch?v=iXpGVuaQwXo",
             "eng_name": "gintama",
             "jap_name": "gintama"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=1Y9nulcg3Yw",
+            "eng_name": "black butler",
+            "jap_name": "kuroshitsuji"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=KdVwUDBYioU",
+            "eng_name": "miss kobayashi's dragon maid",
+            "jap_name": "dragon maid"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=KVV5Hh2RHoA",
+            "eng_name": "miss kobayashi's dragon maid S",
+            "jap_name": "dragon maid S"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=D6kUt4sCJ6I",
+            "eng_name": "nisekoi",
+            "jap_name": "nisekoi"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=JCQ_Xjaz5ek",
+            "eng_name": "beyond the boundary",
+            "jap_name": "kyoukai no kanata"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=5RVEM8-UKlg",
+            "eng_name": "kuroko's basketball",
+            "jap_name": "kuroko no basket"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=CZ73Qv-RQNg",
+            "eng_name": "log horizon",
+            "jap_name": "log horizon"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=7U7BDn-gU18",
+            "eng_name": "vinland saga",
+            "jap_name": "vinland saga"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=QXSBh4gtQ7g",
+            "eng_name": "ouran high school host club",
+            "jap_name": "ouran koukou host club"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=IHeN9TVzF9k",
+            "eng_name": "tokyo ghoul:re",
+            "jap_name": "tokyo ghoul"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=M8JuOhB7-U0",
+            "eng_name": "magi",
+            "jap_name": "magi"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=evWqRKRl3_8",
+            "eng_name": "the irregular at magic high school",
+            "jap_name": "mahouka"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=0i0z98M2y5U&t=21s",
+            "eng_name": "goblin slayer",
+            "jap_name": "goblin slayer"
         }
     ],
     "hard-openings": [
@@ -663,11 +743,26 @@
             "url": "https://www.youtube.com/watch?v=XjHqfhOcK_0",
             "eng_name": "wotakoi",
             "jap_name": "wotakoi"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=g1ARRcK4LVs",
+            "eng_name": "terror in resonance",
+            "jap_name": "zankyou no terror"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=SM5mnH7JrJE&t=5s",
+            "eng_name": "devilman: crybaby",
+            "jap_name": "devilman crybaby"
         }
     ],
     "easy-endings": [
         {
             "url": "https://www.youtube.com/watch?v=QBlYYOsdG-U",
+            "eng_name": "attack on titan",
+            "jap_name": "shingeki no kyojin"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Aa6hslBAQaw",
             "eng_name": "attack on titan",
             "jap_name": "shingeki no kyojin"
         },
@@ -757,6 +852,11 @@
             "jap_name": "haikyuu"
         },
         {
+            "url": "https://www.youtube.com/watch?v=cI9PZDX2EVY",
+            "eng_name": "haikyuu!!",
+            "jap_name": "haikyuu"
+        },
+        {
             "url": "https://www.youtube.com/watch?v=PPiHlPa080M",
             "eng_name": "bleach",
             "jap_name": "bleach"
@@ -800,6 +900,31 @@
             "url": "https://www.youtube.com/watch?v=LbfznKdpOVY",
             "eng_name": "the flower we saw that day",
             "jap_name": "anohana"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=geE49ne2mQg",
+            "eng_name": "fire force",
+            "jap_name": "fire force"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Ru_H5PiyfSA",
+            "eng_name": "cowboy bebop",
+            "jap_name": "cowboy bebop"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=0DTFjvlkj-U",
+            "eng_name": "tokyo ghoul",
+            "jap_name": "tokyo ghoul"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=f8JWhakG2Pc",
+            "eng_name": "jujutsu kaisen",
+            "jap_name": "jjk"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=z2AyJTOR_qw",
+            "eng_name": "neon genesis evangelion",
+            "jap_name": "evangelion"
         }
     ],
     "medium-endings": [
@@ -879,21 +1004,6 @@
             "jap_name": "kaguya-sama"
         },
         {
-            "url": "https://www.youtube.com/watch?v=z2AyJTOR_qw",
-            "eng_name": "neon genesis evangelion",
-            "jap_name": "evangelion"
-        },
-        {
-            "url": "https://www.youtube.com/watch?v=Ru_H5PiyfSA",
-            "eng_name": "cowboy bebop",
-            "jap_name": "cowboy bebop"
-        },
-        {
-            "url": "https://www.youtube.com/watch?v=0DTFjvlkj-U",
-            "eng_name": "tokyo ghoul",
-            "jap_name": "tokyo ghoul"
-        },
-        {
             "url": "https://www.youtube.com/watch?v=6skJdifi6sY",
             "eng_name": "bunny girl",
             "jap_name": "bunny girl senpai"
@@ -932,11 +1042,6 @@
             "url": "https://www.youtube.com/watch?v=mGclLUQiqH8",
             "eng_name": "akame ga kill!",
             "jap_name": "akame ga kill"
-        },
-        {
-            "url": "https://www.youtube.com/watch?v=f8JWhakG2Pc",
-            "eng_name": "jujutsu kaisen",
-            "jap_name": "jjk"
         },
         {
             "url": "https://www.youtube.com/watch?v=JkAsE9FCWv4",
@@ -987,11 +1092,6 @@
             "url": "https://www.youtube.com/watch?v=2HACXCqZGJ8",
             "eng_name": "kill la kill",
             "jap_name": "kill la kill"
-        },
-        {
-            "url": "https://www.youtube.com/watch?v=6kguaGI7aZg",
-            "eng_name": "neon genesis evangelion",
-            "jap_name": "evangelion"
         },
         {
             "url": "https://www.youtube.com/watch?v=EVz82npkUyw",
@@ -1057,6 +1157,56 @@
             "url": "https://www.youtube.com/watch?v=lYUdHGhxCw4",
             "eng_name": "rent a girlfriend",
             "jap_name": "kanojo okarishimasu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=AUG7SZGgYBk",
+            "eng_name": "black butler",
+            "jap_name": "kuroshitsuji"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=2bm2WmWiohw",
+            "eng_name": "miss kobayashi's dragon maid",
+            "jap_name": "dragon maid"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=LBGcOf89B0w",
+            "eng_name": "nisekoi",
+            "jap_name": "nisekoi"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=DhOv8OoPBUI&t=22s",
+            "eng_name": "beyond the boundary",
+            "jap_name": "kyoukai no kanata"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=1cYE0Bm5VKI",
+            "eng_name": "vinland saga",
+            "jap_name": "vinland saga"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=uwtzT_xlM7M",
+            "eng_name": "ouran high school host club",
+            "jap_name": "ouran koukou host club"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=a4RRHEeunjg",
+            "eng_name": "tokyo ghoul:re",
+            "jap_name": "tokyo ghoul"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=PNEFDufPRQs",
+            "eng_name": "dororo",
+            "jap_name": "dororo"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=rwv_ERDCjDk",
+            "eng_name": "gintama",
+            "jap_name": "gintama"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=hyRpccfwe5c",
+            "eng_name": "the irregular at magic high school",
+            "jap_name": "mahouka"
         }
     ],
     "hard-endings": [
@@ -1117,7 +1267,7 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=23xHdz4YzhM",
-            "eng_name": "code geass",
+            "eng_name": "code geass r2",
             "jap_name": "code geass"
         },
         {
@@ -1209,6 +1359,16 @@
             "url": "https://www.youtube.com/watch?v=Kpr4iQnv2X4",
             "eng_name": "wotakoi",
             "jap_name": "wotakoi"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=tJyuCHLPjhw&t=11s",
+            "eng_name": "log horizon",
+            "jap_name": "log horizon"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Cfich8LWlm4",
+            "eng_name": "terror in resonance",
+            "jap_name": "zankyou no terror"
         }
     ],
     "easy-osts": [
@@ -1703,6 +1863,46 @@
             "url": "https://www.youtube.com/watch?v=mQASvdkQVfs",
             "eng_name": "rent a girlfriend",
             "jap_name": "kanojo okarishimasu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=KdVwUDBYioU",
+            "eng_name": "miss kobayashi's dragon maid",
+            "jap_name": "dragon maid"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=UZSUsJ2emKI",
+            "eng_name": "nisekoi",
+            "jap_name": "nisekoi"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Bz_sVT6T7cU",
+            "eng_name": "log horizon",
+            "jap_name": "log horizon"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=bUjegfMjscU",
+            "eng_name": "vinland saga",
+            "jap_name": "vinland saga"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=FE_o0a2IqsM",
+            "eng_name": "gintama",
+            "jap_name": "gintama"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=_y-WwDUaWUg",
+            "eng_name": "magi",
+            "jap_name": "magi"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=5v85V9KxeM0",
+            "eng_name": "the irregular at magic high school",
+            "jap_name": "mahouka"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=1_VBzONOP2U",
+            "eng_name": "goblin slayer",
+            "jap_name": "goblin slayer"
         }
     ],
     "hard-osts": [
@@ -1830,6 +2030,21 @@
             "url": "https://www.youtube.com/watch?v=1hbHgZDB95o",
             "eng_name": "lucky star",
             "jap_name": "lucky star"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=gIzNh3U9RxE",
+            "eng_name": "terror in resonance",
+            "jap_name": "zankyou no terror"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Nja0Obgg2gU",
+            "eng_name": "akira",
+            "jap_name": "akira"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=6kguaGI7aZg",
+            "eng_name": "the end of evangelion",
+            "jap_name": "evangelion"
         }
     ]
 }

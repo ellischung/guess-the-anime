@@ -90,6 +90,10 @@ io.on("connection", (socket) => {
         newURL();
     });
 
+    socket.on("send_message", (data) => {
+        socket.to(data.room).emit("receive_message", data);
+    });
+
     socket.on("end_game", (data) => {
         socket.to(data.room).emit("set_game", data.name);
     });

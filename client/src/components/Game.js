@@ -4,6 +4,7 @@ import PersonIcon from '@material-ui/icons/Person';
 import SendIcon from '@material-ui/icons/Send';
 import SkipNextIcon from '@material-ui/icons/SkipNext';
 import ReactPlayer from 'react-player';
+import ScrollToBottom from 'react-scroll-to-bottom';
 
 function Game({ socket, username, room }) {
     // display states
@@ -12,6 +13,7 @@ function Game({ socket, username, room }) {
     // game states
     const [players, setPlayers] = useState([]);
     const [answer, setAnswer] = useState("");
+    const [messageList, setMessageList] = useState([]);
     const [winner, setWinner] = useState("");
 
     // get users
@@ -24,6 +26,11 @@ function Game({ socket, username, room }) {
             setPlayers(data);
         });
 
+        // update message list through server socket
+        socket.on("receive_message", (data) => {
+            setMessageList((list) => [...list, data]);
+        });
+
         // end the game through server socket
         socket.on("set_game", (data) => {
             setWinner(data);
@@ -33,15 +40,32 @@ function Game({ socket, username, room }) {
 
     // increase user's score upon correct answer
     const increaseScore = () => {
+        // set up message data to send to server
+        const messageData = {
+            room: room,
+            name: username,
+            message: answer,
+            time:
+                new Date(Date.now()).getHours() +
+                ":" +
+                new Date(Date.now()).getMinutes(),
+        };
+
+        // compare input to both answers from songs json
         const newAnswer = answer.replace(/\/|:|-|\s+/g, "").toLowerCase();
         const engAnswer = players[1].eng_answer.replace(/\/|:|-|\s+/g, "");
         const japAnswer = players[1].jap_answer.replace(/\/|:|-|\s+/g, "");
+
+        // increase score if equal
         if((newAnswer === engAnswer) || (newAnswer === japAnswer)) {
             socket.emit("increase_score", username);
-        } else {
-            alert("Incorrect answer! Try again!");
         }
-        // clear answer input
+
+        // send the message
+        socket.emit("send_message", messageData);
+
+        // update the message list and clear user input
+        setMessageList((list) => [...list, messageData]);
         setAnswer("");
     };
 
@@ -90,9 +114,31 @@ function Game({ socket, username, room }) {
                         url={players[1] !== undefined ? players[1].url : ""}
                     />
                     {/* {console.log(players[1].url)} */}
-                    <div>
+                    <div className="chat-window">
                         {players[1] !== undefined ?
                             <>
+                                <div className="chat-body">
+                                    <ScrollToBottom className="message-container">
+                                        {messageList.map((messageContent) => {
+                                            return (
+                                                <div
+                                                    className="message"
+                                                    id={username === messageContent.name ? "you" : "other"}
+                                                >
+                                                    <div>
+                                                        <div className="message-content">
+                                                            <p>{messageContent.message}</p>
+                                                        </div>
+                                                        <div className="message-meta">
+                                                            <p id="time">{messageContent.time}</p>
+                                                            <p id="name">{messageContent.name}</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            );
+                                        })}
+                                    </ScrollToBottom>
+                                </div>
                                 <TextField 
                                     variant="standard" 
                                     value={answer}
