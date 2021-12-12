@@ -48,11 +48,7 @@ function Game({ socket, username, room }) {
             room: room,
             name: username,
             message: answer,
-            time:
-                new Date(Date.now()).getHours() +
-                ":" +
-                new Date(Date.now()).getMinutes(),
-                // new Date(Date.now()).getMinutes().toISOString(),
+            time: (new Date()).toTimeString().slice(0, 5),
         };
 
         // compare input to both answers from songs json
@@ -82,7 +78,14 @@ function Game({ socket, username, room }) {
 
     // skip currently playing song
     const skipSong = () => {
-        socket.emit("skip_song", username);
+        // set up message data before skipping song
+        const messageData = {
+            room: room,
+            user: username,
+            name: 'server',
+            message: `The answer is ${players[1].eng_answer}`,
+        }
+        socket.emit("skip_song", messageData);
     };
     
     return (

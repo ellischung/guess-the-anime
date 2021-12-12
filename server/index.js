@@ -101,11 +101,14 @@ io.on("connection", (socket) => {
     socket.on("skip_song", (data) => {
         // set skip to true for the user who requested it
         users.map((user) => {
-            if(user.name === data) user.skip = true;
+            if(user.name === data.user) user.skip = true;
         });
 
-        // when both skips are true, reset URL and skips
-        if((users[0].skip === true) && (users[1].skip === true)) newURL();
+        // when both skips are true, skip song and send message to all users
+        if((users[0].skip === true) && (users[1].skip === true)) {
+            socket.to(data.room).emit("receive_message", data);
+            newURL();
+        }
     });
 
     socket.on("disconnect", () => {
