@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TextField, FormControl, InputLabel, Select, MenuItem, Button } from '@material-ui/core';
+import { TextField, FormControl, InputLabel, Select, MenuItem, Button, Typography } from '@material-ui/core';
 import './App.css';
 import io from 'socket.io-client';
 import Game from './components/Game';
@@ -107,6 +107,9 @@ function App() {
       ) : (
         <Game socket={socket} username={userName} room={room} />
       )}
+      <div className="footer">
+        <Typography>&#xa9; Ellis Chung</Typography>
+      </div>
     </div>
   );
 }

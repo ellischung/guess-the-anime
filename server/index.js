@@ -116,6 +116,10 @@ io.on("connection", (socket) => {
         users.map((user, index) => {
             if(user.id === socket.id) users.splice(index, 1);
         });
+        
+        // empty the songs array
+        songList = [];
+        
         console.log("User disconnected", socket.id);
     });
 });

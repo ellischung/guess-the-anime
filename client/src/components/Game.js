@@ -52,9 +52,9 @@ function Game({ socket, username, room }) {
         };
 
         // compare input to both answers from songs json
-        const newAnswer = answer.replace(/\/|:|-|\s+/g, "").toLowerCase();
-        const engAnswer = players[1].eng_answer.replace(/\/|:|-|\s+/g, "");
-        const japAnswer = players[1].jap_answer.replace(/\/|:|-|\s+/g, "");
+        const newAnswer = answer.replace(/\/|:|'|-|\s+/g, "").toLowerCase();
+        const engAnswer = players[1].eng_answer.replace(/\/|:|'|-|\s+/g, "");
+        const japAnswer = players[1].jap_answer.replace(/\/|:|'|-|\s+/g, "");
 
         // increase score if equal
         if((newAnswer === engAnswer) || (newAnswer === japAnswer)) {
@@ -83,7 +83,7 @@ function Game({ socket, username, room }) {
             room: room,
             user: username,
             name: 'server',
-            message: `The answer is ${players[1].eng_answer}`,
+            message: `Anime skipped: ${players[1].eng_answer}`,
         }
         socket.emit("skip_song", messageData);
     };
