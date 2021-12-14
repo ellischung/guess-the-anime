@@ -106,7 +106,7 @@ io.on("connection", (socket) => {
 
         // when both skips are true, skip song and send message to all users
         if((users[0].skip === true) && (users[1].skip === true)) {
-            socket.to(data.room).emit("receive_message", data);
+            io.in(data.room).emit("receive_message", data);
             newURL();
         }
     });

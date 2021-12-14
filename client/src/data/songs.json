@@ -908,6 +908,21 @@
             "url": "https://www.youtube.com/watch?v=bjwU4LN2qbc",
             "eng_name": "my little monster",
             "jap_name": "tonari no kaibutsu-kun"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=DaTzRcSyEWc",
+            "eng_name": "a place further than the universe",
+            "jap_name": "sora yori mo tooi basho"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=xX6R_TTnPEA",
+            "eng_name": "asobi asobase",
+            "jap_name": "asobi asobase"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=fFNK9IiJL-0",
+            "eng_name": "remake our life!",
+            "jap_name": "bokutachi no remake"
         }
     ],
     "easy-endings": [
@@ -1639,6 +1654,26 @@
             "url": "https://www.youtube.com/watch?v=Lv4Mu0KVVQA",
             "eng_name": "my little monster",
             "jap_name": "tonari no kaibutsu-kun"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Q8uLgo8HNKw",
+            "eng_name": "ping pong the animation",
+            "jap_name": "ping pong"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=MMhUdDwp8IA",
+            "eng_name": "scum's wish",
+            "jap_name": "kuzu no honkai"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=aQ88sSjAETU",
+            "eng_name": "asobi asobase",
+            "jap_name": "asobi asobase"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=eHqCExgy-nc&t=1s",
+            "eng_name": "remake our life!",
+            "jap_name": "bokutachi no remake"
         }
     ],
     "easy-osts": [
@@ -2405,6 +2440,16 @@
             "url": "https://www.youtube.com/watch?v=LjqhfgLNKbI",
             "eng_name": "my little monster",
             "jap_name": "tonari no kaibutsu-kun"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=hqv1rP3Ked8",
+            "eng_name": "ping pong the animation",
+            "jap_name": "ping pong"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=UPwshZ8K2KY",
+            "eng_name": "bunny drop",
+            "jap_name": "usagi drop"
         }
     ]
 }
