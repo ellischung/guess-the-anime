@@ -28,11 +28,10 @@ console.log("Hard OSTs: " + songs['hard-osts'].length + "\n");
 
 // game variables
 let users = {};
+let userIDs = {};
 let selectedSongs = {};
 let songList = [];
 let index = 0;
-
-// create a dictionary to store socket ids to pop off when disconnected !!!
 
 const newURL = (room) => {
     // remove song from list
@@ -56,7 +55,10 @@ io.on("connection", (socket) => {
         // connect the client to the room 
         socket.join(data.room);
         console.log(`User with ID: ${socket.id} joined room: ${data.room}`);
+
+        // set the user data prop with the new socket id and also add it to userIDs
         data.id = socket.id;
+        userIDs[socket.id] = data.room;
 
         // if room exists, set all game data before passing to array. if it doesn't exist, we create it and add to users
         if(users[data.room]) {
@@ -85,22 +87,6 @@ io.on("connection", (socket) => {
                 // reset songList after selectedSongs is set
                 songList = [];
             } 
-            // JSON.stringify(users[data.room][0]);
-            // if((users[data.room][0].mode === "openings") || 
-            // (users[data.room][0].mode === "endings") || 
-            // (users[data.room][0].mode === "osts")) {
-            //     Object.keys(songs).map((mode) => {
-            //         if(mode.includes(users[data.room][0].mode)) songList = songList.concat(songs[mode]);
-            //     });
-            // } else {
-            //     songList = songs[users[data.room][0].mode];
-            // }
-            // if(songList !== undefined) {
-            //     index = Math.floor(Math.random() * songList.length);
-            //     data.url = songList[index].url;
-            //     data.eng_answer = songList[index].eng_name;
-            //     data.jap_answer = songList[index].jap_name;
-            // }
             users[data.room].push(data);
         } else {
             users[data.room] = [data];
@@ -142,14 +128,13 @@ io.on("connection", (socket) => {
     });
 
     socket.on("disconnect", () => {
-        // remove the user from the array
-        // users.map((user, index) => {
-        //     if(user.id === socket.id) users.splice(index, 1);
-        // });
-        
-        // empty the songs array
-        songList = [];
-        
+        // remove from users and selectedSongs array
+        Object.keys(users).map((room) => {
+            if(room === userIDs[socket.id]) {
+                delete users[room];
+                delete selectedSongs[room];
+            }
+        });      
         console.log("User disconnected", socket.id);
     });
 });
