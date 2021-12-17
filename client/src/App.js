@@ -33,11 +33,15 @@ function App() {
 
   return (
     <div className="App">
+      <div style={{textAlign: 'center'}}>
+        <span>guess</span> 
+        <span><em>the anime</em></span>
+      </div>
       {!showGame ? (
         <div className="container">
           <TextField 
             label="Name..." 
-            variant="outlined" 
+            variant="filled" 
             style={{marginBottom: '20px'}}
             onChange={(event) => {
               setUserName(event.target.value);
@@ -45,7 +49,7 @@ function App() {
           />
           <TextField 
             label="Room ID..." 
-            variant="outlined" 
+            variant="filled" 
             style={{marginBottom: '20px'}}
             onChange={(event) => {
               setRoom(event.target.value);

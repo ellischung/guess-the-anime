@@ -162,18 +162,18 @@ function Game({ socket, username, room }) {
                                             event.key === "Enter" && checkAnswer();
                                         }}
                                     />
-                                    <Button onClick={checkAnswer}><SendIcon /></Button>
+                                    <Button onClick={checkAnswer} style={{color: '#73787C'}}><SendIcon /></Button>
                                 </div>
                             </>
                         :
-                            <Typography style={{fontWeight: 'bold'}}>Waiting for Player 2...</Typography>
+                            <Typography style={{textAlign: 'center', fontWeight: 'bold'}}>Waiting for Player 2...</Typography>
                         }
                     </div>
                     {players[1] !== undefined &&
                         <Button 
                             variant="contained" 
                             style={{
-                                width: '70px',
+                                width: '85px',
                                 height: '30px',
                                 backgroundColor: '#73787C',
                                 color: '#b9f2ff',
