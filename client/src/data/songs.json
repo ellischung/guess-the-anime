@@ -181,6 +181,11 @@
             "jap_name": "fairy tail"
         },
         {
+            "url": "https://www.youtube.com/watch?v=aqRuzjIBkxY",
+            "eng_name": "fairy tail",
+            "jap_name": "fairy tail"
+        },
+        {
             "url": "https://www.youtube.com/watch?v=oDgZPWWmv3Q",
             "eng_name": "soul eater",
             "jap_name": "soul eater"
@@ -479,8 +484,8 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=l6UUpGXZ22c",
-            "eng_name": "unlimited blade works",
-            "jap_name": "fate/stay night"
+            "eng_name": "fate/stay night",
+            "jap_name": "unlimited blade works"
         },
         {
             "url": "https://www.youtube.com/watch?v=qL5x6JuaeHw",
@@ -923,6 +928,26 @@
             "url": "https://www.youtube.com/watch?v=fFNK9IiJL-0",
             "eng_name": "remake our life!",
             "jap_name": "bokutachi no remake"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=nXNJ-6qpU6c",
+            "eng_name": "chobits",
+            "jap_name": "chobits"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=C9MuI4gfyiA",
+            "eng_name": "land of the lustrous",
+            "jap_name": "houseki no kuni"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=K28Lcc-MdJs",
+            "eng_name": "showa genroku",
+            "jap_name": "shouwa genroku"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=plUBYKEeloI",
+            "eng_name": "eighty six",
+            "jap_name": "86"
         }
     ],
     "easy-endings": [
@@ -1027,7 +1052,7 @@
             "jap_name": "haikyuu!!"
         },
         {
-            "url": "https://www.youtube.com/watch?v=PPiHlPa080M",
+            "url": "https://www.youtube.com/watch?v=dpoBs5WBJ3k",
             "eng_name": "bleach",
             "jap_name": "bleach"
         },
@@ -1674,6 +1699,26 @@
             "url": "https://www.youtube.com/watch?v=eHqCExgy-nc&t=1s",
             "eng_name": "remake our life!",
             "jap_name": "bokutachi no remake"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=wmZjyxW5NPw",
+            "eng_name": "kabaneri of the iron fortress",
+            "jap_name": "kabaneri"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=6BdmcIEMgBw",
+            "eng_name": "natsume's book of friends",
+            "jap_name": "natsume yuujinchou"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=k5ANknGkoTs",
+            "eng_name": "showa genroku",
+            "jap_name": "shouwa genroku"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=hfAdGhc2Xz8",
+            "eng_name": "eighty six",
+            "jap_name": "86"
         }
     ],
     "easy-osts": [
@@ -1911,6 +1956,26 @@
             "url": "https://www.youtube.com/watch?v=bq7caidfUts",
             "eng_name": "demon slayer",
             "jap_name": "kimetsu no yaiba"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=KqMhLtoRg8g",
+            "eng_name": "jujutsu kaisen",
+            "jap_name": "jjk"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=VT6LFOIofRE",
+            "eng_name": "gurren lagann",
+            "jap_name": "tengen toppa gurren lagann"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=PLV23C5VPgI",
+            "eng_name": "black clover",
+            "jap_name": "black clover"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=b7t6rZUZmfE",
+            "eng_name": "yu-gi-oh!",
+            "jap_name": "yu-gi-oh!"
         }
     ],
     "medium-osts": [
@@ -2238,6 +2303,11 @@
             "url": "https://www.youtube.com/watch?v=WWB01IuMvzA",
             "eng_name": "the melancholy of haruhi suzumiya",
             "jap_name": "haruhi"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=wY9Q-_3Dye8&t=97s",
+            "eng_name": "fate/stay night",
+            "jap_name": "unlimited blade works"
         }
     ],
     "hard-osts": [
@@ -2257,7 +2327,7 @@
             "jap_name": "tanaka-kun"
         },
         {
-            "url": "https://www.youtube.com/watch?v=AQ0Ylx68INQ",
+            "url": "https://www.youtube.com/watch?v=AQ0Ylx68INQ&t=41s",
             "eng_name": "fate/zero",
             "jap_name": "fate/zero"
         },
@@ -2450,6 +2520,36 @@
             "url": "https://www.youtube.com/watch?v=UPwshZ8K2KY",
             "eng_name": "bunny drop",
             "jap_name": "usagi drop"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=GDSpyC6tx0A",
+            "eng_name": "angel beats!",
+            "jap_name": "angel beats!"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=ZbhHUZfQrDQ&t=69s",
+            "eng_name": "jujutsu kaisen",
+            "jap_name": "jjk"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=PSgXMOu9ALU",
+            "eng_name": "monogatari s2",
+            "jap_name": "monogatari"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=WzljtlGj_lA",
+            "eng_name": "wolf children",
+            "jap_name": "wolf children"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=UMI86Nnpsuk&t=165s",
+            "eng_name": "natsume's book of friends",
+            "jap_name": "natsume yuujinchou"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=ngt5Na5ktsA",
+            "eng_name": "eighty six",
+            "jap_name": "86"
         }
     ]
 }

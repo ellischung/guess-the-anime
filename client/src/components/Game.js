@@ -58,7 +58,7 @@ function Game({ socket, username, room }) {
 
         // increase score if equal
         if((newAnswer === engAnswer) || (newAnswer === japAnswer)) {
-            socket.emit("increase_score", username);
+            socket.emit("increase_score", { room: room, name: username });
         }
 
         // send the message to the server

@@ -27,23 +27,26 @@ console.log("Medium OSTs: " + songs['medium-osts'].length);
 console.log("Hard OSTs: " + songs['hard-osts'].length + "\n");
 
 // game variables
-const users = [];
+let users = {};
+let selectedSongs = {};
 let songList = [];
 let index = 0;
 
-const newURL = () => {
+// create a dictionary to store socket ids to pop off when disconnected !!!
+
+const newURL = (room) => {
     // remove song from list
-    songList.splice(index, 1);
+    selectedSongs[room].splice(index, 1);
 
     // get a new song URL to send to client
-    index = Math.floor(Math.random() * songList.length);
-    users[1].url = songList[index].url;
-    users[1].eng_answer = songList[index].eng_name;
-    users[1].jap_answer = songList[index].jap_name;
+    index = Math.floor(Math.random() * selectedSongs[room].length);
+    users[room][1].url = selectedSongs[room][index].url;
+    users[room][1].eng_answer = selectedSongs[room][index].eng_name;
+    users[room][1].jap_answer = selectedSongs[room][index].jap_name;
 
     // reset skips for all users
-    users[0].skip = false;
-    users[1].skip = false;
+    users[room][0].skip = false;
+    users[room][1].skip = false;
 };
 
 io.on("connection", (socket) => {
@@ -55,39 +58,66 @@ io.on("connection", (socket) => {
         console.log(`User with ID: ${socket.id} joined room: ${data.room}`);
         data.id = socket.id;
 
-        // set song and answer variables and pass them to the player data
-        if(users[0] !== undefined) {
-            JSON.stringify(users[0]);
-            if((users[0].mode === "openings") || (users[0].mode === "endings") || (users[0].mode === "osts")) {
-                Object.keys(songs).map((mode) => {
-                    if(mode.includes(users[0].mode)) songList = songList.concat(songs[mode]);
-                });
-            } else {
-                songList = songs[users[0].mode];
-            }
-            if(songList !== undefined) {
-                index = Math.floor(Math.random() * songList.length);
-                data.url = songList[index].url;
-                data.eng_answer = songList[index].eng_name;
-                data.jap_answer = songList[index].jap_name;
-            }
+        // if room exists, set all game data before passing to array. if it doesn't exist, we create it and add to users
+        if(users[data.room]) {
+            // if songs for a given room is undefined, we create a new one and populate it with songs from selected mode
+            if(selectedSongs[data.room] === undefined) {
+                // get songs for selected mode
+                JSON.stringify(users[data.room][0]);
+                if((users[data.room][0].mode === "openings") || 
+                (users[data.room][0].mode === "endings") || 
+                (users[data.room][0].mode === "osts")) {
+                    Object.keys(songs).map((mode) => {
+                        if(mode.includes(users[data.room][0].mode)) songList = songList.concat(songs[mode]);
+                    });
+                } else {
+                    songList = songs[users[data.room][0].mode];
+                }
+                // set user data with song url and answers
+                if(songList !== undefined) {
+                    index = Math.floor(Math.random() * songList.length);
+                    data.url = songList[index].url;
+                    data.eng_answer = songList[index].eng_name;
+                    data.jap_answer = songList[index].jap_name;
+                }
+                // add everything to selectedSongs at given room
+                selectedSongs[data.room] = songList;
+                // reset songList after selectedSongs is set
+                songList = [];
+            } 
+            // JSON.stringify(users[data.room][0]);
+            // if((users[data.room][0].mode === "openings") || 
+            // (users[data.room][0].mode === "endings") || 
+            // (users[data.room][0].mode === "osts")) {
+            //     Object.keys(songs).map((mode) => {
+            //         if(mode.includes(users[data.room][0].mode)) songList = songList.concat(songs[mode]);
+            //     });
+            // } else {
+            //     songList = songs[users[data.room][0].mode];
+            // }
+            // if(songList !== undefined) {
+            //     index = Math.floor(Math.random() * songList.length);
+            //     data.url = songList[index].url;
+            //     data.eng_answer = songList[index].eng_name;
+            //     data.jap_answer = songList[index].jap_name;
+            // }
+            users[data.room].push(data);
+        } else {
+            users[data.room] = [data];
         }
-
-        // add player data to users array
-        users.push(data);
     });
 
     socket.on("track_players", (data) => {
         // update users array
-        socket.to(data).emit("receive_players", users);
+        socket.to(data).emit("receive_players", users[data]);
     });
 
     socket.on("increase_score", (data) => {
         // increase user's score and then reset URL
-        users.map((user) => {
-            if(user.name === data) user.score = user.score + 1;
+        users[data.room].map((user) => {
+            if(user.name === data.name) user.score = user.score + 1;
         });
-        newURL();
+        newURL(data.room);
     });
 
     socket.on("send_message", (data) => {
@@ -100,22 +130,22 @@ io.on("connection", (socket) => {
 
     socket.on("skip_song", (data) => {
         // set skip to true for the user who requested it
-        users.map((user) => {
+        users[data.room].map((user) => {
             if(user.name === data.user) user.skip = true;
         });
 
         // when both skips are true, skip song and send message to all users
-        if((users[0].skip === true) && (users[1].skip === true)) {
+        if((users[data.room][0].skip === true) && (users[data.room][1].skip === true)) {
             io.in(data.room).emit("receive_message", data);
-            newURL();
+            newURL(data.room);
         }
     });
 
     socket.on("disconnect", () => {
         // remove the user from the array
-        users.map((user, index) => {
-            if(user.id === socket.id) users.splice(index, 1);
-        });
+        // users.map((user, index) => {
+        //     if(user.id === socket.id) users.splice(index, 1);
+        // });
         
         // empty the songs array
         songList = [];
