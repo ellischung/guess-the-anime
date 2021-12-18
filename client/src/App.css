@@ -1,6 +1,8 @@
 .App {
   width: 100vw;
   height: 100vh;
+  background-image: url(anime-background.png);
+  background-size: cover;
   display: grid;
   place-items: center;
 }
@@ -10,11 +12,9 @@
 body {
   margin: 0%;
   padding: 0%;
-  background: linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
-  color: #555;
   font-family: 'Roboto';
   font-weight: 300;
-  font-size: 32px;
+  font-size: 36px;
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -61,9 +61,9 @@ span:last-of-type em {
 @keyframes reveal {
     0% { opacity: 0; width: 0px; }
     20% { opacity: 1; width: 0px; }
-    30% { width: 155px; }
+    30% { width: 175px; }
     80% { opacity: 1; }
-    100% { opacity: 0; width: 155px; }
+    100% { opacity: 0; width: 175px; }
 }
 
 .container {

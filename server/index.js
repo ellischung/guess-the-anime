@@ -37,6 +37,9 @@ const newURL = (room) => {
     // remove song from list
     selectedSongs[room].splice(index, 1);
 
+    // if selectedSongs is empty, we return
+    if(selectedSongs[room].length === 0) return;
+
     // get a new song URL to send to client
     index = Math.floor(Math.random() * selectedSongs[room].length);
     users[room][1].url = selectedSongs[room][index].url;

@@ -314,6 +314,16 @@
             "url": "https://www.youtube.com/watch?v=bgo9dJB_icw",
             "eng_name": "beastars",
             "jap_name": "beastars"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=fpG3BPNQepY",
+            "eng_name": "konosuba",
+            "jap_name": "konosuba"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=2l9V2ejc6OY",
+            "eng_name": "yu yu hakusho",
+            "jap_name": "yuu yuu hakusho"
         }
     ],
     "medium-openings": [
@@ -416,11 +426,6 @@
             "url": "https://www.youtube.com/watch?v=N6AaSfL4yVk",
             "eng_name": "the pet girl of sakurasou",
             "jap_name": "sakura-sou"
-        },
-        {
-            "url": "https://www.youtube.com/watch?v=fpG3BPNQepY",
-            "eng_name": "konosuba",
-            "jap_name": "konosuba"
         },
         {
             "url": "https://www.youtube.com/watch?v=vdcddjV0l5o",
@@ -636,6 +641,31 @@
             "url": "https://www.youtube.com/watch?v=FKIT6G_lw7c",
             "eng_name": "the quintessential quintuplets",
             "jap_name": "quintessential quintuplets"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=nK2Djnb4fMA",
+            "eng_name": "a certain scientific railgun",
+            "jap_name": "toaru"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=LM6RhRm2GQM",
+            "eng_name": "kiznaiver",
+            "jap_name": "kiznaiver"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=n8AgCc3mhX8",
+            "eng_name": "oreimo",
+            "jap_name": "oreimo"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=IEvQJ4mUkoY",
+            "eng_name": "takagi-san",
+            "jap_name": "karakai jouzu no takagi-san"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Ppl21c_zKo8",
+            "eng_name": "ajin",
+            "jap_name": "ajin"
         }
     ],
     "hard-openings": [
@@ -725,7 +755,7 @@
             "jap_name": "inuyashiki"
         },
         {
-            "url": "https://www.youtube.com/watch?v=oHdZOKm5xzo",
+            "url": "https://www.youtube.com/watch?v=PozVlhR20TE",
             "eng_name": "clannad: after story",
             "jap_name": "clannad: after story"
         },
@@ -865,11 +895,6 @@
             "jap_name": "kekkai sensen"
         },
         {
-            "url": "https://www.youtube.com/watch?v=3XiYyiwFNRo",
-            "eng_name": "blood blockade battlefront",
-            "jap_name": "kekkai sensen"
-        },
-        {
             "url": "https://www.youtube.com/watch?v=6amn4tQOA00",
             "eng_name": "the familiar of zero",
             "jap_name": "zero no tsukaima"
@@ -943,6 +968,16 @@
             "url": "https://www.youtube.com/watch?v=plUBYKEeloI",
             "eng_name": "eighty six",
             "jap_name": "86"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=7-EwChG1WTA",
+            "eng_name": "laid-back camp",
+            "jap_name": "yuru camp"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=XgWkIrFQQE0",
+            "eng_name": "when they cry",
+            "jap_name": "higurashi"
         }
     ],
     "easy-endings": [
@@ -1150,6 +1185,51 @@
             "url": "https://www.youtube.com/watch?v=hcwwCowzPV4",
             "eng_name": "free!",
             "jap_name": "free!"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=qefTKsUpVjY",
+            "eng_name": "noragami",
+            "jap_name": "noragami"
+        },
+        {   
+            "url": "https://www.youtube.com/watch?v=5TzDAms8SXk",
+            "eng_name": "steins;gate",
+            "jap_name": "steins gate"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=EVz82npkUyw",
+            "eng_name": "food wars!",
+            "jap_name": "shokugeki no soma"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Hyc6FokiSAE",
+            "eng_name": "black clover",
+            "jap_name": "black clover"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=oR2E8fgdFDQ",
+            "eng_name": "blue exorcist",
+            "jap_name": "ao no exorcist"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=EVndDcpk1A0",
+            "eng_name": "parasyte",
+            "jap_name": "kiseijuu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=cR3E9nwcthM",
+            "eng_name": "konosuba",
+            "jap_name": "konosuba"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=PNEFDufPRQs",
+            "eng_name": "dororo",
+            "jap_name": "dororo"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=4tiCP9GggEE",
+            "eng_name": "soul eater",
+            "jap_name": "soul eater"
         }
     ],
     "medium-endings": [
@@ -1239,11 +1319,6 @@
             "jap_name": "sakura-sou"
         },
         {
-            "url": "https://www.youtube.com/watch?v=cR3E9nwcthM",
-            "eng_name": "konosuba",
-            "jap_name": "konosuba"
-        },
-        {
             "url": "https://www.youtube.com/watch?v=AubeXRKtU8U",
             "eng_name": "konosuba",
             "jap_name": "konosuba"
@@ -1252,11 +1327,6 @@
             "url": "https://www.youtube.com/watch?v=qke_GPqn_Gg",
             "eng_name": "attack on titan",
             "jap_name": "shingeki no kyojin"
-        },
-        {   
-            "url": "https://www.youtube.com/watch?v=5TzDAms8SXk",
-            "eng_name": "steins;gate",
-            "jap_name": "steins gate"
         },
         {
             "url": "https://www.youtube.com/watch?v=MLx_Yc02QB8",
@@ -1274,19 +1344,9 @@
             "jap_name": "akame ga kill!"
         },
         {
-            "url": "https://www.youtube.com/watch?v=EVndDcpk1A0",
-            "eng_name": "parasyte",
-            "jap_name": "kiseijuu"
-        },
-        {
             "url": "https://www.youtube.com/watch?v=ipq7H-y7yew",
             "eng_name": "sword art online",
             "jap_name": "sao"
-        },
-        {
-            "url": "https://www.youtube.com/watch?v=qefTKsUpVjY",
-            "eng_name": "noragami",
-            "jap_name": "noragami"
         },
         {
             "url": "https://www.youtube.com/watch?v=kqNoohipXa4",
@@ -1307,11 +1367,6 @@
             "url": "https://www.youtube.com/watch?v=2HACXCqZGJ8",
             "eng_name": "kill la kill",
             "jap_name": "kill la kill"
-        },
-        {
-            "url": "https://www.youtube.com/watch?v=EVz82npkUyw",
-            "eng_name": "food wars!",
-            "jap_name": "shokugeki no soma"
         },
         {
             "url": "https://www.youtube.com/watch?v=atz1iAwmH8M",
@@ -1337,11 +1392,6 @@
             "url": "https://www.youtube.com/watch?v=XXDxZ0YGWG8",
             "eng_name": "clannad",
             "jap_name": "clannad"
-        },
-        {
-            "url": "https://www.youtube.com/watch?v=-SYs1Y_m7kE",
-            "eng_name": "black clover",
-            "jap_name": "black clover"
         },
         {
             "url": "https://www.youtube.com/watch?v=CzANwOt3M4k",
@@ -1409,11 +1459,6 @@
             "jap_name": "tokyo ghoul"
         },
         {
-            "url": "https://www.youtube.com/watch?v=PNEFDufPRQs",
-            "eng_name": "dororo",
-            "jap_name": "dororo"
-        },
-        {
             "url": "https://www.youtube.com/watch?v=rwv_ERDCjDk",
             "eng_name": "gintama",
             "jap_name": "gintama"
@@ -1442,6 +1487,11 @@
             "url": "https://www.youtube.com/watch?v=3_2J9wkieEE",
             "eng_name": "the quintessential quintuplets",
             "jap_name": "quintessential quintuplets"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=bYN-JCrO_4E",
+            "eng_name": "naruto shippuden",
+            "jap_name": "naruto shippuuden"
         }
     ],
     "hard-endings": [
@@ -1464,11 +1514,6 @@
             "url": "https://www.youtube.com/watch?v=qm7Os0jVf-k",
             "eng_name": "k-on!",
             "jap_name": "k-on!"
-        },
-        {
-            "url": "https://www.youtube.com/watch?v=6W1ajuerl6o",
-            "eng_name": "soul eater",
-            "jap_name": "soul eater"
         },
         {
             "url": "https://www.youtube.com/watch?v=Z40gHY5jX9M",
@@ -1714,6 +1759,16 @@
             "url": "https://www.youtube.com/watch?v=hfAdGhc2Xz8",
             "eng_name": "eighty six",
             "jap_name": "86"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=CrTmHil72ls",
+            "eng_name": "laid-back camp",
+            "jap_name": "yuru camp"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=s7m8rALmMJY",
+            "eng_name": "ssss.gridman",
+            "jap_name": "ssss.gridman"
         }
     ],
     "easy-osts": [
@@ -1971,6 +2026,16 @@
             "url": "https://www.youtube.com/watch?v=b7t6rZUZmfE",
             "eng_name": "yu-gi-oh!",
             "jap_name": "yu-gi-oh!"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=pcScX2Rh6qM",
+            "eng_name": "parasyte",
+            "jap_name": "kiseijuu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=XCiDuy4mrWU",
+            "eng_name": "initial d",
+            "jap_name": "initial d"
         }
     ],
     "medium-osts": [
@@ -2028,11 +2093,6 @@
             "url": "https://www.youtube.com/watch?v=BPwAp8a7u-8",
             "eng_name": "noragami",
             "jap_name": "noragami"
-        },
-        {
-            "url": "https://www.youtube.com/watch?v=pcScX2Rh6qM",
-            "eng_name": "parasyte",
-            "jap_name": "kiseijuu"
         },
         {
             "url": "https://www.youtube.com/watch?v=PoZ_2jcJymQ",
@@ -2303,6 +2363,16 @@
             "url": "https://www.youtube.com/watch?v=wY9Q-_3Dye8&t=97s",
             "eng_name": "fate/stay night",
             "jap_name": "unlimited blade works"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=7btsuRT3M1Q",
+            "eng_name": "yuri!!! on ice",
+            "jap_name": "yuri!!! on ice"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=ZOBgK_vc0ag",
+            "eng_name": "parasyte",
+            "jap_name": "kiseijuu"
         }
     ],
     "hard-osts": [
@@ -2335,11 +2405,6 @@
             "url": "https://www.youtube.com/watch?v=Xlacckqbdns",
             "eng_name": "k-on!",
             "jap_name": "k-on!"
-        },
-        {
-            "url": "https://www.youtube.com/watch?v=ZOBgK_vc0ag",
-            "eng_name": "parasyte",
-            "jap_name": "kiseijuu"
         },
         {
             "url": "https://www.youtube.com/watch?v=8J6MwUpSU3M",
@@ -2545,6 +2610,26 @@
             "url": "https://www.youtube.com/watch?v=ngt5Na5ktsA",
             "eng_name": "eighty six",
             "jap_name": "86"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=7tqz1EstJi8",
+            "eng_name": "a place further than the universe",
+            "jap_name": "sora yori mo tooi basho"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=9XpVFyK63Sg",
+            "eng_name": "the tatami galaxy",
+            "jap_name": "tatami galaxy"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=fbEmGEtv7-8",
+            "eng_name": "k project",
+            "jap_name": "k"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=UuofG8a7EEk",
+            "eng_name": "when they cry",
+            "jap_name": "higurashi"
         }
     ]
 }

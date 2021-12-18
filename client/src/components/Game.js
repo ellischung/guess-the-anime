@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Typography, Grid, TextField, Button } from '@material-ui/core';
+import { Typography, Grid, TextField, Button, CircularProgress } from '@material-ui/core';
 import PersonIcon from '@material-ui/icons/Person';
 import SendIcon from '@material-ui/icons/Send';
 import SkipNextIcon from '@material-ui/icons/SkipNext';
@@ -166,7 +166,10 @@ function Game({ socket, username, room }) {
                                 </div>
                             </>
                         :
-                            <Typography style={{textAlign: 'center', fontWeight: 'bold'}}>Waiting for Player 2...</Typography>
+                            <div style={{textAlign: 'center'}}>
+                                <Typography style={{fontWeight: 'bold', marginBottom: '20px'}}>Waiting for Player 2...</Typography>
+                                <CircularProgress style={{color: '#73787C'}}/>
+                            </div>
                         }
                     </div>
                     {players[1] !== undefined &&
