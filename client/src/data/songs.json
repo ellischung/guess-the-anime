@@ -666,6 +666,21 @@
             "url": "https://www.youtube.com/watch?v=Ppl21c_zKo8",
             "eng_name": "ajin",
             "jap_name": "ajin"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=0PpTUtHtwt4",
+            "eng_name": "grand blue",
+            "jap_name": "grand blue"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=DeGw8-KwxM4",
+            "eng_name": "eromanga sensei",
+            "jap_name": "eromanga-sensei"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=lyOoy31vlR0",
+            "eng_name": "ranking of kings",
+            "jap_name": "ousama ranking"
         }
     ],
     "hard-openings": [
@@ -721,7 +736,7 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=zTFftPqsnLA",
-            "eng_name": "monogatari s2",
+            "eng_name": "monogatari series: second season",
             "jap_name": "monogatari"
         },
         {
@@ -978,6 +993,21 @@
             "url": "https://www.youtube.com/watch?v=XgWkIrFQQE0",
             "eng_name": "when they cry",
             "jap_name": "higurashi"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=-anabfAg06U&t=5s",
+            "eng_name": "paranoia agent",
+            "jap_name": "mousou dairinin"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=gZYq7rat9d4",
+            "eng_name": "watamote",
+            "jap_name": "watamote"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Czj0m3vZhBY",
+            "eng_name": "91 days",
+            "jap_name": "91 days"
         }
     ],
     "easy-endings": [
@@ -1492,6 +1522,36 @@
             "url": "https://www.youtube.com/watch?v=bYN-JCrO_4E",
             "eng_name": "naruto shippuden",
             "jap_name": "naruto shippuuden"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=ZhMTT8VLylk",
+            "eng_name": "maid sama",
+            "jap_name": "kaichou wa maid-sama"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=03IeQiJl1X8",
+            "eng_name": "mob psycho 100",
+            "jap_name": "mob psycho 100"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=xRsIe1gLipY",
+            "eng_name": "naruto shippuden",
+            "jap_name": "naruto shippuuden"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=PHTJpyrzUw8",
+            "eng_name": "yamada-kun and the seven witches",
+            "jap_name": "yamada-kun and the 7 witches"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=-ZUQ4kMV7Ss",
+            "eng_name": "deadman wonderland",
+            "jap_name": "deadman wonderland"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=lJJbI7EKzeU",
+            "eng_name": "ranking of kings",
+            "jap_name": "ousama ranking"
         }
     ],
     "hard-endings": [
@@ -1504,11 +1564,6 @@
             "url": "https://www.youtube.com/watch?v=D_ATzqJOfnE",
             "eng_name": "tanaka-kun is always listless",
             "jap_name": "tanaka-kun"
-        },
-        {
-            "url": "https://www.youtube.com/watch?v=ZhMTT8VLylk",
-            "eng_name": "maid sama",
-            "jap_name": "kaichou wa maid-sama"
         },
         {
             "url": "https://www.youtube.com/watch?v=qm7Os0jVf-k",
@@ -1549,16 +1604,6 @@
             "url": "https://www.youtube.com/watch?v=23xHdz4YzhM",
             "eng_name": "code geass r2",
             "jap_name": "code geass"
-        },
-        {
-            "url": "https://www.youtube.com/watch?v=xRsIe1gLipY",
-            "eng_name": "naruto shippuden",
-            "jap_name": "naruto shippuuden"
-        },
-        {
-            "url": "https://www.youtube.com/watch?v=03IeQiJl1X8",
-            "eng_name": "mob psycho 100",
-            "jap_name": "mob psycho 100"
         },
         {
             "url": "https://www.youtube.com/watch?v=aJRSkf5cOak",
@@ -1609,11 +1654,6 @@
             "url": "https://www.youtube.com/watch?v=YJkr6rSsdM0",
             "eng_name": "bungo stray dogs",
             "jap_name": "bungou stray dogs"
-        },
-        {
-            "url": "https://www.youtube.com/watch?v=-ZUQ4kMV7Ss",
-            "eng_name": "deadman wonderland",
-            "jap_name": "deadman wonderland"
         },
         {
             "url": "https://www.youtube.com/watch?v=8MlYBcRr-dU",
@@ -1711,11 +1751,6 @@
             "jap_name": "shinsekai yori"
         },
         {
-            "url": "https://www.youtube.com/watch?v=PHTJpyrzUw8",
-            "eng_name": "yamada-kun and the seven witches",
-            "jap_name": "yamada-kun and the 7 witches"
-        },
-        {
             "url": "https://www.youtube.com/watch?v=Lv4Mu0KVVQA",
             "eng_name": "my little monster",
             "jap_name": "tonari no kaibutsu-kun"
@@ -1768,7 +1803,22 @@
         {
             "url": "https://www.youtube.com/watch?v=s7m8rALmMJY",
             "eng_name": "ssss.gridman",
-            "jap_name": "ssss.gridman"
+            "jap_name": "ssss gridman"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=tvu8cFQheFQ",
+            "eng_name": "angels of death",
+            "jap_name": "satsuriku no tenshi"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=UWY2y4D1Qks",
+            "eng_name": "sarazanmai",
+            "jap_name": "sarazanmai"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=PWOTQRduHeA",
+            "eng_name": "watamote",
+            "jap_name": "watamote"
         }
     ],
     "easy-osts": [
@@ -1858,7 +1908,7 @@
             "jap_name": "boku no hero academia"
         },
         {
-            "url": "https://www.youtube.com/watch?v=LhYrWid-URY",
+            "url": "https://www.youtube.com/watch?v=RjldvXc8zrg",
             "eng_name": "my hero academia",
             "jap_name": "boku no hero academia"
         },
@@ -2036,6 +2086,11 @@
             "url": "https://www.youtube.com/watch?v=XCiDuy4mrWU",
             "eng_name": "initial d",
             "jap_name": "initial d"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=e1UsIaXWG24&t=135s",
+            "eng_name": "fire force",
+            "jap_name": "fire force"
         }
     ],
     "medium-osts": [
@@ -2100,7 +2155,7 @@
             "jap_name": "tokyo ghoul"
         },
         {
-            "url": "https://www.youtube.com/watch?v=YcrqRwwYDhA",
+            "url": "https://www.youtube.com/watch?v=e9SdablXjII",
             "eng_name": "my hero academia",
             "jap_name": "boku no hero academia"
         },
@@ -2130,7 +2185,7 @@
             "jap_name": "evangelion"
         },
         {
-            "url": "https://www.youtube.com/watch?v=wUBfOiZfwPM",
+            "url": "https://www.youtube.com/watch?v=9flqDH2NzP4",
             "eng_name": "the pet girl of sakurasou",
             "jap_name": "sakura-sou"
         },
@@ -2210,7 +2265,7 @@
             "jap_name": "danmachi"
         },
         {
-            "url": "https://www.youtube.com/watch?v=2yIP6LQ_yiY",
+            "url": "https://www.youtube.com/watch?v=KDh-Z0k0t84",
             "eng_name": "assassination classroom",
             "jap_name": "ansatsu kyoushitsu"
         },
@@ -2373,6 +2428,21 @@
             "url": "https://www.youtube.com/watch?v=ZOBgK_vc0ag",
             "eng_name": "parasyte",
             "jap_name": "kiseijuu"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=UkzvPeSkfWs&t=38s",
+            "eng_name": "blue exorcist",
+            "jap_name": "ao no exorcist"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=4Oq0uRePuk0",
+            "eng_name": "charlotte",
+            "jap_name": "charlotte"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=QK7UP_JFxG8",
+            "eng_name": "hitman reborn!",
+            "jap_name": "katekyo hitman reborn!"
         }
     ],
     "hard-osts": [
@@ -2593,7 +2663,7 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=PSgXMOu9ALU",
-            "eng_name": "monogatari s2",
+            "eng_name": "monogatari series: second season",
             "jap_name": "monogatari"
         },
         {
@@ -2630,6 +2700,11 @@
             "url": "https://www.youtube.com/watch?v=UuofG8a7EEk",
             "eng_name": "when they cry",
             "jap_name": "higurashi"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=7ryzRsoJ8gY",
+            "eng_name": "megalo box",
+            "jap_name": "megalobox"
         }
     ]
 }

@@ -123,7 +123,6 @@ function Game({ socket, username, room }) {
                         playing={true}
                         url={players[1] !== undefined ? players[1].url : ""}
                     />
-                    {/* {console.log(players[1].url)} */}
                     <div className="chatWindow">
                         {players[1] !== undefined ?
                             <>
