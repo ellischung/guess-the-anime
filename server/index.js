@@ -55,6 +55,12 @@ io.on("connection", (socket) => {
     console.log(`User connected: ${socket.id}`);
 
     socket.on("join_room", (data) => {
+        // if username already exists, emit an alert and return
+        if(users[data.room] && users[data.room][0].name === data.name) {
+            socket.emit("player_exists");    
+            return;
+        }
+
         // connect the client to the room 
         socket.join(data.room);
         console.log(`User with ID: ${socket.id} joined room: ${data.room}`);

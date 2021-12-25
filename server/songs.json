@@ -324,6 +324,16 @@
             "url": "https://www.youtube.com/watch?v=2l9V2ejc6OY",
             "eng_name": "yu yu hakusho",
             "jap_name": "yuu yuu hakusho"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=frfompwkApw",
+            "eng_name": "durarara!!",
+            "jap_name": "durarara!!"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=epZaT8B31-g",
+            "eng_name": "mob psycho 100",
+            "jap_name": "mob psycho 100"
         }
     ],
     "medium-openings": [
@@ -681,6 +691,21 @@
             "url": "https://www.youtube.com/watch?v=lyOoy31vlR0",
             "eng_name": "ranking of kings",
             "jap_name": "ousama ranking"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=a-TzvgFZYI0",
+            "eng_name": "guilty crown",
+            "jap_name": "guilty crown"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=NVX3pkqHsKI",
+            "eng_name": "seven deadly sins",
+            "jap_name": "7 deadly sins"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=48wCQXl83-s",
+            "eng_name": "boruto",
+            "jap_name": "boruto"
         }
     ],
     "hard-openings": [
@@ -1008,6 +1033,16 @@
             "url": "https://www.youtube.com/watch?v=Czj0m3vZhBY",
             "eng_name": "91 days",
             "jap_name": "91 days"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=fhBA6ynorvc",
+            "eng_name": "kokkoku",
+            "jap_name": "kokkoku"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=VrmzXR1sI78",
+            "eng_name": "love and lies",
+            "jap_name": "koi to uso"
         }
     ],
     "easy-endings": [
@@ -1260,6 +1295,11 @@
             "url": "https://www.youtube.com/watch?v=4tiCP9GggEE",
             "eng_name": "soul eater",
             "jap_name": "soul eater"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=J7DP9wivIOg",
+            "eng_name": "code geass",
+            "jap_name": "code geass"
         }
     ],
     "medium-endings": [
@@ -1552,6 +1592,16 @@
             "url": "https://www.youtube.com/watch?v=lJJbI7EKzeU",
             "eng_name": "ranking of kings",
             "jap_name": "ousama ranking"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=MFTxGRE0BZI",
+            "eng_name": "bleach",
+            "jap_name": "bleach"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=1dr4HfjgtUU",
+            "eng_name": "beastars",
+            "jap_name": "beastars"
         }
     ],
     "hard-endings": [

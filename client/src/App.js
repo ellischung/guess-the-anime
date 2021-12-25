@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { TextField, FormControl, InputLabel, Select, MenuItem, Button, Typography } from '@material-ui/core';
+import GitHubIcon from '@material-ui/icons/GitHub';
 import './App.css';
 import io from 'socket.io-client';
 import Game from './components/Game';
@@ -27,13 +28,22 @@ function App() {
         jap_answer: ""
       }
       socket.emit("join_room", playerData);
+      socket.on("player_exists", () => {
+        alert("Player '" + userName + "' already exists!");
+        setShowGame(false);
+        return;
+      });
       setShowGame(true);
     }
   };
 
+  const handleOpenPage = () => {
+    window.open("https://github.com/ellischung", '_blank');
+  };
+
   return (
     <div className="App">
-      <div style={{textAlign: 'center'}}>
+      <div className="header">
         <span>guess</span> 
         <span><em>the anime</em></span>
       </div>
@@ -112,7 +122,8 @@ function App() {
         <Game socket={socket} username={userName} room={room} />
       )}
       <div className="footer">
-        <Typography>&#xa9; Ellis Chung</Typography>
+        <GitHubIcon onClick={handleOpenPage} />
+        <Typography style={{marginLeft: '10px'}}>Ellis Chung</Typography>
       </div>
     </div>
   );

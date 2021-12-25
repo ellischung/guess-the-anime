@@ -5,6 +5,7 @@
   background-size: cover;
   display: grid;
   place-items: center;
+  overflow-y: auto;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
@@ -66,6 +67,11 @@ span:last-of-type em {
     100% { opacity: 0; width: 175px; }
 }
 
+.header {
+  text-align: center;
+  margin: 20px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -73,9 +79,15 @@ span:last-of-type em {
   align-items: center;
 }
 
-.footer {
-  position: fixed;
+.footer {  
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
   bottom: 0;
+  height: 0;
+  left: 0;
+  right: 0;
 }
 
 .chatWindow {
