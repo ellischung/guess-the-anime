@@ -11,6 +11,11 @@
             "jap_name": "shingeki no kyojin"
         },
         {
+            "url": "https://www.youtube.com/watch?v=2S4qGKmzBJE",
+            "eng_name": "attack on titan",
+            "jap_name": "shingeki no kyojin"
+        },
+        {
             "url": "https://www.youtube.com/watch?v=4t__wczfpRI",
             "eng_name": "naruto",
             "jap_name": "naruto"
@@ -42,6 +47,11 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=jiJu4K2jems",
+            "eng_name": "demon slayer",
+            "jap_name": "kimetsu no yaiba"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=0MPq9QGUBa4",
             "eng_name": "demon slayer",
             "jap_name": "kimetsu no yaiba"
         },
@@ -201,7 +211,7 @@
             "jap_name": "one piece"
         },
         {
-            "url": "https://www.youtube.com/watch?v=80-W822k6Vw",
+            "url": "https://www.youtube.com/watch?v=XXxDTokj7_A",
             "eng_name": "blue exorcist",
             "jap_name": "ao no exorcist"
         },
@@ -226,7 +236,7 @@
             "jap_name": "darling in the franxx"
         },
         {
-            "url": "https://www.youtube.com/watch?v=EJxrk8G5lkk",
+            "url": "https://www.youtube.com/watch?v=lq6ltS8Uy7M",
             "eng_name": "samurai champloo",
             "jap_name": "samurai champloo"
         },
@@ -261,7 +271,7 @@
             "jap_name": "dbz"
         },
         {
-            "url": "https://www.youtube.com/watch?v=LGQCPOMcYJQ&t=11s",
+            "url": "https://www.youtube.com/watch?v=kg-McDlm_98",
             "eng_name": "sailor moon",
             "jap_name": "sailor moon"
         },
@@ -296,7 +306,7 @@
             "jap_name": "tengen toppa gurren lagann"
         },
         {
-            "url": "https://www.youtube.com/watch?v=NcJvsczntO0",
+            "url": "https://www.youtube.com/watch?v=W9Pb412Bloc",
             "eng_name": "kaguya-sama: love is war",
             "jap_name": "kaguya-sama"
         },
@@ -338,7 +348,7 @@
     ],
     "medium-openings": [
         {
-            "url": "https://www.youtube.com/watch?v=3DSQmBQ9EJk",
+            "url": "https://www.youtube.com/watch?v=9StfX1p9LuY",
             "eng_name": "psycho-pass",
             "jap_name": "psycho-pass"
         },
@@ -418,7 +428,7 @@
             "jap_name": "nisemonogatari"
         },
         {
-            "url": "https://www.youtube.com/watch?v=P7VMQoYkqeo",
+            "url": "https://www.youtube.com/watch?v=cjB1NTbhBEA",
             "eng_name": "bunny girl",
             "jap_name": "bunny girl senpai"
         },
@@ -578,7 +588,7 @@
             "jap_name": "dragon maid s"
         },
         {
-            "url": "https://www.youtube.com/watch?v=D6kUt4sCJ6I",
+            "url": "https://www.youtube.com/watch?v=nDq9-vNcmAc",
             "eng_name": "nisekoi",
             "jap_name": "nisekoi"
         },
@@ -613,7 +623,7 @@
             "jap_name": "tokyo ghoul"
         },
         {
-            "url": "https://www.youtube.com/watch?v=M8JuOhB7-U0",
+            "url": "https://www.youtube.com/watch?v=Z412zVo28C4",
             "eng_name": "magi",
             "jap_name": "magi"
         },
@@ -655,7 +665,7 @@
         {
             "url": "https://www.youtube.com/watch?v=nK2Djnb4fMA",
             "eng_name": "a certain scientific railgun",
-            "jap_name": "toaru"
+            "jap_name": "railgun"
         },
         {
             "url": "https://www.youtube.com/watch?v=LM6RhRm2GQM",
@@ -688,7 +698,7 @@
             "jap_name": "eromanga-sensei"
         },
         {
-            "url": "https://www.youtube.com/watch?v=lyOoy31vlR0",
+            "url": "https://www.youtube.com/watch?v=dWZAH5w8jkQ",
             "eng_name": "ranking of kings",
             "jap_name": "ousama ranking"
         },
@@ -775,7 +785,7 @@
             "jap_name": "nagi no asukara"
         },
         {
-            "url": "https://www.youtube.com/watch?v=zCCb4eT9V08",
+            "url": "https://www.youtube.com/watch?v=_F5459jCtuM",
             "eng_name": "baccano!",
             "jap_name": "baccano!"
         },
@@ -955,7 +965,7 @@
             "jap_name": "hataraku saibou"
         },
         {
-            "url": "https://www.youtube.com/watch?v=Hp5kUmni5Dk&t=16s",
+            "url": "https://www.youtube.com/watch?v=Pm9zAtaxwxg&t=16s",
             "eng_name": "serial experiments lain",
             "jap_name": "serial experiments lain"
         },
@@ -1222,7 +1232,7 @@
             "jap_name": "psycho-pass"
         },
         {
-            "url": "https://www.youtube.com/watch?v=-rokG9XS37w",
+            "url": "https://www.youtube.com/watch?v=QDXh9hoYooY",
             "eng_name": "kaguya-sama: love is war",
             "jap_name": "kaguya-sama"
         },
@@ -1272,7 +1282,7 @@
             "jap_name": "black clover"
         },
         {
-            "url": "https://www.youtube.com/watch?v=oR2E8fgdFDQ",
+            "url": "https://www.youtube.com/watch?v=edjdiB7bXJs",
             "eng_name": "blue exorcist",
             "jap_name": "ao no exorcist"
         },
@@ -1300,6 +1310,11 @@
             "url": "https://www.youtube.com/watch?v=J7DP9wivIOg",
             "eng_name": "code geass",
             "jap_name": "code geass"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=At5CKBz9QJA",
+            "eng_name": "that time i got reincarnated as a slime",
+            "jap_name": "slime"
         }
     ],
     "medium-endings": [
@@ -1569,7 +1584,7 @@
             "jap_name": "kaichou wa maid-sama"
         },
         {
-            "url": "https://www.youtube.com/watch?v=03IeQiJl1X8",
+            "url": "https://www.youtube.com/watch?v=dOB1tw4r7Cg",
             "eng_name": "mob psycho 100",
             "jap_name": "mob psycho 100"
         },
@@ -1589,7 +1604,7 @@
             "jap_name": "deadman wonderland"
         },
         {
-            "url": "https://www.youtube.com/watch?v=lJJbI7EKzeU",
+            "url": "https://www.youtube.com/watch?v=KG9Thb1XKcs",
             "eng_name": "ranking of kings",
             "jap_name": "ousama ranking"
         },
@@ -1602,6 +1617,16 @@
             "url": "https://www.youtube.com/watch?v=1dr4HfjgtUU",
             "eng_name": "beastars",
             "jap_name": "beastars"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=lFF9NKWhcik",
+            "eng_name": "kuroko's basketball",
+            "jap_name": "kuroko no basket"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=5q6vmSGx2qE",
+            "eng_name": "blue exorcist",
+            "jap_name": "ao no exorcist"
         }
     ],
     "hard-endings": [
@@ -1883,6 +1908,11 @@
             "jap_name": "shingeki no kyojin"
         },
         {
+            "url": "https://www.youtube.com/watch?v=wQUH06QRCi4",
+            "eng_name": "attack on titan",
+            "jap_name": "shingeki no kyojin"
+        },
+        {
             "url": "https://www.youtube.com/watch?v=GAgIg2qUfLY",
             "eng_name": "naruto",
             "jap_name": "naruto"
@@ -1968,7 +1998,7 @@
             "jap_name": "jojo"
         },
         {
-            "url": "https://www.youtube.com/watch?v=XUhVCoTsBaM",
+            "url": "https://www.youtube.com/watch?v=NFjE5A4UAJI",
             "eng_name": "jojo's bizarre adventure",
             "jap_name": "jojo"
         },
@@ -2028,7 +2058,7 @@
             "jap_name": "mirai nikki"
         },
         {
-            "url": "https://www.youtube.com/watch?v=5-Ltm-3lmss",
+            "url": "https://www.youtube.com/watch?v=HxlysqrFjHo",
             "eng_name": "seven deadly sins",
             "jap_name": "7 deadly sins"
         },
@@ -2104,6 +2134,11 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=bq7caidfUts",
+            "eng_name": "demon slayer",
+            "jap_name": "kimetsu no yaiba"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=P8l2ZeOUZEA",
             "eng_name": "demon slayer",
             "jap_name": "kimetsu no yaiba"
         },
@@ -2265,7 +2300,7 @@
             "jap_name": "code geass"
         },
         {
-            "url": "https://www.youtube.com/watch?v=tikGx8W13yg",
+            "url": "https://www.youtube.com/watch?v=kw_4ozVPp1E",
             "eng_name": "your lie in april",
             "jap_name": "shigatsu wa kimi no uso"
         },
@@ -2375,7 +2410,7 @@
             "jap_name": "kaguya-sama"
         },
         {
-            "url": "https://www.youtube.com/watch?v=rkpu4Ruz8i4",
+            "url": "https://www.youtube.com/watch?v=_eg1k948_k0",
             "eng_name": "overlord",
             "jap_name": "overlord"
         },
@@ -2493,6 +2528,16 @@
             "url": "https://www.youtube.com/watch?v=QK7UP_JFxG8",
             "eng_name": "hitman reborn!",
             "jap_name": "katekyo hitman reborn!"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=Nxbtu-spNp8",
+            "eng_name": "kuroko's basketball",
+            "jap_name": "kuroko no basket"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=oJu51YeV4mk",
+            "eng_name": "the quintessential quintuplets",
+            "jap_name": "quintessential quintuplets"
         }
     ],
     "hard-osts": [
@@ -2554,7 +2599,7 @@
         {
             "url": "https://www.youtube.com/watch?v=tjEIoTxDOvE",
             "eng_name": "a certain scientific railgun",
-            "jap_name": "toaru"
+            "jap_name": "railgun"
         },
         {
             "url": "https://www.youtube.com/watch?v=PnsZkqHPS4M",
@@ -2727,7 +2772,7 @@
             "jap_name": "natsume yuujinchou"
         },
         {
-            "url": "https://www.youtube.com/watch?v=ngt5Na5ktsA",
+            "url": "https://www.youtube.com/watch?v=k4763jBnuaw",
             "eng_name": "eighty six",
             "jap_name": "86"
         },
@@ -2755,6 +2800,11 @@
             "url": "https://www.youtube.com/watch?v=7ryzRsoJ8gY",
             "eng_name": "megalo box",
             "jap_name": "megalobox"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=dvSQ2ibkNRw",
+            "eng_name": "monthly girls' nozaki-kun",
+            "jap_name": "gekkan shoujo nozaki-kun"
         }
     ]
 }
